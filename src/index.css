@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,700;0,900;1,200;1,300;1,400;1,600&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif !important;
@@ -177,4 +182,10 @@ form select {
 .navbar.navbar-scroll.navbar-scrolled {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.section1{
+  
+}
+.section2{
+  
 }

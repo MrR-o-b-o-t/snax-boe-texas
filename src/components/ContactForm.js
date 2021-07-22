@@ -32,7 +32,7 @@ export default function Contact() {
   }
   return (
     <>
-      <MDBContainer className="mt-5" fluid>
+      <MDBContainer className="mt-5">
         <MDBRow>
           <MDBCol md="6" className="">
             <form onSubmit={handleSubmit}>
