@@ -15,7 +15,7 @@ export default function NavHeader() {
   const [showNavCentred, setShowNavCentred] = useState(false)
   return (
     <header style={{marginTop:'100px'}}>
-      <MDBAnimatedNavbar expand="lg" light className="shadow-2-strong" fixed='top' style={{}}>
+      <MDBAnimatedNavbar expand="lg" light className="shadow-2-strong" fixed='top' style={{backgroundColor:'white'}}>
         <MDBContainer fluid>
           <MDBNavbarBrand href="#">
             <img
