@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,700;0,900;1,200;1,300;1,400;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 12px;
+}
+
+code {
+  font-family: source-code-pro, "Montserrat" !important;
+}
+
+#custom-nav-link:hover {
+  text-decoration: underline 2px solid #215732;
+  text-underline-position: under;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px;
+}
+
+#custom-nav-link {
+}
+
+.card:hover {
+  background-color: #4e4e4e;
+  color: #f1f1f1;
+  transition: ease-in 0.3s;
+}
+
+@includes media-breakpoint-down(md) {
+  #footer-contact-div {
+    text-align: center;
+  }
+}
+
+.form-label {
+  color: #215732 !important;
+}
+
+.form-notch-middle {
+  border: 10px solid #215732;
+}
+
+/* reset */
+form input,
+form select,
+form textarea,
+form fieldset,
+form optgroup,
+form label,
+.StripeElement {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+form label,
+form legend {
+  font-size: 0.825rem;
+  margin-bottom: 0.5rem;
+}
+/* border, padding, margin, width */
+form input,
+form select,
+form textarea,
+.StripeElement {
+  box-sizing: border-box;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.75em 1rem;
+  margin-bottom: 1.5rem;
+  font-family: Montserrat;
+}
+form input:focus,
+form select:focus,
+form textarea:focus,
+.StripeElement:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: #215732;
+  border: 0.3px solid #215732;
+  outline-offset: -1px;
+  transition: ease-in-out 0.5s;
+}
+form [type="text"],
+form [type="email"],
+.StripeElement {
+  width: 100%;
+}
+form [type="button"],
+form [type="submit"],
+form [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+form [type="button"]:focus,
+form [type="submit"]:focus,
+form [type="reset"]:focus {
+  outline: none;
+}
+
+form select {
+  text-transform: none;
+}
+.accordion-button:not(.collapsed) {
+  color: #215732 !important;
+}
+.accordion-button::after {
+  color: #215732 !important;
+}
+.stepper-active .stepper-head-icon {
+  background-color: #4e4e4e !important;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.75s;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #4e4e4e;
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  border: 1px solid #4e4e4e;
+  color: black;
+  border-radius: 15px;
+  transform: rotateY(180deg);
+}
+
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* #section1 .fp-bg{
+  background-image: url('./images/lp-4.jpg');
+  background-size: cover;
+  background-position: center 90%;
+  height: 800px;
+} */
+#section1 {
+}
+/* #section2 .fp-bg{
+  background-image: url('./images/lp-2.jpg');
+  background-size: cover;
+  background-position: center 90%;
+  height: 90vh;
+} */
+#fp-nav ul li:hover a.active span,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li:hover a.active span,
+.fp-slidesNav ul li a.active span {
+  background-color: white !important;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background-color: #215732 !important;
+}
+#lpBannerText {
+  color: black;
+  font-weight: bold;
+}
