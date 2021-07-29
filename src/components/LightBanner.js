@@ -1,5 +1,11 @@
-import React, { useState } from "react"
-import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdb-react-ui-kit"
+import React, { useState } from "react";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBAnimation,
+  MDBTypography,
+} from "mdb-react-ui-kit";
 
 export default function LightBanner() {
   return (
@@ -86,7 +92,7 @@ export default function LightBanner() {
           </p>
         </MDBCol>
         <MDBCol sm="3">
-          <h5 style={{ color: "black", display: "flex", alignItems: "center" }}>
+          <h5 style={{ color: "black", display: "flex", alignItems: "center"}}>
             <MDBAnimation
               animation="fade-in-up"
               start="onLoad"
@@ -153,5 +159,5 @@ export default function LightBanner() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-  )
+  );
 }
