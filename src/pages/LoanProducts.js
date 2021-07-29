@@ -517,7 +517,7 @@ export default function LoanProducts() {
           <div className="section" id="section1" style={{marginTop:"-100px"}}>
     <MDBRow className="">
        <MDBCol
-            className="d-flex justify-content-end align-items-end"
+            className="d-flex justify-content-end align-items-end mb-5"
             style={{
               backgroundImage: `url(${img4})`,
               backgroundRepeat: "no-repeat",
@@ -571,11 +571,11 @@ export default function LoanProducts() {
         >
             <MDBRow
               style={{
-                backgroundColor: "rgba(255, 255, 255, 1)",
+                backgroundColor: "rgba(255, 255, 255, .75)",
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-8 m-auto"
+              className="mb-9"
             >
               <MDBCol
                 md="8"
@@ -640,11 +640,11 @@ export default function LoanProducts() {
         >
             <MDBRow
               style={{
-                backgroundColor: "rgba(255, 255, 255, 1)",
+                backgroundColor: "rgba(255, 255, 255, .75)",
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-8 m-auto"
+              className="mb-9"
             >
               <MDBCol
                 md="8"
@@ -707,11 +707,11 @@ export default function LoanProducts() {
         >
             <MDBRow
               style={{
-                backgroundColor: "rgba(255, 255, 255, 1)",
+                backgroundColor: "rgba(255, 255, 255, .75)",
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-8 m-auto"
+              className="mb-9"
             >
               <MDBCol
                 md="8"
@@ -774,11 +774,11 @@ export default function LoanProducts() {
         >
             <MDBRow
               style={{
-                backgroundColor: "rgba(255, 255, 255, 1)",
+                backgroundColor: "rgba(255, 255, 255, .75)",
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-8 m-auto"
+              className="mb-9"
             >
               <MDBCol
                 md="8"
@@ -841,11 +841,11 @@ export default function LoanProducts() {
         >
             <MDBRow
               style={{
-                backgroundColor: "rgba(255, 255, 255, 1)",
+                backgroundColor: "rgba(255, 255, 255, .75)",
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-8 m-auto"
+              className="mb-9"
             >
               <MDBCol
                 md="8"
@@ -908,11 +908,11 @@ export default function LoanProducts() {
         >
             <MDBRow
               style={{
-                backgroundColor: "rgba(255, 255, 255, 1)",
+                backgroundColor: "rgba(255, 255, 255, .75)",
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-8 m-auto"
+              className="mb-9"
             >
               <MDBCol
                 md="8"

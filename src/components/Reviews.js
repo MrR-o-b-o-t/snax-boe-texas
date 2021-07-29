@@ -81,7 +81,7 @@ export default function Reviews() {
           <MDBCol
             sm="12"
             className="text-center"
-            style={{ marginBottom: "0px" }}
+            style={{ marginBottom: "20px" }}
           >
             <img
               style={{ maxWidth: "50%", maxHeight: "50%" }}
@@ -108,7 +108,7 @@ export default function Reviews() {
           <MDBCol
             sm="12"
             className="text-center"
-            style={{ marginBottom: "0px" }}
+            style={{ marginBottom: "20px" }}
           >
             <img
               style={{ maxWidth: "50%", maxHeight: "50%" }}

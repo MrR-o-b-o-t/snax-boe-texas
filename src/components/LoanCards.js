@@ -12,7 +12,7 @@ import {
 
 export default function LoanCards() {
   return (
-    <MDBContainer>
+    <MDBContainer className="overflow-hidden pb-4">
       <MDBRow>
         <MDBCol sm="12" className="text-center mt-4 mb-4">
           <h2 style={{ fontWeight: "bold", color: "black" }}>
