@@ -519,46 +519,42 @@ export default function LoanProducts() {
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
-            <div
-              className="section"
-              style={{
-                minHeight: "100vh"
-              }}
-            >
+            <div className="section">
               <MDBRow
-                className="d-flex justify-content-end align-items-end"
+                className="d-flex align-items-end justify-content-end"
                 style={{
                   backgroundImage: `url(${img4})`,
                   backgroundRepeat: "no-repeat",
-                  backgroundAttachment: "fixed",
                   backgroundPosition: "top",
                   backgroundSize: "cover",
-                  width: "100%",
-                  minHeight: "100vh",
+                  height: "100vh",
+                  paddingRight:'80px'
                 }}
-                sm="12"
               >
                 <MDBRow
                   style={{
                     backgroundColor: "rgba(255, 255, 255, .75)",
-                    width: "75%",
+                    width: "60%",
                     padding: "30px",
-                    borderRadius: "15px"
+                    borderRadius: "15px",
                   }}
-                  className="mb-md-5 mb-10 m-5"
+                  className="mb-md-5 mb-10"
                 >
-                  <MDBCol>
+                  <MDBCol
+                    sm="12"
+                  >
                     <div>
                       <h4
                         style={{
                           color: "black",
                           fontWeight: "bold",
-                          textAlign: "center",
+                          textAlign: "start",
                         }}
+                        className="mb-3"
                       >
                         An Individual Approach
                       </h4>
-                      <p className="text-start">
+                      <p className="">
                         At BOE Texas we take a community focused approach,
                         meaning we get to know our customers before suggesting a
                         specific type of loan Loan product. Our goal is to

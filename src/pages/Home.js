@@ -11,7 +11,7 @@ import LightBanner from "../components/LightBanner"
 export default function Home() {
   return (
     <>
-      <MDBContainer className="mt-5" style={{ maxWidth: "2500px" }}>
+      <MDBContainer className="" style={{ maxWidth: "2500px", marginTop:'100px' }}>
         <MDBRow className="g-2">
           <MDBCol lg="6" className="user-select-none mb-3">
             <div style={{ paddingLeft: "15px" }}>

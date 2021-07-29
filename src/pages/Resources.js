@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBBtn,
   MDBContainer,
@@ -8,20 +8,23 @@ import {
   MDBStepperStep,
   MDBStepperHead,
   MDBStepperContent,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
-import house from "../images/Bank-of-England-House-Illustration.png"
-import customer1 from "../images/Bank-of-England-Customer.jpg"
-import Modal from "../components/Modal"
-import LoanCards from "../components/LoanCards"
-import HbGuide from "../components/HbGuide"
-import Calculators from "../components/Calculators"
-import DosDontsFlip from "../components/DosDontsFlip"
+import house from "../images/Bank-of-England-House-Illustration.png";
+import customer1 from "../images/Bank-of-England-Customer.jpg";
+import Modal from "../components/Modal";
+import LoanCards from "../components/LoanCards";
+import HbGuide from "../components/HbGuide";
+import Calculators from "../components/Calculators";
+import DosDontsFlip from "../components/DosDontsFlip";
 
 export default function Resources() {
   return (
     <>
-      <MDBContainer className="mt-5" style={{ maxWidth: "2500px" }}>
+      <MDBContainer
+        className=""
+        style={{ maxWidth: "2500px", marginTop: "100px" }}
+      >
         <MDBRow className="g-2" style={{ maxWidth: "2500px" }}>
           <MDBCol lg="6" className="user-select-none mb-3">
             <div style={{ paddingLeft: "15px" }}>
@@ -169,20 +172,23 @@ export default function Resources() {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <Calculators/>
+      <Calculators />
       <LoanCards />
-      <DosDontsFlip/>
+      <DosDontsFlip />
       <MDBContainer className="mt-5 d-flex justify-content-center">
-      <MDBRow className="mt-5">
-            <MDBCol className="" sm="6" style={{}}>
-                <h1>Moving can be a daunting task</h1>
-                <h6>Review our moving checklist for great tips on making your move go smooth</h6>
-            </MDBCol>
-            <MDBCol className="text-center" sm="6">
-            <Modal/>
-            </MDBCol>
-      </MDBRow>
+        <MDBRow className="mt-5">
+          <MDBCol className="" sm="6" style={{}}>
+            <h1>Moving can be a daunting task</h1>
+            <h6>
+              Review our moving checklist for great tips on making your move go
+              smooth
+            </h6>
+          </MDBCol>
+          <MDBCol className="text-center" sm="6">
+            <Modal />
+          </MDBCol>
+        </MDBRow>
       </MDBContainer>
     </>
-  )
+  );
 }
