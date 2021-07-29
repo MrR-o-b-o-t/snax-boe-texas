@@ -515,7 +515,7 @@ export default function LoanProducts() {
       return (
         <ReactFullpage.Wrapper>
           <div className="section" id="section1" style={{marginTop:"-100px"}}>
-    <MDBRow className="">
+    <MDBRow>
        <MDBCol
             className="d-flex justify-content-end align-items-end"
             style={{
@@ -533,11 +533,10 @@ export default function LoanProducts() {
                 style={{
                   backgroundColor: "rgba(255, 255, 255, 0.75)",
                   width: "600px",
-                  margin: "20px",
                   padding: "20px",
                   borderRadius: "15px",
                 }}
-                className="mb-md-5 mb-9"
+                className="m-md-5 m-3 mb-9"
               >
                 <h4
                   style={{
@@ -575,7 +574,7 @@ export default function LoanProducts() {
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-md-5 mb-9"
+              className="mb-md-5 mb-10"
             >
               <MDBCol
                 md="8"
@@ -644,7 +643,7 @@ export default function LoanProducts() {
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-md-5 mb-9"
+              className="mb-md-5 mb-10"
             >
               <MDBCol
                 md="8"
@@ -711,7 +710,7 @@ export default function LoanProducts() {
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-md-5 mb-9"
+              className="mb-md-5 mb-10"
             >
               <MDBCol
                 md="8"
@@ -778,7 +777,7 @@ export default function LoanProducts() {
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-md-5 mb-9"
+              className="mb-md-5 mb-10"
             >
               <MDBCol
                 md="8"
@@ -845,7 +844,7 @@ export default function LoanProducts() {
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-md-5 mb-9"
+              className="mb-md-5 mb-10"
             >
               <MDBCol
                 md="8"
@@ -912,7 +911,7 @@ export default function LoanProducts() {
                 width: "95%",
                 padding: "30px",
               }}
-              className="mb-md-5 mb-9"
+              className="mb-md-5 mb-10"
             >
               <MDBCol
                 md="8"
