@@ -11,7 +11,6 @@ import img5 from "../images/lp-5.jpg"
 import img6 from "../images/lp-6.jpg"
 import img7 from "../images/lp-7.jpg"
 
-
 import LoanProductHero from "../components/LoanProductHero";
 
 export default function LoanProducts() {
