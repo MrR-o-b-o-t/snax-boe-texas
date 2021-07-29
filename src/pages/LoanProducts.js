@@ -521,8 +521,9 @@ export default function LoanProducts() {
           <ReactFullpage.Wrapper>
             <div
               className="section"
-              id="section1"
-              style={{ marginTop: "-100px" }}
+              style={{
+                minHeight: "100vh"
+              }}
             >
               <MDBRow
                 className="d-flex justify-content-end align-items-end"
