@@ -36,15 +36,14 @@ export default function Home() {
                 it won't be. Start an application to see what's possible.
               </h5>
             </div>
-            <div className="text-center mt-4">
+            <div className="text-center">
               <MDBBtn
-                className="m-2"
+                className="m-2 p-3"
                 style={{
                   color: "#f1f1f1",
                   backgroundColor: "#4e4e4e",
                   fontWeight: "600",
                   width: "300px",
-                  padding: "20px",
                   fontSize: "16px",
                 }}
                 href="https://boetexas.floify.com/apply-now"
@@ -54,13 +53,12 @@ export default function Home() {
             </div>
             <div className="text-center">
               <MDBBtn
-                className="m-2"
+                className="m-2 p-3"
                 style={{
                   color: "#f1f1f1",
                   fontWeight: "600",
                   backgroundColor: "#4e4e4e",
                   width: "300px",
-                  padding: "20px",
                   fontSize: "16px",
                 }}
                 href="#"
