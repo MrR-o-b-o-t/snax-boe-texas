@@ -38,12 +38,12 @@ export default function FpLpSections() {
                 <MDBRow
                   style={{
                     backgroundColor: "rgba(255, 255, 255, .75)",
-                    width: "75%",
+                    width: "85%",
                     padding: "30px",
                     borderRadius: "15px",
-                    marginBottom: "6%",
+                    marginBottom: "",
                   }}
-                  className="mb-sm-5 mb-12"
+                  className="mb-4"
                 >
                   <MDBCol sm="12">
                     <div>
