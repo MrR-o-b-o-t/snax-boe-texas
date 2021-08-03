@@ -38,10 +38,7 @@ export default function Home() {
             </div>
             <div className="text-center mt-4">
               <MDBBtn
-                href="https://boetexas.floify.com/apply-now"
-                size="lg"
                 className="m-2"
-                color="primary"
                 style={{
                   color: "#f1f1f1",
                   backgroundColor: "#4e4e4e",
@@ -50,16 +47,14 @@ export default function Home() {
                   padding: "20px",
                   fontSize: "16px",
                 }}
+                href="https://boetexas.floify.com/apply-now"
               >
                 Apply For Home Purchase
               </MDBBtn>
             </div>
             <div className="text-center">
               <MDBBtn
-                href="#"
-                size="lg"
                 className="m-2"
-                color="grey"
                 style={{
                   color: "#f1f1f1",
                   fontWeight: "600",
@@ -68,6 +63,7 @@ export default function Home() {
                   padding: "20px",
                   fontSize: "16px",
                 }}
+                href="#"
               >
                 Apply For Refinance
               </MDBBtn>
@@ -117,8 +113,6 @@ export default function Home() {
             <div className="text-center mt-4">
               <MDBBtn
                 rippleColor="success"
-                color="white"
-                size="lg"
                 className="m-2"
                 style={{
                   color: "grey",
