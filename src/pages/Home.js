@@ -1,17 +1,20 @@
-import React, { useState } from "react"
-import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit"
+import React, { useState } from "react";
+import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 
-import house from "../images/Bank-of-England-House-Illustration.png"
-import customer1 from "../images/Bank-of-England-Customer.jpg"
-import signing from "../images/Bank-of-England-Signing.jpg"
-import Reviews from "../components/Reviews"
-import LoanCards from "../components/LoanCards"
-import LightBanner from "../components/LightBanner"
+import house from "../images/Bank-of-England-House-Illustration.png";
+import customer1 from "../images/Bank-of-England-Customer.jpg";
+import signing from "../images/Bank-of-England-Signing.jpg";
+import Reviews from "../components/Reviews";
+import LoanCards from "../components/LoanCards";
+import LightBanner from "../components/LightBanner";
 
 export default function Home() {
   return (
-    <>
-      <MDBContainer className="" style={{ maxWidth: "2500px", marginTop:'100px' }}>
+    <MDBContainer fluid style={{maxWidth:'2000px'}}>
+      <MDBContainer
+        className=""
+        style={{marginTop: "100px"}}
+      >
         <MDBRow className="g-2">
           <MDBCol lg="6" className="user-select-none mb-3">
             <div style={{ paddingLeft: "15px" }}>
@@ -38,6 +41,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <MDBBtn
+                tag="a"
                 className="m-2 p-3"
                 style={{
                   color: "#f1f1f1",
@@ -53,6 +57,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <MDBBtn
+                tag="a"
                 className="m-2 p-3"
                 style={{
                   color: "#f1f1f1",
@@ -110,6 +115,7 @@ export default function Home() {
             </div>
             <div className="text-center mt-4">
               <MDBBtn
+                tag="a"
                 rippleColor="success"
                 className="m-2"
                 style={{
@@ -145,6 +151,7 @@ export default function Home() {
               accurate numbers fast.
             </p>
             <MDBBtn
+              tag="a"
               rippleColor="success"
               href="https://boetexas.floify.com/apply-now"
               style={{
@@ -164,6 +171,6 @@ export default function Home() {
         </MDBRow>
       </MDBContainer>
       <Reviews />
-    </>
-  )
+      </MDBContainer>
+  );
 }

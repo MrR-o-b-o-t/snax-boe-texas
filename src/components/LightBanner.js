@@ -25,7 +25,7 @@ export default function LightBanner() {
         </MDBCol>
       </MDBRow>
       <MDBRow className="mb-5 pb-5">
-        <MDBCol sm="3">
+        <MDBCol sm="12" md="3">
           <h5
             style={{
               color: "black",
@@ -58,7 +58,7 @@ export default function LightBanner() {
             numbers fast.
           </p>
         </MDBCol>
-        <MDBCol sm="3">
+        <MDBCol sm="12" md="3">
           <h5 style={{ color: "black", display: "flex", alignItems: "center" }}>
             <MDBAnimation
               animation="fade-in-up"
@@ -91,7 +91,7 @@ export default function LightBanner() {
             numbers fast.
           </p>
         </MDBCol>
-        <MDBCol sm="3">
+        <MDBCol sm="12" md="3">
           <h5 style={{ color: "black", display: "flex", alignItems: "center"}}>
             <MDBAnimation
               animation="fade-in-up"
@@ -124,7 +124,7 @@ export default function LightBanner() {
             numbers fast.
           </p>
         </MDBCol>
-        <MDBCol sm="3">
+        <MDBCol sm="12" md="3">
           <h5 style={{ color: "black", display: "flex", alignItems: "center" }}>
             <MDBAnimation
               animation="fade-in-up"

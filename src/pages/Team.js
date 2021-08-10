@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 import {
   MDBCard,
@@ -11,24 +11,24 @@ import {
   MDBContainer,
   MDBTypography,
   MDBAnimation,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
-import abigail from "../images/abigailD.jpg"
-import ariel from "../images/arielC.jpg"
-import ashley from "../images/ashleyC.jpg"
-import chris from "../images/christopherH.jpg"
-import david from "../images/davidR.jpg"
-import deborah from "../images/deborahB.jpg"
-import erin from "../images/erinW.jpg"
-import frank from "../images/frankR.jpg"
-import jeff from "../images/jeffreyM.jpg"
-import jeron from "../images/jeronA.jpg"
-import keri from "../images/keriG.jpg"
-import marcus from "../images/marcusL.jpg"
-import meghan from "../images/meghanS.jpg"
-import ross from "../images/rossR.jpg"
-import ryan from "../images/ryanR.jpg"
-import shawn from "../images/shawnF.jpg"
+import abigail from "../images/abigailD.jpg";
+import ariel from "../images/arielC.jpg";
+import ashley from "../images/ashleyC.jpg";
+import chris from "../images/christopherH.jpg";
+import david from "../images/davidR.jpg";
+import deborah from "../images/deborahB.jpg";
+import erin from "../images/erinW.jpg";
+import frank from "../images/frankR.jpg";
+import jeff from "../images/jeffreyM.jpg";
+import jeron from "../images/jeronA.jpg";
+import keri from "../images/keriG.jpg";
+import marcus from "../images/marcusL.jpg";
+import meghan from "../images/meghanS.jpg";
+import ross from "../images/rossR.jpg";
+import ryan from "../images/ryanR.jpg";
+import shawn from "../images/shawnF.jpg";
 
 export default function Team() {
   return (
@@ -48,14 +48,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={abigail} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Abigail Dawson</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Redisdential Mortgage Loan Officer <br/> Assistant.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -63,19 +61,17 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-up"
+            animation="slide-in-down"
             start="onLoad"
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={ariel} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Ariel Carballo</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Redisdential Mortgage Loan Officer <br/> Assistant.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -88,14 +84,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={ashley} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Ashley Cossio</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Mortgage Loan Officer <br/> NMLS# 2122522.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -108,14 +102,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={chris} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Christopher Harding</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Loan Officer <br/> NMLS# 1267827.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -128,14 +120,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={david} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>David Restrepo</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Sr. Loan Officer <br/> NMLS# 496077 <br/> Bilingual/Spanish
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -148,14 +138,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={deborah} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Deborah Byrd</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Production Partner & Sr. Mortgage Advisor <br/> NMLS# 1043719.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -168,14 +156,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={erin} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Erin Waddell</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Redisdential Mortgage Loan Advisor <br/> Assistant
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -188,14 +174,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={frank} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Frank Rubalcava lll</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Mortgage Banker/Sr. Loan Officer <br/> NMLS# 183680 <br/> Bilingual/Spanish
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -208,14 +192,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={jeff} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Jeffrey Murphy</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Loan Officer lll <br/> NMLS# 9438
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -228,14 +210,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={jeron} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>JeRon Allen</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Loan Officer lll <br/> NMLS# 718431
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -248,14 +228,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={keri} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Keri Gaines</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Mortgage Loan Closer
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -268,14 +246,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={marcus} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Marcus Lepp</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Regional Manager <br/> NMLS# 715846
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -288,14 +264,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={meghan} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Meghan Stevenson</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Loan Officer <br/> NMLS# 1651872
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -308,14 +282,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={ross} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Ross Rhodes</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Loan Officer <br/> NMLS# 2028927
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -328,14 +300,12 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={ryan} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Ryan Crain</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Administrative Assistant
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -348,204 +318,18 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard>
+            <MDBCard className="h-100">
               <MDBCardImage src={shawn} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardTitle>Shawn Fehily</MDBCardTitle>
                 <MDBCardText>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  Branch Manager <br/> NMLS# 1072210
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBAnimation>
         </MDBCol>
-        {/* <MDBCol>
-      <MDBAnimation
-            animation="slide-in-up"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>      
-      <MDBCol>
-      <MDBAnimation
-            animation="slide-in-right"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>      
-      <MDBCol>
-      <MDBAnimation
-            animation="slide-in-left"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>      
-      <MDBCol>
-      <MDBAnimation
-            animation="slide-in-up"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>      
-      <MDBCol>
-      <MDBAnimation
-            animation="slide-in-right"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>      
-      <MDBCol>
-      <MDBAnimation
-            animation="slide-in-left"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>      
-      <MDBCol>
-      <MDBAnimation
-            animation="slide-in-up"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>      
-      <MDBCol>
-      <MDBAnimation
-            animation="slide-in-right"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-        <MDBCard>
-          <MDBCardImage
-            src='https://mdbcdn.b-cdn.net/img/new/standard/city/044.jpg'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-        </MDBAnimation>
-      </MDBCol>       */}
       </MDBRow>
     </MDBContainer>
-  )
+  );
 }

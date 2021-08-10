@@ -14,7 +14,7 @@ import {
 export default function NavHeader() {
   const [showNavCentred, setShowNavCentred] = useState(false)
   return (
-    <header style={{}}>
+    <header>
       <MDBAnimatedNavbar expand="lg" light className="shadow-2-strong" fixed='top' style={{backgroundColor:'white'}}>
         <MDBContainer fluid>
           <MDBNavbarBrand href="#">
@@ -111,7 +111,7 @@ export default function NavHeader() {
                     color: "#4e4e4e",
                     fontWeight: "400",
                   }}
-                  href="#"
+                  href="/Media"
                 >
                   Media
                 </MDBNavbarLink>

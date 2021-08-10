@@ -14,7 +14,7 @@ export default function LoanCards() {
   return (
     <>
     {/* LoanCards for desktop displays (Animations included) */}
-      <MDBContainer className="d-none d-md-block overflow-hidden pb-4">
+      <MDBContainer className="d-none d-md-block overflow-hidden pb-4" id="loanCards">
         <MDBRow>
           <MDBCol sm="12" className="text-center mt-4 mb-4">
             <h2 style={{ fontWeight: "bold", color: "black" }}>
@@ -27,7 +27,7 @@ export default function LoanCards() {
             <MDBAnimation
               animation="slide-in-left"
               start="onScroll"
-              duration={2000}
+              duration={1000}
               className="h-100"
             >
               <MDBCard
@@ -35,7 +35,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody>
+                <MDBCardBody tag="a" href="/LoanProducts">
                   <MDBCardTitle>Conventional</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A conventional mortgage or conventional loan is a home
@@ -52,7 +52,7 @@ export default function LoanCards() {
             <MDBAnimation
               animation="slide-in-down"
               start="onScroll"
-              duration={2800}
+              duration={1200}
               className="h-100"
             >
               <MDBCard
@@ -60,7 +60,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody>
+                <MDBCardBody tag="a" href="/LoanProducts">
                   <MDBCardTitle>FHA</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A Federal Housing Administration (FHA) loan is a mortgage
@@ -78,7 +78,7 @@ export default function LoanCards() {
             <MDBAnimation
               animation="slide-in-right"
               start="onScroll"
-              duration={2000}
+              duration={1000}
               className="h-100"
             >
               <MDBCard
@@ -86,7 +86,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody>
+                <MDBCardBody tag="a" href="/LoanProducts" >
                   <MDBCardTitle>VA</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A VA loan is a mortgage loan available through a program
@@ -105,7 +105,7 @@ export default function LoanCards() {
             <MDBAnimation
               animation="slide-in-left"
               start="onScroll"
-              duration={2000}
+              duration={1000}
               className="h-100"
             >
               <MDBCard
@@ -113,7 +113,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody>
+                <MDBCardBody tag="a" href="/LoanProducts">
                   <MDBCardTitle>USDA</MDBCardTitle>
                   <MDBCardText class="text-start">
                     USDA home loans open up the dream of owning a home to people
@@ -130,7 +130,7 @@ export default function LoanCards() {
             <MDBAnimation
               animation="slide-in-up"
               start="onScroll"
-              duration={2800}
+              duration={1200}
               className="h-100"
             >
               <MDBCard
@@ -138,7 +138,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody>
+                <MDBCardBody tag="a" href="/LoanProducts">
                   <MDBCardTitle>BOND</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A mortgage revenue bond (MRB) is a type of municipal bond
@@ -155,7 +155,7 @@ export default function LoanCards() {
             <MDBAnimation
               animation="slide-in-right"
               start="onScroll"
-              duration={2000}
+              duration={1000}
               className="h-100"
             >
               <MDBCard
@@ -163,7 +163,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody>
+                <MDBCardBody tag="a" href="/LoanProducts">
                   <MDBCardTitle>JUMBO</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A jumbo loan is a type of financing that exceeds the limits

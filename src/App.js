@@ -3,7 +3,7 @@ import React, { useState } from "react"
 import NavHeader from "./components/NavHeader"
 import Footer from "./components/Footer"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import { Home, Contact, LoanProducts, Resources, Team } from "./pages"
+import { Home, Contact, LoanProducts, Resources, Team, Media } from "./pages"
 
 export default function App() {
   return (
@@ -20,6 +20,7 @@ export default function App() {
           />
           <Route path="/resources" exact component={() => <Resources />} />
           <Route path="/team" exact component={() => <Team />} />
+          <Route path="/media" exact component={() => <Media />} />
         </Switch>
         <Footer />
       </Router>
