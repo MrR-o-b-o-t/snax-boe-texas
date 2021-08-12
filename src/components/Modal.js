@@ -21,7 +21,7 @@ export default function Modal() {
         className="m-2"
         style={{
           color: "#f1f1f1",
-          backgroundColor: "#4e4e4e",
+          backgroundColor: "#215732",
           fontWeight: "600",
           padding: "20px 50px 20px 50px",
           fontSize: "16px",
@@ -202,7 +202,7 @@ export default function Modal() {
               <MDBBtn
                 style={{
                   color: "#f1f1f1",
-                  backgroundColor: "#4e4e4e",
+                  backgroundColor: "#215732",
                   fontWeight: "400",
                   fontSize: "16px",
                 }}

@@ -62,11 +62,10 @@ export default function Contact() {
               />
               <div className="text-center mt-4">
                 <MDBBtn
+                  color="primary"
                   size="lg"
                   className="m-2"
                   style={{
-                    color: "#f1f1f1",
-                    backgroundColor: "#4e4e4e",
                     fontWeight: "600",
                     width: "300px",
                     padding: "20px",

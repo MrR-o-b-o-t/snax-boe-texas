@@ -54,7 +54,7 @@ export default function Resources() {
                 className="m-2"
                 style={{
                   color: "#f1f1f1",
-                  backgroundColor: "#4e4e4e",
+                  backgroundColor: "#215732",
                   fontWeight: "600",
                   width: "300px",
                   padding: "20px",
