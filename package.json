@@ -6,10 +6,12 @@
   "dependencies": {
     "@formspree/react": "^2.2.3",
     "@fullpage/react-fullpage": "^0.1.19",
+    "@reduxjs/toolkit": "^1.6.1",
     "google-map-react": "^2.1.10",
     "mdb-react-ui-kit": "./mdb-react-ui-kit-1.0.0.tgz",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll-parallax": "^2.4.0",

@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useSelector, useDispatch } from 'react-redux'
+import { decrement, increment, teamMember } from '../counterSlice'
 
 import {
   MDBCard,
@@ -31,6 +33,9 @@ import ryan from "../images/ryanR.jpg";
 import shawn from "../images/shawnF.jpg";
 
 export default function Team() {
+  const count = useSelector((state) => state.counter.value)
+  const David = useSelector((state) => state.counter.David.name)
+  const dispatch = useDispatch()
   return (
     <MDBContainer style={{ marginTop: "150px" }}>
       <MDBTypography
@@ -120,8 +125,8 @@ export default function Team() {
             duration={2000}
             className="h-100"
           >
-            <MDBCard className="h-100">
-              <MDBCardImage src={david} alt="..." position="top" />
+            <MDBCard onClick={() => dispatch(teamMember())} value="1" className="h-100" tag="a" href="/DavidR">
+              <MDBCardImage src={david} alt="David Restrepo" position="top" />
               <MDBCardBody>
                 <MDBCardTitle>David Restrepo</MDBCardTitle>
                 <MDBCardText>
@@ -330,6 +335,24 @@ export default function Team() {
           </MDBAnimation>
         </MDBCol>
       </MDBRow>
+      <div style={{marginTop:'300px'}}>
+      <div>
+        <button
+          aria-label="Increment value"
+          onClick={() => dispatch(increment())}
+        >
+          Increment
+        </button>
+        <h2>{David}</h2>
+        <span>{count}</span>
+        <button
+          aria-label="Decrement value"
+          onClick={() => dispatch(decrement())}
+        >
+          Decrement
+        </button>
+      </div>
+    </div>
     </MDBContainer>
   );
 }
