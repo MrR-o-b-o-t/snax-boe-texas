@@ -53,8 +53,6 @@ export default function Resources() {
                 size="lg"
                 className="m-2"
                 style={{
-                  color: "#f1f1f1",
-                  backgroundColor: "#215732",
                   fontWeight: "600",
                   width: "300px",
                   padding: "20px",

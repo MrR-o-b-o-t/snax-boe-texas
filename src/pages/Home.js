@@ -44,8 +44,6 @@ export default function Home() {
                 tag="a"
                 className="m-2 p-3"
                 style={{
-                  color: "#f1f1f1",
-                  backgroundColor: "#215732",
                   fontWeight: "600",
                   width: "300px",
                   fontSize: "16px",
@@ -60,9 +58,7 @@ export default function Home() {
                 tag="a"
                 className="m-2 p-3"
                 style={{
-                  color: "#f1f1f1",
                   fontWeight: "600",
-                  backgroundColor: "#215732",
                   width: "300px",
                   fontSize: "16px",
                 }}
