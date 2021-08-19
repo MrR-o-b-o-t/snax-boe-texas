@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"
 
 import {
   MDBCard,
@@ -11,32 +11,32 @@ import {
   MDBContainer,
   MDBTypography,
   MDBAnimation,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
-import abigail from "../images/abigailD.jpg";
-import ariel from "../images/arielC.jpg";
-import ashley from "../images/ashleyC.jpg";
-import chris from "../images/christopherH.jpg";
-import david from "../images/davidR.jpg";
-import deborah from "../images/deborahB.jpg";
-import erin from "../images/erinW.jpg";
-import frank from "../images/frankR.jpg";
-import jeff from "../images/jeffreyM.jpg";
-import jeron from "../images/jeronA.jpg";
-import keri from "../images/keriG.jpg";
-import marcus from "../images/marcusL.jpg";
-import meghan from "../images/meghanS.jpg";
-import ross from "../images/rossR.jpg";
-import ryan from "../images/ryanR.jpg";
-import shawn from "../images/shawnF.jpg";
+import abigail from "../images/abigailD.jpg"
+import ariel from "../images/arielC.jpg"
+import ashley from "../images/ashleyC.jpg"
+import chris from "../images/christopherH.jpg"
+import david from "../images/davidR.jpg"
+import deborah from "../images/deborahB.jpg"
+import erin from "../images/erinW.jpg"
+import frank from "../images/frankR.jpg"
+import jeff from "../images/jeffreyM.jpg"
+import jeron from "../images/jeronA.jpg"
+import keri from "../images/keriG.jpg"
+import marcus from "../images/marcusL.jpg"
+import meghan from "../images/meghanS.jpg"
+import ross from "../images/rossR.jpg"
+import ryan from "../images/ryanR.jpg"
+import shawn from "../images/shawnF.jpg"
 
 export default function Team() {
-  const [teamMember, setTeamMember] = useState();
+  const [teamMember, setTeamMember] = useState()
 
   useEffect(() => {
-    localStorage.setItem("tm", teamMember);
-    console.log(teamMember);
-  }, [teamMember]);
+    localStorage.setItem("tm", teamMember)
+    console.log(teamMember)
+  }, [teamMember])
 
   return (
     <MDBContainer style={{ marginTop: "150px" }}>
@@ -58,14 +58,14 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Abigail Dawson`);
+                setTeamMember(`Abigail Dawson`)
               }}
               tag="a"
               href="/DavidR"
             >
               <MDBCardImage src={abigail} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Abigail Dawson</MDBCardTitle>
+                <MDBCardTitle>Abby Dawson</MDBCardTitle>
                 <MDBCardText>
                   Redisdential Mortgage Loan Officer <br /> Assistant.
                 </MDBCardText>
@@ -83,7 +83,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Ariel Carballo`);
+                setTeamMember(`Ariel Carballo`)
               }}
               tag="a"
               href="/DavidR"
@@ -108,7 +108,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Ashley Cossio`);
+                setTeamMember(`Ashley Cossio`)
               }}
               tag="a"
               href="/DavidR"
@@ -133,7 +133,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Christopher Harding`);
+                setTeamMember(`Christopher Harding`)
               }}
               tag="a"
               href="/DavidR"
@@ -160,7 +160,7 @@ export default function Team() {
               tag="a"
               href="/DavidR"
               onClick={() => {
-                setTeamMember(`David Restrepo`);
+                setTeamMember(`David Restrepo`)
               }}
             >
               <MDBCardImage src={david} alt="David Restrepo" position="top" />
@@ -183,14 +183,14 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Deborah Byrd`);
+                setTeamMember(`Deborah Byrd`)
               }}
               tag="a"
               href="/DavidR"
             >
               <MDBCardImage src={deborah} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Deborah Byrd</MDBCardTitle>
+                <MDBCardTitle>Deb Byrd</MDBCardTitle>
                 <MDBCardText>
                   Production Partner & Sr. Mortgage Advisor <br /> NMLS#
                   1043719.
@@ -209,7 +209,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Erin Waddell`);
+                setTeamMember(`Erin Waddell`)
               }}
               tag="a"
               href="/DavidR"
@@ -234,7 +234,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Frank Rubalcava III`);
+                setTeamMember(`Frank Rubalcava III`)
               }}
               tag="a"
               href="/DavidR"
@@ -260,7 +260,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Jeffrey Murphy`);
+                setTeamMember(`Jeffrey Murphy`)
               }}
               tag="a"
               href="/DavidR"
@@ -285,7 +285,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`JeRon Allen`);
+                setTeamMember(`JeRon Allen`)
               }}
               tag="a"
               href="/DavidR"
@@ -310,7 +310,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Keri Gaines`);
+                setTeamMember(`Keri Gaines`)
               }}
               tag="a"
               href="/DavidR"
@@ -333,7 +333,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Marcus Lepp`);
+                setTeamMember(`Marcus Lepp`)
               }}
               tag="a"
               href="/DavidR"
@@ -358,7 +358,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Meghan Stevenson`);
+                setTeamMember(`Meghan Stevenson`)
               }}
               tag="a"
               href="/DavidR"
@@ -383,7 +383,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Ross Rhodes`);
+                setTeamMember(`Ross Rhodes`)
               }}
               tag="a"
               href="/DavidR"
@@ -408,14 +408,14 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Ryan Crain`);
+                setTeamMember(`Ryan Crain`)
               }}
               tag="a"
               href="/DavidR"
             >
               <MDBCardImage src={ryan} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Ryan Crain</MDBCardTitle>
+                <MDBCardTitle>Ryann Crain</MDBCardTitle>
                 <MDBCardText>Administrative Assistant</MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -431,7 +431,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Shawn Fehily`);
+                setTeamMember(`Shawn Fehily`)
               }}
               tag="a"
               href="/DavidR"
@@ -448,5 +448,5 @@ export default function Team() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-  );
+  )
 }

@@ -1,19 +1,19 @@
-import abigail from "../src/images/abigailD.jpg";
-import david from "../src/images/davidR.jpg";
-import ariel from "../src/images/arielC.jpg";
-import ashley from "../src/images/ashleyC.jpg";
-import christopher from "../src/images/christopherH.jpg";
-import deborah from "../src/images/deborahB.jpg";
-import erin from "../src/images/erinW.jpg";
-import frank from "../src/images/frankR.jpg";
-import jeffrey from "../src/images/jeffreyM.jpg";
-import jeron from "../src/images/jeronA.jpg";
-import Keri from "../src/images/keriG.jpg";
-import marcus from "../src/images/marcusL.jpg";
-import meghan from "../src/images/meghanS.jpg";
-import ross from "../src/images/rossR.jpg";
-import ryan from "../src/images/ryanR.jpg";
-import shawn from "../src/images/shawnF.jpg";
+import abigail from "../src/images/abigailD.jpg"
+import david from "../src/images/davidR.jpg"
+import ariel from "../src/images/arielC.jpg"
+import ashley from "../src/images/ashleyC.jpg"
+import christopher from "../src/images/christopherH.jpg"
+import deborah from "../src/images/deborahB.jpg"
+import erin from "../src/images/erinW.jpg"
+import frank from "../src/images/frankR.jpg"
+import jeffrey from "../src/images/jeffreyM.jpg"
+import jeron from "../src/images/jeronA.jpg"
+import Keri from "../src/images/keriG.jpg"
+import marcus from "../src/images/marcusL.jpg"
+import meghan from "../src/images/meghanS.jpg"
+import ross from "../src/images/rossR.jpg"
+import ryan from "../src/images/ryanR.jpg"
+import shawn from "../src/images/shawnF.jpg"
 
 export const teamData = [
   {
@@ -24,7 +24,7 @@ export const teamData = [
     photo: david,
   },
   {
-    name: "Abigail Dawson",
+    name: "Abby Dawson",
     email: "abigail@boetexas.com",
     bio: "",
     phone: "(214) 483-9201",
@@ -52,7 +52,7 @@ export const teamData = [
     photo: christopher,
   },
   {
-    name: "Deborah Byrd",
+    name: "Deb Byrd",
     email: "deborahbyrd@boemortgage.com",
     bio: "",
     phone: "(214) 717-3483",
@@ -60,7 +60,7 @@ export const teamData = [
   },
   {
     name: "Erin Waddell",
-    email: "infonow@boetexas.com",
+    email: "ewaddell@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: erin,
@@ -115,8 +115,8 @@ export const teamData = [
     photo: ross,
   },
   {
-    name: "Ryan Crain",
-    email: "infonow@boetexas.com",
+    name: "Ryann Crain",
+    email: "rcrain@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: ryan,
@@ -128,4 +128,4 @@ export const teamData = [
     phone: "(469) 737-5733",
     photo: shawn,
   },
-];
+]
