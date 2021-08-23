@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBAnimatedNavbar,
   MDBNavbarNav,
@@ -9,13 +9,22 @@ import {
   MDBIcon,
   MDBNavbarBrand,
   MDBCollapse,
-} from "mdb-react-ui-kit"
+  MDBNavbar,
+  MDBBtn,
+  MDBRow
+} from "mdb-react-ui-kit";
 
 export default function NavHeader() {
-  const [showNavCentred, setShowNavCentred] = useState(false)
+  const [showNavCentred, setShowNavCentred] = useState(false);
   return (
     <header>
-      <MDBAnimatedNavbar expand="lg" light className="shadow-2-strong" fixed='top' style={{backgroundColor:'white'}}>
+      <MDBAnimatedNavbar
+        expand="lg"
+        light
+        className="shadow-2-strong"
+        fixed="top"
+        style={{ backgroundColor: "white" }}
+      >
         <MDBContainer fluid>
           <MDBNavbarBrand href="#">
             <img
@@ -30,7 +39,7 @@ export default function NavHeader() {
             aria-label="Toggle navigation"
             onClick={() => setShowNavCentred(!showNavCentred)}
           >
-            <MDBIcon icon="bars" fas style={{color:'black'}}/>
+            <MDBIcon icon="bars" fas style={{ color: "black" }} />
           </MDBNavbarToggler>
           <MDBCollapse
             navbar
@@ -132,6 +141,7 @@ export default function NavHeader() {
           </MDBCollapse>
         </MDBContainer>
       </MDBAnimatedNavbar>
+      
     </header>
-  )
+  );
 }

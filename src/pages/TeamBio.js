@@ -15,38 +15,18 @@ import {
   MDBIcon,
 } from "mdb-react-ui-kit";
 
-import abigail from "../images/abigailD.jpg";
-import ariel from "../images/arielC.jpg";
-import ashley from "../images/ashleyC.jpg";
-import chris from "../images/christopherH.jpg";
-import david from "../images/davidR.jpg";
-import deborah from "../images/deborahB.jpg";
-import erin from "../images/erinW.jpg";
-import frank from "../images/frankR.jpg";
-import jeff from "../images/jeffreyM.jpg";
-import jeron from "../images/jeronA.jpg";
-import keri from "../images/keriG.jpg";
-import marcus from "../images/marcusL.jpg";
-import meghan from "../images/meghanS.jpg";
-import ross from "../images/rossR.jpg";
-import ryan from "../images/ryanR.jpg";
-import shawn from "../images/shawnF.jpg";
-
 import { teamData } from "../teamData";
 
-export default function DavidR() {
+export default function TeamBio() {
 
     let bio1 = "";
     let phone1 = "";
     let email1 = "";
     let photo1;
-
-  console.log(localStorage.getItem('tm')) || "Not available";
-  const name = localStorage.getItem("tm");
+    const name = localStorage.getItem("tm");
 
   {
     teamData.map((data) => {
-      console.log(data.name);
       if (data.name === localStorage.getItem("tm")) {
         return(
             phone1 = data.phone,
