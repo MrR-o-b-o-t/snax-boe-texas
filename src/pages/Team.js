@@ -183,7 +183,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Deborah Byrd`)
+                setTeamMember(`Deb Byrd`)
               }}
               tag="a"
               href="/TeamMember"
