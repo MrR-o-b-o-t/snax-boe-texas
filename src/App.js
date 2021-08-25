@@ -3,13 +3,25 @@ import React, { useState } from "react"
 import NavHeader from "./components/NavHeader"
 import Footer from "./components/Footer"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import { Home, Contact, LoanProducts, Resources, Team, Media, DavidR } from "./pages"
+import {
+  Home,
+  Contact,
+  LoanProducts,
+  Resources,
+  Team,
+  Media,
+  TeamMember,
+} from "./pages"
 
 export default function App() {
   return (
     <>
       <Router>
-        <Route path ="/DavidR" exact component={() => <DavidR />}></Route>
+        <Route
+          path="/TeamMember"
+          exact
+          component={() => <TeamMember />}
+        ></Route>
         <NavHeader />
         <Switch>
           <Route path="/" exact component={() => <Home />} />

@@ -61,7 +61,7 @@ export default function Team() {
                 setTeamMember(`Abby Dawson`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={abby} alt="..." position="top" />
               <MDBCardBody>
@@ -86,7 +86,7 @@ export default function Team() {
                 setTeamMember(`Ariel Carballo`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={ariel} alt="..." position="top" />
               <MDBCardBody>
@@ -111,7 +111,7 @@ export default function Team() {
                 setTeamMember(`Ashley Cossio`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={ashley} alt="..." position="top" />
               <MDBCardBody>
@@ -136,7 +136,7 @@ export default function Team() {
                 setTeamMember(`Christopher Harding`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={chris} alt="..." position="top" />
               <MDBCardBody>
@@ -158,7 +158,7 @@ export default function Team() {
             <MDBCard
               className="h-100"
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
               onClick={() => {
                 setTeamMember(`David Restrepo`)
               }}
@@ -186,7 +186,7 @@ export default function Team() {
                 setTeamMember(`Deborah Byrd`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={deborah} alt="..." position="top" />
               <MDBCardBody>
@@ -212,7 +212,7 @@ export default function Team() {
                 setTeamMember(`Erin Waddell`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={erin} alt="..." position="top" />
               <MDBCardBody>
@@ -237,7 +237,7 @@ export default function Team() {
                 setTeamMember(`Frank Rubalcava III`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={frank} alt="..." position="top" />
               <MDBCardBody>
@@ -263,7 +263,7 @@ export default function Team() {
                 setTeamMember(`Jeffrey Murphy`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={jeff} alt="..." position="top" />
               <MDBCardBody>
@@ -288,7 +288,7 @@ export default function Team() {
                 setTeamMember(`JeRon Allen`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={jeron} alt="..." position="top" />
               <MDBCardBody>
@@ -313,7 +313,7 @@ export default function Team() {
                 setTeamMember(`Keri Gaines`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={keri} alt="..." position="top" />
               <MDBCardBody>
@@ -336,7 +336,7 @@ export default function Team() {
                 setTeamMember(`Marcus Lepp`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={marcus} alt="..." position="top" />
               <MDBCardBody>
@@ -361,7 +361,7 @@ export default function Team() {
                 setTeamMember(`Meghan Stevenson`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={meghan} alt="..." position="top" />
               <MDBCardBody>
@@ -386,7 +386,7 @@ export default function Team() {
                 setTeamMember(`Ross Rhodes`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={ross} alt="..." position="top" />
               <MDBCardBody>
@@ -411,7 +411,7 @@ export default function Team() {
                 setTeamMember(`Ryan Crain`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={ryan} alt="..." position="top" />
               <MDBCardBody>
@@ -434,7 +434,7 @@ export default function Team() {
                 setTeamMember(`Shawn Fehily`)
               }}
               tag="a"
-              href="/DavidR"
+              href="/TeamMember"
             >
               <MDBCardImage src={shawn} alt="..." position="top" />
               <MDBCardBody>
