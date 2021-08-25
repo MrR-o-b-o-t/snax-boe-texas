@@ -41,11 +41,11 @@ export default function Home() {
               <MDBBtn
                 tag="a"
                 className="m-2 p-3"
-                color="primary"
                 style={{
                   fontWeight: "600",
                   width: "300px",
                   fontSize: "16px",
+                  backgroundColor: "rgb(33, 87, 50)",
                 }}
                 href="https://boetexas.floify.com/apply-now"
               >

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBBtn,
   MDBContainer,
@@ -8,15 +8,15 @@ import {
   MDBStepperStep,
   MDBStepperHead,
   MDBStepperContent,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
-import house from "../images/Bank-of-England-House-Illustration.png";
-import customer1 from "../images/Bank-of-England-Customer.jpg";
-import Modal from "../components/Modal";
-import LoanCards from "../components/LoanCards";
-import HbGuide from "../components/HbGuide";
-import Calculators from "../components/Calculators";
-import DosDontsFlip from "../components/DosDontsFlip";
+import house from "../images/Bank-of-England-House-Illustration.png"
+import customer1 from "../images/Bank-of-England-Customer.jpg"
+import Modal from "../components/Modal"
+import LoanCards from "../components/LoanCards"
+import HbGuide from "../components/HbGuide"
+import Calculators from "../components/Calculators"
+import DosDontsFlip from "../components/DosDontsFlip"
 
 export default function Resources() {
   return (
@@ -57,6 +57,7 @@ export default function Resources() {
                   width: "300px",
                   padding: "20px",
                   fontSize: "16px",
+                  backgroundColor: "rgb(33, 87, 50)",
                 }}
               >
                 Contact Us
@@ -188,5 +189,5 @@ export default function Resources() {
         </MDBRow>
       </MDBContainer>
     </>
-  );
+  )
 }

@@ -70,6 +70,7 @@ export default function Contact() {
                     width: "300px",
                     padding: "20px",
                     fontSize: "16px",
+                    backgroundColor: "rgb(33, 87, 50)",
                   }}
                   type="submit"
                   disabled={state.submitting}

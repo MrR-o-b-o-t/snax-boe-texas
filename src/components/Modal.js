@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBBtn,
   MDBModal,
@@ -9,10 +9,10 @@ import {
   MDBModalBody,
   MDBModalFooter,
   MDBTypography,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
 export default function Modal() {
-  const [scrollableModal, setScrollableModal] = useState(false);
+  const [scrollableModal, setScrollableModal] = useState(false)
 
   return (
     <>
@@ -23,6 +23,7 @@ export default function Modal() {
           fontWeight: "600",
           padding: "20px 50px 20px 50px",
           fontSize: "16px",
+          backgroundColor: "rgb(33, 87, 50)",
         }}
         onClick={() => setScrollableModal(!scrollableModal)}
       >
@@ -42,6 +43,7 @@ export default function Modal() {
                 className="btn-close"
                 color="none"
                 onClick={() => setScrollableModal(!scrollableModal)}
+                style={{ backgroundColor: "rgb(33, 87, 50)" }}
               ></MDBBtn>
             </MDBModalHeader>
             <MDBModalBody>
@@ -222,5 +224,5 @@ export default function Modal() {
         </MDBModalDialog>
       </MDBModal>
     </>
-  );
+  )
 }

@@ -94,6 +94,7 @@ export default function DavidR() {
                       fontWeight: "600",
                       fontSize: "16px",
                       marginTop: "20px",
+                      backgroundColor: "rgb(33, 87, 50)",
                     }}
                   >
                     Schedule Appointment
