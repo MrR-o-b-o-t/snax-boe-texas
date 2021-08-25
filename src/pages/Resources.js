@@ -97,6 +97,7 @@ export default function Resources() {
             <MDBBtn
               rippleColor="success"
               color="white"
+              href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               style={{
                 color: "black",
                 fontWeight: "600",

@@ -47,7 +47,7 @@ export default function Home() {
                   fontSize: "16px",
                   backgroundColor: "rgb(33, 87, 50)",
                 }}
-                href="https://boetexas.floify.com/apply-now"
+                href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               >
                 Apply For Home Purchase
               </MDBBtn>
@@ -62,7 +62,7 @@ export default function Home() {
                   fontSize: "16px",
                   backgroundColor: "rgb(33, 87, 50)",
                 }}
-                href="#"
+                href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               >
                 Apply For Refinance
               </MDBBtn>
