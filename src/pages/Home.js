@@ -29,7 +29,7 @@ export default function Home() {
                     marginBottom: "15px",
                   }}
                 />
-                Bank of Englad Texas is the white glove home loan experiance
+                Bank of England Texas is the white glove home loan experience
                 designed for you
               </h1>
               <h5 class="text-left">

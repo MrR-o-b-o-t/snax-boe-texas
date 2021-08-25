@@ -15,7 +15,13 @@ export default function NavHeader() {
   const [showNavCentred, setShowNavCentred] = useState(false)
   return (
     <header>
-      <MDBAnimatedNavbar expand="lg" light className="shadow-2-strong" fixed='top' style={{backgroundColor:'white'}}>
+      <MDBAnimatedNavbar
+        expand="lg"
+        light
+        className="shadow-2-strong"
+        fixed="top"
+        style={{ backgroundColor: "white" }}
+      >
         <MDBContainer fluid>
           <MDBNavbarBrand href="#">
             <img
@@ -30,7 +36,7 @@ export default function NavHeader() {
             aria-label="Toggle navigation"
             onClick={() => setShowNavCentred(!showNavCentred)}
           >
-            <MDBIcon icon="bars" fas style={{color:'black'}}/>
+            <MDBIcon icon="bars" fas style={{ color: "black" }} />
           </MDBNavbarToggler>
           <MDBCollapse
             navbar
@@ -66,18 +72,6 @@ export default function NavHeader() {
                   href="/Team"
                 >
                   Meet The Team
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink
-                  id="custom-nav-link"
-                  style={{
-                    color: "#4e4e4e",
-                    fontWeight: "400",
-                  }}
-                  href="#"
-                >
-                  Find a Home
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>

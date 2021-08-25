@@ -155,7 +155,7 @@ export default function Reviews() {
 
       {/* Review display for Mobile */}
 
-      <MDBContainer className="d-md-none mb-4">
+      {/* <MDBContainer className="d-md-none mb-4">
         <MDBRow>
           <MDBCol sm="12" class="text-center">
             <h3 style={{ fontWeight: "bold" }}>
@@ -286,7 +286,7 @@ export default function Reviews() {
             </MDBCarouselItem>
           </MDBCarouselInner>
         </MDBCarousel>
-      </MDBContainer>
+      </MDBContainer> */}
     </>
   )
 }
