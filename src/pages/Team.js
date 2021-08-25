@@ -13,7 +13,7 @@ import {
   MDBAnimation,
 } from "mdb-react-ui-kit"
 
-import abigail from "../images/abigailD.jpg"
+import abby from "../images/abigailD.jpg"
 import ariel from "../images/arielC.jpg"
 import ashley from "../images/ashleyC.jpg"
 import chris from "../images/christopherH.jpg"
@@ -58,12 +58,12 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Abigail Dawson`)
+                setTeamMember(`Abby Dawson`)
               }}
               tag="a"
               href="/DavidR"
             >
-              <MDBCardImage src={abigail} alt="..." position="top" />
+              <MDBCardImage src={abby} alt="..." position="top" />
               <MDBCardBody>
                 <MDBCardTitle>Abby Dawson</MDBCardTitle>
                 <MDBCardText>

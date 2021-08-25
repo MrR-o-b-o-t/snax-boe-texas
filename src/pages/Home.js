@@ -1,20 +1,18 @@
-import React, { useState } from "react";
-import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import React, { useState } from "react"
+import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit"
 
-import house from "../images/Bank-of-England-House-Illustration.png";
-import customer1 from "../images/Bank-of-England-Customer.jpg";
-import signing from "../images/Bank-of-England-Signing.jpg";
-import Reviews from "../components/Reviews";
-import LoanCards from "../components/LoanCards";
-import LightBanner from "../components/LightBanner";
+import house from "../images/Bank-of-England-House-Illustration.png"
+import customer1 from "../images/Bank-of-England-Customer.jpg"
+import signing from "../images/Bank-of-England-Signing.jpg"
+import Reviews from "../components/Reviews"
+import LoanCards from "../components/LoanCards"
+import LightBanner from "../components/LightBanner"
+import ClientTest from "../components/ClientTest"
 
 export default function Home() {
   return (
-    <MDBContainer fluid style={{maxWidth:'2000px'}}>
-      <MDBContainer
-        className=""
-        style={{marginTop: "100px"}}
-      >
+    <MDBContainer fluid style={{ maxWidth: "2000px" }}>
+      <MDBContainer className="" style={{ marginTop: "100px" }}>
         <MDBRow className="g-2">
           <MDBCol lg="6" className="user-select-none mb-3">
             <div style={{ paddingLeft: "15px" }}>
@@ -129,6 +127,7 @@ export default function Home() {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
+      <ClientTest />
       <LoanCards />
       <MDBContainer
         style={{ backgroundColor: "#4e4e4e", maxWidth: "2500px" }}
@@ -167,6 +166,6 @@ export default function Home() {
         </MDBRow>
       </MDBContainer>
       <Reviews />
-      </MDBContainer>
-  );
+    </MDBContainer>
+  )
 }

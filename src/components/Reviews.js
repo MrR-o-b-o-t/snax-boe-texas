@@ -73,16 +73,20 @@ export default function Reviews() {
             />
           </MDBCol>
         </MDBRow>
-        <MDBCarousel showControls showIndicators dark fade>
+        <MDBCarousel
+          showControls
+          showIndicators
+          dark
+          fade
+          style={{ border: "3px solid black", borderRadius: "10px" }}
+        >
           <MDBCarouselInner>
             <MDBCarouselItem itemId={0}>
               <MDBCarouselElement
-                src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
-                alt="..."
                 style={{
                   width: "936px",
                   height: "414px",
-                  borderRadius: "15px",
+                  borderRadius: "10px",
                 }}
               />
               <MDBCarouselCaption>
@@ -102,12 +106,10 @@ export default function Reviews() {
             </MDBCarouselItem>
             <MDBCarouselItem itemId={1}>
               <MDBCarouselElement
-                src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
-                alt="..."
                 style={{
                   width: "936px",
                   height: "414px",
-                  borderRadius: "15px",
+                  borderRadius: "10px",
                 }}
               />
               <MDBCarouselCaption>
@@ -116,18 +118,20 @@ export default function Reviews() {
                   Shawn and his team are great to work with and very on top of
                   the ongoing trends in the mortgage industry. Definitely should
                   be your first and only stop when needing a mortgage lender.
-                  Highly recommend.
+                  Highly recommend. Never have I worked with a bank that
+                  actually said "I WILL GET THIS DONE" and actually DO IT! THANK
+                  YOU Courtney Gutierrez for all the hard work that you did for
+                  me on my home loan and continue to be there after the fact to
+                  answer questions if needed!
                 </h5>
               </MDBCarouselCaption>
             </MDBCarouselItem>
             <MDBCarouselItem itemId={2}>
               <MDBCarouselElement
-                src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
-                alt="..."
                 style={{
                   width: "936px",
                   height: "414px",
-                  borderRadius: "15px",
+                  borderRadius: "10px",
                 }}
               />
               <MDBCarouselCaption className="m-auto">

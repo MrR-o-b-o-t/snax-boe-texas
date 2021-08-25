@@ -1,4 +1,4 @@
-import abigail from "../src/images/abigailD.jpg"
+import abby from "../src/images/abigailD.jpg"
 import david from "../src/images/davidR.jpg"
 import ariel from "../src/images/arielC.jpg"
 import ashley from "../src/images/ashleyC.jpg"
@@ -28,7 +28,7 @@ export const teamData = [
     email: "abigail@boetexas.com",
     bio: "",
     phone: "(214) 483-9201",
-    photo: abigail,
+    photo: abby,
   },
   {
     name: "Ariel Carballo",
