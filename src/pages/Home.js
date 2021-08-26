@@ -165,19 +165,12 @@ export default function Home() {
             </div>
             <div className="text-center mt-4">
               <MDBBtn
+                id="m__btn"
                 tag="a"
                 rippleColor="success"
                 className="m-2"
                 href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
                 target="_blank"
-                style={{
-                  color: "grey",
-                  fontWeight: "600",
-                  backgroundColor: "white",
-                  border: "2px solid grey",
-                  padding: "20px",
-                  fontSize: "16px",
-                }}
               >
                 Connect With Local Lender
               </MDBBtn>
@@ -205,17 +198,11 @@ export default function Home() {
               accurate numbers fast.
             </p>
             <MDBBtn
+              id="m__btn"
               tag="a"
               rippleColor="success"
               href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               target="_blank"
-              style={{
-                color: "black",
-                fontWeight: "600",
-                backgroundColor: "white",
-                padding: "15px 20px 15px 20px",
-                fontSize: "14px",
-              }}
             >
               Start My Approval
             </MDBBtn>
