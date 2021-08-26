@@ -20,13 +20,9 @@ export default function LacModal() {
   return (
     <>
       <MDBBtn
+        id="s__btn"
         size="lg"
         className="m-2"
-        style={{
-          fontWeight: "600",
-          padding: "20px 50px 20px 50px",
-          fontSize: "16px",
-        }}
         onClick={() => setScrollableModal(!scrollableModal)}
       >
         Loan Affordability Calculator

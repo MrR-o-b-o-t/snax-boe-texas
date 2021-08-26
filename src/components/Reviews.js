@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 import {
   MDBContainer,
@@ -11,9 +11,9 @@ import {
   MDBCarouselCaption,
   MDBAccordion,
   MDBAccordionItem,
-} from "mdb-react-ui-kit"
-import test1 from "../images/Testimonial-1.png"
-import test2 from "../images/Testimonial-2.png"
+} from "mdb-react-ui-kit";
+import test1 from "../images/Testimonial-1.png";
+import test2 from "../images/Testimonial-2.png";
 
 import revback from "../images/revback.jpg";
 
@@ -83,35 +83,46 @@ export default function Reviews() {
                   style={{ width: "696px", height: "307px" }}
                 />
                 <MDBCarouselCaption>
-                  <h3>Rich Gaffney</h3>
-                  <h5>
-                    Shawn was excellent in every aspect of enabling my wife and
-                    I to qualify for a loan. He is an excellent communicator and
-                    truly cares for his clients! We were prepared for every step
-                    in this process. I especially like his positive attitude and
-                    great work ethic. His two assistants, Monika and Stephanie,
-                    were so easy to work with and very professional in all their
-                    interactions with us! Wow - it was just an excellent
-                    experience and we qualified for the loan! I would not
-                    hesitate a moment to recommend Shawn to anyone!
-                  </h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <div
+                      className="align-items-center"
+                      style={{ height: "220px" }}
+                    >
+                      <h3>Rich Gaffney</h3>
+                      <h5>
+                        Shawn was excellent in every aspect of enabling my wife
+                        and I to qualify for a loan. He is an excellent
+                        communicator and truly cares for his clients! We were
+                        prepared for every step in this process. I especially
+                        like his positive attitude and great work ethic. His two
+                        assistants, Monika and Stephanie, were so easy to work
+                        with and very professional in all their interactions
+                        with us! Wow - it was just an excellent experience and
+                        we qualified for the loan! I would not hesitate a moment
+                        to recommend Shawn to anyone!
+                      </h5>
+                    </div>
+                  </div>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId={1}>
                 <MDBCarouselElement
-                  style={{ width: "696px", height: "307px"}}
+                  style={{ width: "696px", height: "307px" }}
                 />
                 <MDBCarouselCaption>
                   <div className="d-flex align-items-center justify-content-center">
-                  <div className="align-items-center" style={{height: '200px'}}>
-                  <h3>Andrew Braden</h3>
-                  <h5>
-                    Shawn and his team are great to work with and very on top of
-                    the ongoing trends in the mortgage industry. Definitely
-                    should be your first and only stop when needing a mortgage
-                    lender. Highly recommend.
-                  </h5>
-                  </div>
+                    <div
+                      className="align-items-center"
+                      style={{ height: "200px" }}
+                    >
+                      <h3>Andrew Braden</h3>
+                      <h5>
+                        Shawn and his team are great to work with and very on
+                        top of the ongoing trends in the mortgage industry.
+                        Definitely should be your first and only stop when
+                        needing a mortgage lender. Highly recommend.
+                      </h5>
+                    </div>
                   </div>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
@@ -120,18 +131,26 @@ export default function Reviews() {
                   style={{ width: "696px", height: "307px" }}
                 />
                 <MDBCarouselCaption className="m-auto">
-                  <h3>Sandi Brooks</h3>
-                  <h5>
-                    Have you ever had that thought... "I don't want to deal with
-                    the bank for my house?" Well I will tell you I WANTED to
-                    deal with Courtney and her team! You ask... do they care?
-                    ABSOLUTELY! When they MAKE MAGIC HAPPEN they really do make
-                    it happen. Never have I worked with a bank that actually
-                    said "I WILL GET THIS DONE" and actually DO IT! THANK YOU
-                    Courtney Gutierrez for all the hard work that you did for me
-                    on my home loan and continue to be there after the fact to
-                    answer questions if needed!
-                  </h5>
+                  <div className="d-flex align-items-center justify-content-center">
+                    <div
+                      className="align-items-center"
+                      style={{ height: "220px" }}
+                    >
+                      <h3>Sandi Brooks</h3>
+                      <h5>
+                        Have you ever had that thought... "I don't want to deal
+                        with the bank for my house?" Well I will tell you I
+                        WANTED to deal with Courtney and her team! You ask... do
+                        they care? ABSOLUTELY! When they MAKE MAGIC HAPPEN they
+                        really do make it happen. Never have I worked with a
+                        bank that actually said "I WILL GET THIS DONE" and
+                        actually DO IT! THANK YOU Courtney Gutierrez for all the
+                        hard work that you did for me on my home loan and
+                        continue to be there after the fact to answer questions
+                        if needed!
+                      </h5>
+                    </div>
+                  </div>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
             </MDBCarouselInner>
@@ -274,5 +293,5 @@ export default function Reviews() {
         </MDBCarousel>
       </MDBContainer> */}
     </>
-  )
+  );
 }

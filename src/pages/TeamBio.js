@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 import {
   MDBCard,
@@ -13,17 +13,16 @@ import {
   MDBAnimation,
   MDBBtn,
   MDBIcon,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
 import { teamData } from "../teamData";
 
 export default function TeamBio() {
-
-    let bio1 = "";
-    let phone1 = "";
-    let email1 = "";
-    let photo1;
-    const name = localStorage.getItem("tm");
+  let bio1 = "";
+  let phone1 = "";
+  let email1 = "";
+  let photo1;
+  const name = localStorage.getItem("tm");
 
   {
     teamData.map((data) => {
@@ -33,9 +32,9 @@ export default function TeamBio() {
           (bio1 = data.bio),
           (email1 = data.email),
           (photo1 = data.photo)
-        )
+        );
       }
-    })
+    });
   }
 
   return (
@@ -86,6 +85,7 @@ export default function TeamBio() {
                   duration={1500}
                 >
                   <MDBBtn
+                    id="s__btn"
                     color="secondary"
                     className="p-4"
                     style={{
@@ -118,5 +118,5 @@ export default function TeamBio() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-  )
+  );
 }

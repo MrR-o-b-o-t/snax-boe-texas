@@ -98,6 +98,7 @@ export default function Resources() {
             </div>
             <div className="text-center" style={{ marginTop: "50px" }}>
               <MDBBtn
+                id="m__btn"
                 size="lg"
                 className="m-2"
                 style={{
@@ -144,15 +145,8 @@ export default function Resources() {
               accurate numbers fast.
             </p>
             <MDBBtn
+              id="s__btn"
               rippleColor="success"
-              color="white"
-              style={{
-                color: "black",
-                fontWeight: "600",
-                backgroundColor: "white",
-                padding: "15px 20px 15px 20px",
-                fontSize: "14px",
-              }}
               href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               target="_blank"
             >

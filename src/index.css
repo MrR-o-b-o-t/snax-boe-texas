@@ -28,11 +28,10 @@ code {
 }
 
 #custom-nav-link {
-  
 }
 
 .card {
-  color:#4e4e4e
+  color: #4e4e4e;
 }
 
 .card:hover {
@@ -42,10 +41,10 @@ code {
   cursor: pointer;
 }
 
-.card-body{
+.card-body {
   color: inherit;
 }
-.card-body:hover{
+.card-body:hover {
   color: inherit;
 }
 
@@ -144,7 +143,9 @@ form select {
 .stepper-active .stepper-head-icon {
   background-color: #4e4e4e !important;
 }
-
+.stepper-completed .stepper-head-icon{
+  background-color: #215732 !important;
+}
 .navbar.navbar-scroll.navbar-scrolled {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -182,16 +183,37 @@ form select {
   font-weight: 600;
 }
 
-#m__btn{
-    font-weight: 600;
-    background-color: #215732;
-    padding: 20px;
-    font-size: 16px;
+#m__btn {
+  font-weight: 600;
+  background-color: #215732;
+  padding: 20px;
+  font-size: 16px;
 }
 
-#m__btn:hover{
+#m__btn:hover {
   font-weight: 600;
   background-color: #4e4e4e;
   padding: 20px;
   font-size: 16px;
+}
+
+#s__btn {
+  color: black;
+  font-weight: 600;
+  background-color: #f7f7f7;
+  padding: 20px;
+  font-size: 16px;
+}
+
+#s__btn:hover {
+  color: white;
+  font-weight: 600;
+  background-color: #215732;
+  padding: 20px;
+  font-size: 16px;
+}
+
+#navbarCenteredExample a{
+  font-size: 17px !important;
+  font-weight: 600 !important;
 }
