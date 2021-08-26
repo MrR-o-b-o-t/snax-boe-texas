@@ -67,7 +67,7 @@ export default function Resources() {
   }, []);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} style={{overflowX:"hidden"}}>
       <MDBContainer
         className=""
         style={{ maxWidth: "2500px", marginTop: "100px" }}

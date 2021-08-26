@@ -3,7 +3,7 @@ import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 
 import house from "../images/Bank-of-England-House-Illustration.png";
 import customer1 from "../images/Bank-of-England-Customer.jpg";
-import signing from "../images/Bank-of-England-Signing.jpg";
+import signing from "../images/boe-office-front.jpg";
 import Reviews from "../components/Reviews";
 import LoanCards from "../components/LoanCards";
 import LightBanner from "../components/LightBanner";
@@ -60,7 +60,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
       <MDBContainer fluid style={{ maxWidth: "2000px" }}>
         <MDBContainer className="" style={{ marginTop: "100px" }}>
           <MDBRow className="g-2">
