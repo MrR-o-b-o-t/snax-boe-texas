@@ -52,6 +52,7 @@ export default function Resources() {
               <MDBBtn
                 size="lg"
                 className="m-2"
+                href="/Contact"
                 style={{
                   fontWeight: "600",
                   width: "300px",

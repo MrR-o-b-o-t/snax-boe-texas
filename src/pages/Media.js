@@ -16,11 +16,16 @@ export default function Media() {
             color: "white",
             backgroundImage: `url(${house})`,
             height: "600px",
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <MDBCol sm="5">
-            <h1 style={{ fontWeight: "bold" }}>Media</h1>
-            <p>Browse our media collection & get to know your BOE staff.</p>
+            <h1 style={{ fontWeight: "bold", fontSize: "48px" }}>Media</h1>
+            <h4 style={{ fontWeight: "bold" }}>
+              Browse our media collection & get to know your BOE staff.
+            </h4>
           </MDBCol>
         </MDBRow>
       </MDBContainer>

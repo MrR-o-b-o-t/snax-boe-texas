@@ -114,6 +114,7 @@ export default function Home() {
                 tag="a"
                 rippleColor="success"
                 className="m-2"
+                href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
                 style={{
                   color: "grey",
                   fontWeight: "600",
@@ -150,7 +151,7 @@ export default function Home() {
             <MDBBtn
               tag="a"
               rippleColor="success"
-              href="https://boetexas.floify.com/apply-now"
+              href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               style={{
                 color: "black",
                 fontWeight: "600",
