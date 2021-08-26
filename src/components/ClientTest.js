@@ -13,7 +13,7 @@ export default function ClientTest() {
       <h1 className="text-center mb-4 mt-3" style={{ fontWeight: "600" }}>
         See why our clients love working with us
       </h1>
-      <MDBCarousel showControls showIndicators fade interval={false}>
+      <MDBCarousel showControls showIndicators fade interval={false} id="client__test__video">
         <MDBCarouselInner interval={false}>
           <MDBCarouselItem itemId={0} interval={false}>
             <MDBCarouselElement />

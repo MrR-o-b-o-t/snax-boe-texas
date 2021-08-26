@@ -136,7 +136,7 @@ export default function Home() {
         <LightBanner />
         <MDBContainer className="mt-3" style={{ maxWidth: "2500px" }}>
           <MDBRow className="g-2">
-            <MDBCol lg="6" className="g-0">
+            <MDBCol lg="6" className="g-0" id="lb__parallax__img">
               <img src={signing} class="img-fluid mb-4"></img>
             </MDBCol>
             <MDBCol lg="6" className="">
