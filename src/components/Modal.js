@@ -17,6 +17,7 @@ export default function Modal() {
   return (
     <>
       <MDBBtn
+        id="m__btn"
         size="lg"
         className="m-2"
         style={{
@@ -198,6 +199,7 @@ export default function Modal() {
             </MDBModalBody>
             <MDBModalFooter>
               <MDBBtn
+                id="m__btn"
                 style={{
                   fontWeight: "400",
                   fontSize: "16px",
