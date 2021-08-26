@@ -10,6 +10,8 @@ import {
 } from "mdb-react-ui-kit"
 import equalHousingLending from "../images/equal-housing-lender.png"
 
+import something from "../downloads/CCPA.pdf"
+
 export default function App() {
   return (
     <MDBFooter
@@ -64,20 +66,22 @@ export default function App() {
           <MDBCol lg="6" md="12" className="mb-4 mb-md-0 text-center">
             <h5 className="">Resources</h5>
             <MDBTypography listInLine className="mb-0">
-              <li className="list-inline-item">Privacy Links</li>
-              <li className="list-inline-item">CCPA Policy</li>
-              <li className="list-inline-item">Web Analytics Policy</li>
-              <li className="list-inline-item">Security</li>
-              <li className="list-inline-item">Preventing Identity Theft</li>
-              <li className="list-inline-item">USA Patriot Act</li>
+              <li className="list-inline-item"><a href="/PrivacyPolicy">Privacy Links</a></li>
+              <li className="list-inline-item"><a href="/Ccpa">CCPA Policy</a></li>
+              <li className="list-inline-item"><a href="/Policies/#web__policy">Web Analytics Policy</a></li>
+              <li className="list-inline-item"><a href="/Policies/#security">Security</a></li>
+              <li className="list-inline-item"><a href="/Policies/#identity__theft">Preventing Identity Theft</a></li>
+              <li className="list-inline-item"><a href="/Policies/#patriot__act">USA Patriot Act</a></li>
+              <li className="list-inline-item"><a href="https://continentalcredit.com/" target="_blank">Credit Counciling</a></li>
+              <li className="list-inline-item"><a href="https://www.nmlsconsumeraccess.org/" target="_blank">NMLS Identifier</a></li>
             </MDBTypography>
             <h5 className="" style={{ paddingTop: "20px" }}>
               Credit Bereaus
             </h5>
             <MDBTypography listInLine className="mb-0">
-              <li className="list-inline-item">Experian</li>
-              <li className="list-inline-item">Equifax</li>
-              <li className="list-inline-item">TransUnion</li>
+              <li className="list-inline-item"><a href="https://www.experian.com/" target="_blank">Experian</a></li>
+              <li className="list-inline-item"><a href="https://www.equifax.com/personal/" target="_blank">Equifax</a></li>
+              <li className="list-inline-item"><a href="https://www.transunion.com/" target="_blank">TransUnion</a></li>
             </MDBTypography>
           </MDBCol>
           <MDBCol lg="3">

@@ -177,9 +177,7 @@ form select {
   color: black;
   font-weight: bold;
 }
-.carousel-inner{
-  border:5px solid;
-}
+
 .carousel-caption h3 {
   font-weight: 600;
 }

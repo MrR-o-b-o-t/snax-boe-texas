@@ -84,18 +84,6 @@ export default function NavHeader() {
                     color: "#4e4e4e",
                     fontWeight: "400",
                   }}
-                  href="#"
-                >
-                  Find a Home
-                </MDBNavbarLink>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <MDBNavbarLink
-                  id="custom-nav-link"
-                  style={{
-                    color: "#4e4e4e",
-                    fontWeight: "400",
-                  }}
                   href="/LoanProducts"
                 >
                   Loan Products
@@ -113,7 +101,7 @@ export default function NavHeader() {
                   Resources
                 </MDBNavbarLink>
               </MDBNavbarItem>
-              <MDBNavbarItem>
+              {/* <MDBNavbarItem>
                 <MDBNavbarLink
                   id="custom-nav-link"
                   style={{
@@ -124,7 +112,7 @@ export default function NavHeader() {
                 >
                   Media
                 </MDBNavbarLink>
-              </MDBNavbarItem>
+              </MDBNavbarItem> */}
               <MDBNavbarItem>
                 <MDBNavbarLink
                   id="custom-nav-link"

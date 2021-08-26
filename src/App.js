@@ -11,6 +11,7 @@ import {
   Team,
   Media,
   TeamBio,
+  Policies,
   AbigailD,
   ArielC,
   AshleyC,
@@ -27,6 +28,8 @@ import {
   RossR,
   RyanC,
   ShawnF,
+  PrivacyPolicy,
+  Ccpa
 } from "./pages";
 
 export default function App() {
@@ -44,6 +47,9 @@ export default function App() {
             component={() => <LoanProducts />}
           />
           <Route path="/resources" exact component={() => <Resources />} />
+          <Route path="/PrivacyPolicy" exact component={() => <PrivacyPolicy />} />
+          <Route path="/Ccpa" exact component={() => <Ccpa />} />
+          <Route path="/policies" exact component={() => <Policies />} />
           <Route path="/AbigailD" exact component={() => <AbigailD />} />
           <Route path="/ArielC" exact component={() => <ArielC />} />
           <Route path="/AshleyC" exact component={() => <AshleyC />} />

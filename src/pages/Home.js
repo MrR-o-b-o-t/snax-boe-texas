@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useEffect } from "react";
 import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
 
 import house from "../images/Bank-of-England-House-Illustration.png";
@@ -7,9 +7,61 @@ import signing from "../images/Bank-of-England-Signing.jpg";
 import Reviews from "../components/Reviews";
 import LoanCards from "../components/LoanCards";
 import LightBanner from "../components/LightBanner";
+import VideoTest from "../components/VideoTest";
+import ClientTest from "../components/ClientTest"
+
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function Home() {
+
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const element = ref.current;
+    gsap.fromTo(
+      element.querySelector("#move"),
+      {
+        opacity: -9,
+        y: 240,
+      },
+      {
+        opacity: 4,
+        y: -50,
+        scrollTrigger: {
+          trigger: element.querySelector("#here"),
+          start: "top top",
+          end: "bottom center",
+          scrub: true,
+        },
+      }
+    );
+  }, []);
+
+  useEffect(() => {
+    const element = ref.current;
+    gsap.fromTo(
+      element.querySelector("#ma__banner__house"),
+      {
+        opacity: 1,
+        x: 450,
+      },
+      {
+        opacity: 1,
+        x: 0,
+        scrollTrigger: {
+          trigger: element.querySelector("#here"),
+          start: "top center",
+          end: "bottom center",
+          scrub: true,
+        },
+      }
+    );
+  }, []);
+  
   return (
+    <div>
     <MDBContainer fluid style={{maxWidth:'2000px'}}>
       <MDBContainer
         className=""
@@ -48,7 +100,8 @@ export default function Home() {
                   width: "300px",
                   fontSize: "16px",
                 }}
-                href="https://boetexas.floify.com/apply-now"
+                target="_blank"
+                href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               >
                 Apply For Home Purchase
               </MDBBtn>
@@ -62,7 +115,8 @@ export default function Home() {
                   width: "300px",
                   fontSize: "16px",
                 }}
-                href="#"
+                target="_blank"
+                href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
               >
                 Apply For Refinance
               </MDBBtn>
@@ -114,6 +168,8 @@ export default function Home() {
                 tag="a"
                 rippleColor="success"
                 className="m-2"
+                href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                target="_blank"
                 style={{
                   color: "grey",
                   fontWeight: "600",
@@ -128,18 +184,20 @@ export default function Home() {
             </div>
           </MDBCol>
         </MDBRow>
+        <ClientTest />
+        <LoanCards />
       </MDBContainer>
-      <LoanCards />
       <MDBContainer
         style={{ backgroundColor: "#4e4e4e", maxWidth: "2500px" }}
         className="mt-5 mb-5"
+        ref={ref}
       >
         <MDBRow
           className="d-flex justify-content-center align-items-center p-5"
           style={{ color: "white" }}
         >
           <MDBCol sm="4">
-            <h1 style={{ fontWeight: "bold" }}>
+            <h1 style={{ fontWeight: "bold" }} id="move">
               Your Mortgage Approval Starts Here
             </h1>
             <p>
@@ -149,7 +207,8 @@ export default function Home() {
             <MDBBtn
               tag="a"
               rippleColor="success"
-              href="https://boetexas.floify.com/apply-now"
+              href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+              target="_blank"
               style={{
                 color: "black",
                 fontWeight: "600",
@@ -162,11 +221,12 @@ export default function Home() {
             </MDBBtn>
           </MDBCol>
           <MDBCol sm="4" className="text-center">
-            <img src={house} class="img-fluid" />
+            <img src={house} class="img-fluid" id="ma__banner__house"  />
           </MDBCol>
         </MDBRow>
       </MDBContainer>
       <Reviews />
       </MDBContainer>
+      </div>
   );
 }

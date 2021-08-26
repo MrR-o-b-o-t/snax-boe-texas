@@ -6,6 +6,9 @@ export { default as Resources } from "./Resources";
 export { default as Team } from "./Team";
 export { default as Media } from "./Media";
 export { default as TeamBio } from "./TeamBio";
+export { default as Policies } from "./Policies"
+export { default as PrivacyPolicy } from "./PrivacyPolicy"
+export { default as Ccpa } from "./Ccpa"
 
 // Individual landing pages for team members
 export { default as AbigailD } from "./teamLandings/AbigailD";

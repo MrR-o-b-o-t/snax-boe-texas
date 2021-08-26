@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useEffect } from "react";
 import {
   MDBBtn,
   MDBContainer,
@@ -9,6 +9,8 @@ import {
   MDBStepperHead,
   MDBStepperContent,
 } from "mdb-react-ui-kit";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import house from "../images/Bank-of-England-House-Illustration.png";
 import customer1 from "../images/Bank-of-England-Customer.jpg";
@@ -19,17 +21,63 @@ import Calculators from "../components/Calculators";
 import DosDontsFlip from "../components/DosDontsFlip";
 
 export default function Resources() {
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const element = ref.current;
+    gsap.fromTo(
+      element.querySelector("#move"),
+      {
+        opacity: 0,
+        y: -340,
+      },
+      {
+        opacity: 1,
+        y: -10,
+        scrollTrigger: {
+          trigger: element.querySelector("#here"),
+          start: "top center",
+          end: "center center",
+          scrub: true,
+        },
+      }
+    );
+  }, []);
+
+  useEffect(() => {
+    const element = ref.current;
+    gsap.fromTo(
+      element.querySelector("#ma__banner__house"),
+      {
+        opacity: 1,
+        x: 640,
+      },
+      {
+        opacity: 1,
+        x: 140,
+        scrollTrigger: {
+          trigger: element.querySelector("#ma__banner__house__1"),
+          start: "top center",
+          end: "center center",
+          scrub: true,
+        },
+      }
+    );
+  }, []);
+
   return (
-    <>
+    <div ref={ref}>
       <MDBContainer
         className=""
         style={{ maxWidth: "2500px", marginTop: "100px" }}
+        ref={ref}
       >
         <MDBRow className="g-2" style={{ maxWidth: "2500px" }}>
           <MDBCol lg="6" className="user-select-none mb-3">
             <div style={{ paddingLeft: "15px" }}>
               <h1
-                class="text-md-start"
+                className="text-md-start"
                 style={{ fontWeight: "bold", color: "black" }}
               >
                 <div
@@ -44,7 +92,7 @@ export default function Resources() {
                 We take pride in being there when our borrowers need us, day and
                 night.
               </h1>
-              <h5 class="text-left">
+              <h5 className="text-left">
                 Our mission is to deliver total value to our customers.
               </h5>
             </div>
@@ -58,6 +106,7 @@ export default function Resources() {
                   padding: "20px",
                   fontSize: "16px",
                 }}
+                href="/Contact"
               >
                 Contact Us
               </MDBBtn>
@@ -84,9 +133,10 @@ export default function Resources() {
         <MDBRow
           className="d-flex justify-content-center align-items-center p-5"
           style={{ color: "white" }}
+          id="ma__banner__house_1"
         >
           <MDBCol sm="4">
-            <h1 style={{ fontWeight: "bold" }}>
+            <h1 style={{ fontWeight: "bold" }} id="move">
               Your Mortgage Approval Starts Here
             </h1>
             <p>
@@ -103,12 +153,14 @@ export default function Resources() {
                 padding: "15px 20px 15px 20px",
                 fontSize: "14px",
               }}
+              href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+              target="_blank"
             >
               Start My Approval
             </MDBBtn>
           </MDBCol>
           <MDBCol sm="4" className="text-center">
-            <img src={house} class="img-fluid" />
+            <img src={house} class="img-fluid" id="ma__banner__house" />
           </MDBCol>
         </MDBRow>
       </MDBContainer>
@@ -187,6 +239,6 @@ export default function Resources() {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-    </>
+    </div>
   );
 }

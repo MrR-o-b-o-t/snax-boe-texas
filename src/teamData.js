@@ -24,7 +24,7 @@ export const teamData = [
     photo: david,
   },
   {
-    name: "Abigail Dawson",
+    name: "Abby Dawson",
     email: "abigail@boetexas.com",
     bio: "",
     phone: "(214) 483-9201",
@@ -52,7 +52,7 @@ export const teamData = [
     photo: christopher,
   },
   {
-    name: "Deborah Byrd",
+    name: "Deb Byrd",
     email: "deborahbyrd@boemortgage.com",
     bio: "",
     phone: "(214) 717-3483",
@@ -60,7 +60,7 @@ export const teamData = [
   },
   {
     name: "Erin Waddell",
-    email: "infonow@boetexas.com",
+    email: "ewaddell@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: erin,
@@ -110,13 +110,13 @@ export const teamData = [
   {
     name: "Ross Rhodes",
     email: "rrhodes@boemortgage.com",
-    bio: "",
+    bio: "My name is Ross Rhodes. I relocated to Frisco, Texas from Memphis, Tennessee years back. I graduated from the University of North Texas. My wife and I live in Celina and had our first daughter in July of 2021. I am an avid golfer and have been playing ever since I could walk! I am obsessed with customer service and look forward to helping you purchase or refinance your home!",
     phone: "(214) 717-3483",
     photo: ross,
   },
   {
-    name: "Ryan Crain",
-    email: "infonow@boetexas.com",
+    name: "Ryann Crain",
+    email: "rcrain@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: ryan,

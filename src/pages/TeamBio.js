@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 
 import {
   MDBCard,
@@ -13,7 +13,7 @@ import {
   MDBAnimation,
   MDBBtn,
   MDBIcon,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
 import { teamData } from "../teamData";
 
@@ -28,14 +28,14 @@ export default function TeamBio() {
   {
     teamData.map((data) => {
       if (data.name === localStorage.getItem("tm")) {
-        return(
-            phone1 = data.phone,
-            bio1 = data.bio,
-            email1 = data.email,
-            photo1 = data.photo
+        return (
+          (phone1 = data.phone),
+          (bio1 = data.bio),
+          (email1 = data.email),
+          (photo1 = data.photo)
         )
       }
-    });
+    })
   }
 
   return (
@@ -54,7 +54,7 @@ export default function TeamBio() {
             className="h-100"
             style={{ maxWidth: "44rem" }}
           >
-            <MDBCardImage src={photo1} alt="David Restrepo" position="top" />
+            <MDBCardImage src={photo1} alt="Team Members" position="top" />
             <MDBCardBody className="text-center">
               <MDBCardText>
                 <MDBBtn
@@ -118,5 +118,5 @@ export default function TeamBio() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-  );
+  )
 }

@@ -24,18 +24,8 @@ export default function Media() {
         </MDBRow>
       </MDBContainer>
       <MDBContainer fluid>
-        <MDBRow className="row-cols-1 row-cols-lg-3 g-1 mt-5">
-          <MDBCol>
-            <div className="ratio ratio-16x9">
-              <iframe
-                onClick={handleClick}
-                src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                title="YouTube video"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </MDBCol>
-          <MDBCol>
+        <MDBRow className="g-1 mt-5">
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -44,7 +34,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -53,7 +43,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -62,7 +52,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -71,7 +61,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -80,7 +70,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -89,7 +79,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -98,7 +88,16 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
+            <div className="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                title="YouTube video"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://www.youtube.com/embed/vlDzYIIOYmM"

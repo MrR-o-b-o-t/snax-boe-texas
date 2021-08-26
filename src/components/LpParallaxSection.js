@@ -152,6 +152,8 @@ export default function LpParallaxSection() {
                   <MDBBtn
                     rippleColor="success"
                     color="white"
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                     style={{
                       color: "black",
                       fontWeight: "600",
@@ -227,6 +229,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -295,6 +299,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -362,6 +368,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -429,6 +437,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -496,6 +506,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
