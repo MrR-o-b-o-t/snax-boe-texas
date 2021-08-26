@@ -70,19 +70,13 @@ export default function MpcModal() {
             </MDBModalBody>
             <MDBModalFooter>
               <MDBBtn
-                style={{
-                  fontWeight: "400",
-                  fontSize: "16px",
-                }}
+                id="m__btn"
                 onClick={() => setScrollableModal(!setScrollableModal)}
               >
                 Submit
               </MDBBtn>
               <MDBBtn
-                style={{
-                  fontWeight: "400",
-                  fontSize: "16px",
-                }}
+                id="m__btn"
                 onClick={() => setScrollableModal(!setScrollableModal)}
               >
                 Close
