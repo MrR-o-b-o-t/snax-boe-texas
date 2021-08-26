@@ -230,3 +230,7 @@ form select {
   background-image: none;
   margin-right: -230px;
 }
+
+.modal.fade .modal-dialog{
+  padding-top: 45%;
+}

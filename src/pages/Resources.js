@@ -30,7 +30,7 @@ export default function Resources() {
       element.querySelector("#move"),
       {
         opacity: 0,
-        y: -340,
+        y: -240,
       },
       {
         opacity: 1,
@@ -50,15 +50,15 @@ export default function Resources() {
     gsap.fromTo(
       element.querySelector("#ma__banner__house"),
       {
-        opacity: 1,
-        x: 640,
+        opacity: 0,
+        x: 250,
       },
       {
         opacity: 1,
-        x: 140,
+        x: 50,
         scrollTrigger: {
           trigger: element.querySelector("#ma__banner__house__1"),
-          start: "top center",
+          start: "top top",
           end: "center center",
           scrub: true,
         },
@@ -136,7 +136,7 @@ export default function Resources() {
           style={{ color: "white" }}
           id="ma__banner__house_1"
         >
-          <MDBCol sm="4">
+          <MDBCol md="4">
             <h1 style={{ fontWeight: "bold" }} id="move">
               Your Mortgage Approval Starts Here
             </h1>
@@ -153,7 +153,7 @@ export default function Resources() {
               Start My Approval
             </MDBBtn>
           </MDBCol>
-          <MDBCol sm="4" className="text-center">
+          <MDBCol md="4" className="text-center">
             <img src={house} class="img-fluid" id="ma__banner__house" />
           </MDBCol>
         </MDBRow>
