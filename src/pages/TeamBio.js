@@ -64,8 +64,8 @@ export default function TeamBio() {
                 >
                   <MDBBtn
                     id="s__btn"
-                    href=""
                     target="_blank"
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
                     color="secondary"
                     className="p-4"
                   >
@@ -85,13 +85,25 @@ export default function TeamBio() {
         </MDBCol>
         <MDBCol className="m-auto text-center">
           <h3>Email Address:</h3>
-          <h5 className="mb-4" href="">
-            {email1}
-          </h5>
-          <h3>Phone Number:</h3>
-          <h5 className="mb-4">{phone1}</h5>
+          <a
+            id="footer__contact__section"
+            href={`mailto:${email1}`}
+            target="_blank"
+          >
+            <h5 className="mb-4">{email1}</h5>
+          </a>
+          <h3 href="">Phone Number:</h3>
+          <a id="footer__contact__section" href={`tel:1${phone1}`}>
+            <h5 className="mb-4">{phone1}</h5>
+          </a>
           <h3>Address:</h3>
-          <h5>17250 Dallas Parkway Dallas, TX 75248</h5>
+          <a
+            id="footer__contact__section"
+            href="https://g.page/BOETEXAS?share"
+            target="_blank"
+          >
+            <h5>17250 Dallas Parkway Dallas, TX 75248</h5>
+          </a>
         </MDBCol>
       </MDBRow>
     </MDBContainer>
