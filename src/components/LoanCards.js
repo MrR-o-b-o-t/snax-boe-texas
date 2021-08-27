@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBRow,
   MDBCol,
@@ -8,13 +8,16 @@ import {
   MDBCardText,
   MDBContainer,
   MDBAnimation,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
 export default function LoanCards() {
   return (
     <>
-    {/* LoanCards for desktop displays (Animations included) */}
-      <MDBContainer className="d-none d-md-block overflow-hidden pb-4" id="loanCards">
+      {/* LoanCards for desktop displays (Animations included) */}
+      <MDBContainer
+        className="d-none d-md-block overflow-hidden pb-4"
+        id="loanCards"
+      >
         <MDBRow>
           <MDBCol sm="12" className="text-center mt-4 mb-4">
             <h2 style={{ fontWeight: "bold", color: "black" }}>
@@ -35,7 +38,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody tag="a" href="/LoanProducts">
+                <MDBCardBody>
                   <MDBCardTitle>Conventional</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A conventional mortgage or conventional loan is a home
@@ -60,7 +63,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody tag="a" href="/LoanProducts">
+                <MDBCardBody>
                   <MDBCardTitle>FHA</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A Federal Housing Administration (FHA) loan is a mortgage
@@ -86,7 +89,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody tag="a" href="/LoanProducts" >
+                <MDBCardBody>
                   <MDBCardTitle>VA</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A VA loan is a mortgage loan available through a program
@@ -113,7 +116,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody tag="a" href="/LoanProducts">
+                <MDBCardBody>
                   <MDBCardTitle>USDA</MDBCardTitle>
                   <MDBCardText class="text-start">
                     USDA home loans open up the dream of owning a home to people
@@ -138,7 +141,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody tag="a" href="/LoanProducts">
+                <MDBCardBody>
                   <MDBCardTitle>BOND</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A mortgage revenue bond (MRB) is a type of municipal bond
@@ -163,7 +166,7 @@ export default function LoanCards() {
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
-                <MDBCardBody tag="a" href="/LoanProducts">
+                <MDBCardBody>
                   <MDBCardTitle>JUMBO</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A jumbo loan is a type of financing that exceeds the limits
@@ -179,7 +182,7 @@ export default function LoanCards() {
         </MDBRow>
       </MDBContainer>
 
-{/* LoanCards for mobile displays (Animations removed) */}
+      {/* LoanCards for mobile displays (Animations removed) */}
       <MDBContainer className="d-md-none overflow-hidden pb-4">
         <MDBRow>
           <MDBCol sm="12" className="text-center mt-4 mb-4">
@@ -301,5 +304,5 @@ export default function LoanCards() {
         </MDBRow>
       </MDBContainer>
     </>
-  );
+  )
 }

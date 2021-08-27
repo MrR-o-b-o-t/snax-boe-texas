@@ -62,6 +62,7 @@ export default function Contact() {
               />
               <div className="text-center mt-4">
                 <MDBBtn
+                  id="m__btn"
                   color="primary"
                   size="lg"
                   className="m-2"
@@ -91,7 +92,7 @@ export default function Contact() {
                   icon="phone"
                   style={{ color: "#215732" }}
                 />
-                (214) 396-6450
+                <a href="tel:+12143966450">214-396-6450</a>
               </div>
             </MDBRow>
             <MDBRow className="m-3" style={{ textAlign: "center" }}>
@@ -101,7 +102,7 @@ export default function Contact() {
                   icon="envelope"
                   style={{ color: "#215732" }}
                 />
-                infoNow@BOEtexas.com
+                <a href="mailto:name@email.com">InfoNow@BOETexas.com</a>
               </div>
             </MDBRow>
             <MDBRow className="m-3 mb-3" style={{ textAlign: "center" }}>
@@ -111,7 +112,9 @@ export default function Contact() {
                   icon="map-marker-alt"
                   style={{ color: "#215732" }}
                 />
-                17250 Dallas Parkway Dallas, TX 75248
+                <a href="https://g.page/BOETEXAS?share" target="_blank">
+                  17250 Dallas Parkway Dallas, TX 75248
+                </a>
               </div>
             </MDBRow>
           </MDBCol>

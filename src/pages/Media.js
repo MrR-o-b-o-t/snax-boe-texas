@@ -30,8 +30,8 @@ export default function Media() {
         </MDBRow>
       </MDBContainer>
       <MDBContainer fluid>
-        <MDBRow className="row-cols-1 row-cols-lg-3 g-1 mt-5">
-          <MDBCol>
+        <MDBRow className="g-1 mt-5">
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 onClick={handleClick}
@@ -650,7 +650,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/Who-is-Deborah-Byrd.mp4"
@@ -659,7 +659,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/Why_do_you_enjoy_the_workspace_Cory_Rice.mp4"
@@ -668,7 +668,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/Why_do_you_like_BOE_David_Restrepo_1.mp4"
@@ -677,7 +677,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/Why_do_you_like_it.mp4"
@@ -686,7 +686,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/Why_do_you_like_mortgages_Ross_Rhodes.mp4"
@@ -695,7 +695,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/How_did_you_get_started_Cory_Rice.mp4"
@@ -704,7 +704,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/Why_have_a_unique_office_Shawn_Fehily.mp4"
@@ -713,7 +713,7 @@ export default function Media() {
               ></iframe>
             </div>
           </MDBCol>
-          <MDBCol>
+          <MDBCol lg="4">
             <div className="ratio ratio-16x9">
               <iframe
                 src="https://boeassets.com/videos/boetexas/Why_Mortgages_Ariel_Carballo.mp4"

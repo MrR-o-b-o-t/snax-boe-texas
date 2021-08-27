@@ -17,18 +17,15 @@ import {
 
 import { teamData } from "../teamData"
 
-export default function DavidR() {
+export default function TeamBio() {
   let bio1 = ""
   let phone1 = ""
   let email1 = ""
   let photo1
-
-  console.log(localStorage.getItem("tm")) || "Not available"
   const name = localStorage.getItem("tm")
 
   {
     teamData.map((data) => {
-      console.log(data.name)
       if (data.name === localStorage.getItem("tm")) {
         return (
           (phone1 = data.phone),
@@ -56,7 +53,7 @@ export default function DavidR() {
             className="h-100"
             style={{ maxWidth: "44rem" }}
           >
-            <MDBCardImage src={photo1} alt="David Restrepo" position="top" />
+            <MDBCardImage src={photo1} alt="Team Members" position="top" />
             <MDBCardBody className="text-center">
               <MDBCardText>
                 <MDBBtn
@@ -88,6 +85,7 @@ export default function DavidR() {
                   duration={1500}
                 >
                   <MDBBtn
+                    id="s__btn"
                     color="secondary"
                     className="p-4"
                     style={{

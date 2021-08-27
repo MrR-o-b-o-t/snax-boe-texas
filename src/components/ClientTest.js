@@ -13,11 +13,17 @@ export default function ClientTest() {
       <h1 className="text-center mb-4 mt-3" style={{ fontWeight: "600" }}>
         See why our clients love working with us
       </h1>
-      <MDBCarousel showControls showIndicators fade interval={false}>
+      <MDBCarousel
+        showControls
+        showIndicators
+        fade
+        interval={false}
+        id="client__test__video"
+      >
         <MDBCarouselInner interval={false}>
           <MDBCarouselItem itemId={0} interval={false}>
             <MDBCarouselElement />
-            <div className="ratio ratio-16x9">
+            <div className="ratio ratio-21x9">
               <iframe
                 src="https://player.vimeo.com/video/592288789?h=c9ded79ce1"
                 title="YouTube video"
@@ -28,7 +34,7 @@ export default function ClientTest() {
 
           <MDBCarouselItem itemId={1} interval={false}>
             <MDBCarouselElement />
-            <div className="ratio ratio-16x9">
+            <div className="ratio ratio-21x9">
               <iframe
                 src="https://player.vimeo.com/video/592294469?h=82f1b7e6a5"
                 title="YouTube video"

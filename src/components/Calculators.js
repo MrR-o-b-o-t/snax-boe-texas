@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import MpcModal from "../components/MpcModal"
+import LacModal from "../components/LacModal"
 
 export default function Calculators() {
   return (
@@ -22,41 +24,15 @@ export default function Calculators() {
         <MDBCol md="5" className="" >
             <MDBRow>
             <MDBCol md="12" className="text-center m-2">
-        <MDBBtn
-            rippleColor="success"
-            color="white"
-            style={{
-              color: "black",
-              fontWeight: "600",
-              backgroundColor: "white",
-              padding: "15px 20px 15px 20px",
-              fontSize: "14px",
-              minWidth:"220px"
-            }}
-          >
-            Mortgage Payment
-          </MDBBtn>
+              <MpcModal/>
           </MDBCol>
           </MDBRow>
           <MDBRow>
           <MDBCol md="12" className="text-center m-2">
-          <MDBBtn
-            rippleColor="success"
-            color="white"
-            style={{
-              color: "black",
-              fontWeight: "600",
-              backgroundColor: "white",
-              padding: "15px 20px 15px 20px",
-              fontSize: "14px",
-              minWidth:"220px"
-            }}
-          >
-            Loan Affordability
-          </MDBBtn>
+              <LacModal/>
           </MDBCol>
           </MDBRow>
-          <MDBRow>
+          {/* <MDBRow>
           <MDBCol md="12" className="text-center m-2">
           <MDBBtn
             rippleColor="success"
@@ -73,7 +49,7 @@ export default function Calculators() {
             Rent vs Buy
           </MDBBtn>
           </MDBCol>
-          </MDBRow>
+          </MDBRow> */}
         </MDBCol>
       </MDBRow>
     </MDBContainer>

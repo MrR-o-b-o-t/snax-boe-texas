@@ -8,7 +8,7 @@ import {
   MDBInput,
   MDBIcon,
 } from "mdb-react-ui-kit"
-import equalHousingLending from "../images/equal-housing-lender.png"
+import equalHousingLending from "../images/boeLogo.png"
 
 export default function App() {
   return (
@@ -39,10 +39,16 @@ export default function App() {
                 <li>
                   <h5>Contact</h5>
                 </li>
-                <li>214-396-6450</li>
-                <li>infonow@boetexas.com</li>
-                <li>17250 Dallas Parkway</li>
-                <li>Dallas, TX 75248</li>
+                <li>
+                  <a href="tel:+12143966450">214-396-6450</a>
+                </li>
+                <li>
+                  <a href="mailto:name@email.com">InfoNow@BOETexas.com</a>
+                </li>
+                <a href="https://g.page/BOETEXAS?share" target="_blank">
+                  <li>17250 Dallas Parkway</li>
+                  <li>Dallas, TX 75248</li>
+                </a>
               </MDBTypography>
             </div>
           </MDBCol>
@@ -54,7 +60,7 @@ export default function App() {
                   <h5>Contact</h5>
                 </li>
                 <li>214-396-6450</li>
-                <li>infonow@boetexas.com</li>
+                <li>InfoNow@BOETexas.com</li>
                 <li>17250 Dallas Parkway</li>
                 <li>Dallas, TX 75248</li>
               </MDBTypography>
@@ -64,20 +70,56 @@ export default function App() {
           <MDBCol lg="6" md="12" className="mb-4 mb-md-0 text-center">
             <h5 className="">Resources</h5>
             <MDBTypography listInLine className="mb-0">
-              <li className="list-inline-item">Privacy Links</li>
-              <li className="list-inline-item">CCPA Policy</li>
-              <li className="list-inline-item">Web Analytics Policy</li>
-              <li className="list-inline-item">Security</li>
-              <li className="list-inline-item">Preventing Identity Theft</li>
-              <li className="list-inline-item">USA Patriot Act</li>
+              <li className="list-inline-item">
+                <a href="/PrivacyPolicy">Privacy Links</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/Ccpa">CCPA Policy</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/Policies/#web__policy">Web Analytics Policy</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/Policies/#security">Security</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/Policies/#identity__theft">
+                  Preventing Identity Theft
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="/Policies/#patriot__act">USA Patriot Act</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://continentalcredit.com/" target="_blank">
+                  Credit Counciling
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://www.nmlsconsumeraccess.org/" target="_blank">
+                  NMLS Identifier
+                </a>
+              </li>
             </MDBTypography>
             <h5 className="" style={{ paddingTop: "20px" }}>
               Credit Bereaus
             </h5>
             <MDBTypography listInLine className="mb-0">
-              <li className="list-inline-item">Experian</li>
-              <li className="list-inline-item">Equifax</li>
-              <li className="list-inline-item">TransUnion</li>
+              <li className="list-inline-item">
+                <a href="https://www.experian.com/" target="_blank">
+                  Experian
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://www.equifax.com/personal/" target="_blank">
+                  Equifax
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="https://www.transunion.com/" target="_blank">
+                  TransUnion
+                </a>
+              </li>
             </MDBTypography>
           </MDBCol>
           <MDBCol lg="3">
@@ -133,6 +175,47 @@ export default function App() {
               or you are having difficulty using our website to apply for a
               loan, please contact us at (214) 396-6450. This contact
               information is for accommodation requests only.
+            </p>
+          </MDBCol>
+        </MDBRow>
+        <MDBRow
+          className=""
+          style={{
+            backgroundColor: "#4e4e4e",
+            color: "white",
+            paddingTop: "20px",
+          }}
+        >
+          <MDBCol
+            md="12"
+            className="d-flex align-items-center justify-content-center"
+          >
+            <p>
+              Bank of England Mortgage is a division of 
+              <a
+                href="http://www.bankofengland-ar.com/"
+                target="_blank"
+                style={{ color: "white", textDecoration: "underline" }}
+              >
+                Bank of England
+              </a>{" "}
+              and is not affiliated with any government agency. NMLS 418481. {" "}
+              <a
+                href="https://research.fdic.gov/bankfind/detail.html?bank=13303&name=Bank+of+England&tabId=3&searchName=Bank+of+England"
+                target="_blank"
+                style={{ color: "white", textDecoration: "underline" }}
+              >
+                Member FDIC
+              </a>
+              .
+            </p>
+          </MDBCol>
+          <MDBCol
+            md="12"
+            className="d-flex align-items-center justify-content-center"
+          >
+            <p>
+              © 2021 Bank of England Mortgage Marketing. All Rights Reserved.
             </p>
           </MDBCol>
         </MDBRow>

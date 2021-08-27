@@ -17,24 +17,28 @@ export default function HbGuide() {
           <h1 className="mb-3 text-center">
             Purchasing a home is the larget investment you can make
           </h1>
-          <div className="d-flex align-items-center justify-content-center">
+        </MDBCol>
+        <div className="d-flex align-items-center justify-content-center">
+          <MDBCol sm="12">
             <MDBAnimation
               animation="slide-in-left"
               start="onLoad"
               duration={1500}
             >
-              <h2 className="text-center mx-2">We are with you</h2>
+              <h2 className="text-end mx-2 text-nowrap">We are with you</h2>
             </MDBAnimation>
+          </MDBCol>
+          <MDBCol sm="12">
             <MDBAnimation
               animation="fade-in"
               start="onLoad"
               duration={1500}
               delay={1500}
             >
-              <h2>every step of the way</h2>
+              <h2 className="text-nowrap">every step of the way</h2>
             </MDBAnimation>
-          </div>
-        </MDBCol>
+          </MDBCol>
+        </div>
       </MDBRow>
       <HbAccordian />
     </MDBContainer>

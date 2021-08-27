@@ -9,6 +9,9 @@ import {
   MDBIcon,
   MDBNavbarBrand,
   MDBCollapse,
+  MDBNavbar,
+  MDBBtn,
+  MDBRow,
 } from "mdb-react-ui-kit"
 
 export default function NavHeader() {
@@ -23,7 +26,7 @@ export default function NavHeader() {
         style={{ backgroundColor: "white" }}
       >
         <MDBContainer fluid>
-          <MDBNavbarBrand href="#">
+          <MDBNavbarBrand href="/">
             <img
               src="https://www.boetexas.com/assets/images/header/BOELogo1.png"
               style={{ width: "120px", height: "50px" }}
@@ -98,7 +101,7 @@ export default function NavHeader() {
                   Resources
                 </MDBNavbarLink>
               </MDBNavbarItem>
-              <MDBNavbarItem>
+              {/* <MDBNavbarItem>
                 <MDBNavbarLink
                   id="custom-nav-link"
                   style={{
@@ -109,7 +112,7 @@ export default function NavHeader() {
                 >
                   Media
                 </MDBNavbarLink>
-              </MDBNavbarItem>
+              </MDBNavbarItem> */}
               <MDBNavbarItem>
                 <MDBNavbarLink
                   id="custom-nav-link"

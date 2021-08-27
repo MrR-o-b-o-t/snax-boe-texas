@@ -8,6 +8,7 @@
     "@fullpage/react-fullpage": "^0.1.19",
     "@reduxjs/toolkit": "^1.6.1",
     "google-map-react": "^2.1.10",
+    "gsap": "^3.7.1",
     "mdb-react-ui-kit": "./mdb-react-ui-kit-1.0.0.tgz",
     "react": "17.0.1",
     "react-dom": "17.0.1",

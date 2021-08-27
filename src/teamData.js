@@ -110,7 +110,7 @@ export const teamData = [
   {
     name: "Ross Rhodes",
     email: "rrhodes@boemortgage.com",
-    bio: "",
+    bio: "My name is Ross Rhodes. I relocated to Frisco, Texas from Memphis, Tennessee years back. I graduated from the University of North Texas. My wife and I live in Celina and had our first daughter in July of 2021. I am an avid golfer and have been playing ever since I could walk! I am obsessed with customer service and look forward to helping you purchase or refinance your home!",
     phone: "(214) 717-3483",
     photo: ross,
   },

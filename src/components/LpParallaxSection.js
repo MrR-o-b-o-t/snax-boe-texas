@@ -1,20 +1,20 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBBtn,
   MDBContainer,
   MDBRow,
   MDBCol,
   MDBAnimation,
-} from "mdb-react-ui-kit";
-import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+} from "mdb-react-ui-kit"
+import { Parallax, ParallaxProvider } from "react-scroll-parallax"
 
-import img1 from "../images/Bank-of-England-Customer.jpg";
-import img2 from "../images/lp-2.jpg";
-import img3 from "../images/lp-3.jpg";
-import img4 from "../images/lp-4.jpg";
-import img5 from "../images/lp-5.jpg";
-import img6 from "../images/lp-6.jpg";
-import img7 from "../images/lp-7.jpg";
+import img1 from "../images/Bank-of-England-Customer.jpg"
+import img2 from "../images/lp-2.jpg"
+import img3 from "../images/lp-3.jpg"
+import img4 from "../images/lp-4.jpg"
+import img5 from "../images/lp-5.jpg"
+import img6 from "../images/lp-6.jpg"
+import img7 from "../images/lp-7.jpg"
 
 export default function LpParallaxSection() {
   return (
@@ -147,11 +147,15 @@ export default function LpParallaxSection() {
               <MDBCol md="4" className="text-center">
                 <div>
                   <p className="p-0 m-1">Contact us today to get started</p>
-                  <p className="p-0 m-1">214-396-6450</p>
+                  <p className="p-0 m-1">
+                    <a href="tel:+12143966450">214-396-6450</a>
+                  </p>
                   <p className="p-0 m-1">or</p>
                   <MDBBtn
                     rippleColor="success"
                     color="white"
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                     style={{
                       color: "black",
                       fontWeight: "600",
@@ -227,6 +231,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -295,6 +301,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -362,6 +370,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -429,6 +439,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -496,6 +508,8 @@ export default function LpParallaxSection() {
                       fontSize: "12px",
                       border: "2px solid grey",
                     }}
+                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    target="_blank"
                   >
                     Start an Application
                   </MDBBtn>
@@ -506,5 +520,5 @@ export default function LpParallaxSection() {
         </MDBRow>
       </MDBContainer>
     </ParallaxProvider>
-  );
+  )
 }
