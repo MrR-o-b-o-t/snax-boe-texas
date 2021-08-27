@@ -15,7 +15,7 @@ export default function HbGuide() {
       <MDBRow>
         <MDBCol className="mt-5 mb-3">
           <h1 className="mb-3 text-center">
-            Purchasing a home is the larget investment you can make
+            Purchasing a home is the largest investment you can make
           </h1>
         </MDBCol>
         <div className="d-flex align-items-center justify-content-center">

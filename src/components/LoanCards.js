@@ -34,7 +34,7 @@ export default function LoanCards() {
               className="h-100"
             >
               <MDBCard
-                style={{ padding: "10px" }}
+                style={{ padding: "10px", cursor: "default" }}
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
@@ -85,7 +85,7 @@ export default function LoanCards() {
               className="h-100"
             >
               <MDBCard
-                style={{ padding: "10px" }}
+                style={{ padding: "10px", cursor: "default" }}
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
@@ -112,7 +112,7 @@ export default function LoanCards() {
               className="h-100"
             >
               <MDBCard
-                style={{ padding: "10px", height: "23vh" }}
+                style={{ padding: "10px", height: "23vh", cursor: "default" }}
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
@@ -137,7 +137,7 @@ export default function LoanCards() {
               className="h-100"
             >
               <MDBCard
-                style={{ padding: "10px", height: "23vh" }}
+                style={{ padding: "10px", height: "23vh", cursor: "default" }}
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
@@ -162,7 +162,7 @@ export default function LoanCards() {
               className="h-100"
             >
               <MDBCard
-                style={{ padding: "10px", height: "23vh" }}
+                style={{ padding: "10px", height: "23vh", cursor: "default" }}
                 alignment="center"
                 className="h-100 shadow-4-strong"
               >
@@ -194,7 +194,7 @@ export default function LoanCards() {
         <MDBRow className="row-cols-1 row-cols-md-3 g-4">
           <MDBCol md="4">
             <MDBCard
-              style={{ padding: "10px" }}
+              style={{ padding: "10px", cursor: "default" }}
               alignment="center"
               className="h-100 shadow-4-strong"
             >
@@ -230,7 +230,7 @@ export default function LoanCards() {
           </MDBCol>
           <MDBCol md="4">
             <MDBCard
-              style={{ padding: "10px" }}
+              style={{ padding: "10px", cursor: "default" }}
               alignment="center"
               className="h-100 shadow-4-strong"
             >
@@ -250,7 +250,7 @@ export default function LoanCards() {
         <MDBRow className="row-cols-1 row-cols-md-3 g-4 mt-3">
           <MDBCol md="4">
             <MDBCard
-              style={{ padding: "10px", height: "23vh" }}
+              style={{ padding: "10px", height: "23vh", cursor: "default" }}
               alignment="center"
               className="h-100 shadow-4-strong"
             >
@@ -268,7 +268,7 @@ export default function LoanCards() {
           </MDBCol>
           <MDBCol md="4">
             <MDBCard
-              style={{ padding: "10px", height: "23vh" }}
+              style={{ padding: "10px", height: "23vh", cursor: "default" }}
               alignment="center"
               className="h-100 shadow-4-strong"
             >
@@ -285,7 +285,7 @@ export default function LoanCards() {
           </MDBCol>
           <MDBCol md="4">
             <MDBCard
-              style={{ padding: "10px", height: "23vh" }}
+              style={{ padding: "10px", height: "23vh", cursor: "default" }}
               alignment="center"
               className="h-100 shadow-4-strong"
             >

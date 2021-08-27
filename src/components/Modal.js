@@ -35,6 +35,7 @@ export default function Modal() {
         show={scrollableModal}
         getOpenState={(e: any) => setScrollableModal(e)}
         tabIndex="-1"
+        id="move__checklist__modal"
       >
         <MDBModalDialog scrollable>
           <MDBModalContent>

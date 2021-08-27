@@ -236,6 +236,27 @@ form select {
 }
 
 #lpAnchor a:hover {
-  text-decoration: underline;
-  color: #4e4e4e;
+  color: #215732 !important;
+  text-shadow: 1px 0px 0.5px #215732 !important;
+}
+
+#lpAnchor a {
+  color: #4e4e4e !important;
+}
+
+.card-body {
+  cursor: default;
+}
+
+#footer__contact__section {
+  color: #4e4e4e !important;
+}
+
+#footer__contact__section:hover {
+  color: #215732 !important;
+  text-shadow: 1px 0px 3px #4e4e4e !important;
+}
+#move__checklist__modal,
+.modal.fade .modal-dialog {
+  padding-top: 0%;
 }

@@ -40,12 +40,20 @@ export default function App() {
                   <h5>Contact</h5>
                 </li>
                 <li>
-                  <a href="tel:+12143966450">214-396-6450</a>
+                  <a id="footer__contact__section" href="tel:+12143966450">
+                    214-396-6450
+                  </a>
                 </li>
                 <li>
-                  <a href="mailto:name@email.com">InfoNow@BOETexas.com</a>
+                  <a id="footer__contact__section" href="mailto:name@email.com">
+                    InfoNow@BOETexas.com
+                  </a>
                 </li>
-                <a href="https://g.page/BOETEXAS?share" target="_blank">
+                <a
+                  id="footer__contact__section"
+                  href="https://g.page/BOETEXAS?share"
+                  target="_blank"
+                >
                   <li>17250 Dallas Parkway</li>
                   <li>Dallas, TX 75248</li>
                 </a>

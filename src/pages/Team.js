@@ -57,16 +57,16 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Abby Dawson`)
+                setTeamMember(`Shawn Fehily`)
               }}
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={abby} alt="..." position="top" />
+              <MDBCardImage src={shawn} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Abby Dawson</MDBCardTitle>
+                <MDBCardTitle>Shawn Fehily</MDBCardTitle>
                 <MDBCardText>
-                  Redisdential Mortgage Loan Officer <br /> Assistant.
+                  Branch Manager <br /> NMLS# 1072210
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -82,16 +82,16 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Ariel Carballo`)
+                setTeamMember(`Marcus Lepp`)
               }}
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={ariel} alt="..." position="top" />
+              <MDBCardImage src={marcus} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Ariel Carballo</MDBCardTitle>
+                <MDBCardTitle>Marcus Lepp</MDBCardTitle>
                 <MDBCardText>
-                  Redisdential Mortgage Loan Officer <br /> Assistant.
+                  Regional Manager <br /> NMLS# 715846
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -217,7 +217,7 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Erin Waddell</MDBCardTitle>
                 <MDBCardText>
-                  Redisdential Mortgage Loan Advisor <br /> Assistant
+                  Residential Mortgage Loan Advisor <br /> Assistant
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -332,16 +332,16 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Marcus Lepp`)
+                setTeamMember(`Ariel Carballo`)
               }}
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={marcus} alt="..." position="top" />
+              <MDBCardImage src={ariel} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Marcus Lepp</MDBCardTitle>
+                <MDBCardTitle>Ariel Carballo</MDBCardTitle>
                 <MDBCardText>
-                  Regional Manager <br /> NMLS# 715846
+                  Residential Mortgage Loan Officer <br /> Assistant.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -430,16 +430,16 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Shawn Fehily`)
+                setTeamMember(`Abby Dawson`)
               }}
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={shawn} alt="..." position="top" />
+              <MDBCardImage src={abby} alt="..." position="top" />
               <MDBCardBody>
-                <MDBCardTitle>Shawn Fehily</MDBCardTitle>
+                <MDBCardTitle>Abby Dawson</MDBCardTitle>
                 <MDBCardText>
-                  Branch Manager <br /> NMLS# 1072210
+                  Residential Mortgage Loan Officer <br /> Assistant.
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
