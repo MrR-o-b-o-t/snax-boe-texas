@@ -63,14 +63,32 @@ export default function App() {
           {/* Contact column display for mobile */}
           <MDBCol lg="3" md="12" className="mt-3 mb-md-0 d-lg-none" style={{}}>
             <div className="d-flex align-items-center justify-content-center">
-              <MDBTypography listUnStyled className="mb-4 text-center">
+              <MDBTypography
+                listUnStyled
+                className="mb-0"
+                id="footer-contact-div"
+              >
                 <li>
                   <h5>Contact</h5>
                 </li>
-                <li>214-396-6450</li>
-                <li>InfoNow@BOETexas.com</li>
-                <li>17250 Dallas Parkway</li>
-                <li>Dallas, TX 75248</li>
+                <li>
+                  <a id="footer__contact__section" href="tel:+12143966450">
+                    214-396-6450
+                  </a>
+                </li>
+                <li>
+                  <a id="footer__contact__section" href="mailto:name@email.com">
+                    InfoNow@BOETexas.com
+                  </a>
+                </li>
+                <a
+                  id="footer__contact__section"
+                  href="https://g.page/BOETEXAS?share"
+                  target="_blank"
+                >
+                  <li>17250 Dallas Parkway</li>
+                  <li>Dallas, TX 75248</li>
+                </a>
               </MDBTypography>
             </div>
           </MDBCol>

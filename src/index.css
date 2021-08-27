@@ -260,3 +260,10 @@ form select {
 .modal.fade .modal-dialog {
   padding-top: 0%;
 }
+#footer-contact-div a {
+  color: #4e4e4e !important;
+}
+#footer-contact-div a:hover {
+  color: #215732 !important;
+  text-shadow: 1px 0px 3px #4e4e4e !important;
+}
