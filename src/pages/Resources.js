@@ -74,7 +74,7 @@ export default function Resources() {
         ref={ref}
       >
         <MDBRow className="g-2" style={{ maxWidth: "2500px" }}>
-          <MDBCol lg="6" className="user-select-none mb-3">
+          <MDBCol lg="5" className="user-select-none mb-3">
             <div style={{ paddingLeft: "15px" }}>
               <h1
                 className="text-md-start"
@@ -116,11 +116,11 @@ export default function Resources() {
             </div>
           </MDBCol>
           <MDBCol
-            lg="6"
+            lg="7"
             style={{
               backgroundImage: `url(${BOE1})`,
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
+              backgroundPosition: "center bottom",
               backgroundSize: "cover",
               minHeight: "40vh",
             }}
