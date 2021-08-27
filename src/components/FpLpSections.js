@@ -10,7 +10,7 @@ import {
   MDBFooter,
 } from "mdb-react-ui-kit"
 import ReactFullpage from "@fullpage/react-fullpage"
-import equalHousingLending from "../images/equal-housing-lender.png"
+import equalHousingLending from "../images/boeLogo.png"
 
 import img1 from "../images/Bank-of-England-Customer.jpg"
 import img2 from "../images/lp-2.jpg"
@@ -630,11 +630,10 @@ export default function FpLpSections() {
                     boxShadow:
                       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                     paddingTop: "20px",
-                    position: "absolute",
-                    top: "69%",
-                    right: "",
-                    minWidth: "100vw",
+                    position: "fixed",
+                    bottom: "0",
                     backgroundColor: "white",
+                    marginLeft: "10px",
                   }}
                 >
                   <MDBContainer className="" fluid>
@@ -839,6 +838,55 @@ export default function FpLpSections() {
                           loan, please contact us at (214) 396-6450. This
                           contact information is for accommodation requests
                           only.
+                        </p>
+                      </MDBCol>
+                    </MDBRow>
+                    <MDBRow
+                      className=""
+                      style={{
+                        backgroundColor: "#4e4e4e",
+                        color: "white",
+                        paddingTop: "20px",
+                      }}
+                    >
+                      <MDBCol
+                        md="12"
+                        className="d-flex align-items-center justify-content-center"
+                      >
+                        <p>
+                          Bank of England Mortgage is a division of 
+                          <a
+                            href="http://www.bankofengland-ar.com/"
+                            target="_blank"
+                            style={{
+                              color: "white",
+                              textDecoration: "underline",
+                            }}
+                          >
+                            Bank of England
+                          </a>{" "}
+                          and is not affiliated with any government agency. NMLS
+                          418481. {" "}
+                          <a
+                            href="https://research.fdic.gov/bankfind/detail.html?bank=13303&name=Bank+of+England&tabId=3&searchName=Bank+of+England"
+                            target="_blank"
+                            style={{
+                              color: "white",
+                              textDecoration: "underline",
+                            }}
+                          >
+                            Member FDIC
+                          </a>
+                          .
+                        </p>
+                      </MDBCol>
+                      <MDBCol
+                        md="12"
+                        className="d-flex align-items-center justify-content-center"
+                      >
+                        <p>
+                          © 2021 Bank of England Mortgage Marketing. All Rights
+                          Reserved.
                         </p>
                       </MDBCol>
                     </MDBRow>
