@@ -13,7 +13,7 @@ import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 import house from "../images/Bank-of-England-House-Illustration.png"
-import customer1 from "../images/Bank-of-England-Customer.jpg"
+import BOE1 from "../images/BOE1.jpg"
 import Modal from "../components/Modal"
 import LoanCards from "../components/LoanCards"
 import HbGuide from "../components/HbGuide"
@@ -118,9 +118,9 @@ export default function Resources() {
           <MDBCol
             lg="6"
             style={{
-              backgroundImage: `url(${customer1})`,
+              backgroundImage: `url(${BOE1})`,
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "top center",
+              backgroundPosition: "center",
               backgroundSize: "cover",
               minHeight: "40vh",
             }}
