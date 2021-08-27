@@ -69,7 +69,7 @@ export default function TeamBio() {
                     color="secondary"
                     className="p-4"
                   >
-                    Contact
+                    Apply Now
                   </MDBBtn>
                 </MDBAnimation>
               </MDBCardText>

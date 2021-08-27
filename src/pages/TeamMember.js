@@ -95,7 +95,7 @@ export default function TeamBio() {
                       backgroundColor: "rgb(33, 87, 50)",
                     }}
                   >
-                    Schedule Appointment
+                    Contact
                   </MDBBtn>
                 </MDBAnimation>
               </MDBCardText>
