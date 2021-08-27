@@ -45,7 +45,10 @@ export default function App() {
                   </a>
                 </li>
                 <li>
-                  <a id="footer__contact__section" href="mailto:name@email.com">
+                  <a
+                    id="footer__contact__section"
+                    href="mailto:InfoNow@BOETexas.com"
+                  >
                     InfoNow@BOETexas.com
                   </a>
                 </li>
@@ -65,7 +68,7 @@ export default function App() {
             <div className="d-flex align-items-center justify-content-center">
               <MDBTypography
                 listUnStyled
-                className="mb-0"
+                className="mb-0 text-center"
                 id="footer-contact-div"
               >
                 <li>
@@ -77,7 +80,10 @@ export default function App() {
                   </a>
                 </li>
                 <li>
-                  <a id="footer__contact__section" href="mailto:name@email.com">
+                  <a
+                    id="footer__contact__section"
+                    href="mailto:InfoNow@BOETexas.com"
+                  >
                     InfoNow@BOETexas.com
                   </a>
                 </li>

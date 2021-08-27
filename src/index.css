@@ -267,3 +267,10 @@ form select {
   color: #215732 !important;
   text-shadow: 1px 0px 3px #4e4e4e !important;
 }
+#footer__contact__section a:hover {
+  color: #215732 !important;
+  text-shadow: 1px 0px 3px #4e4e4e !important;
+}
+#footer__contact__section a {
+  color: #4e4e4e !important;
+}

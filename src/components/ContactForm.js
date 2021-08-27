@@ -102,7 +102,7 @@ export default function Contact() {
                   icon="envelope"
                   style={{ color: "#215732" }}
                 />
-                <a href="mailto:name@email.com">InfoNow@BOETexas.com</a>
+                <a href="mailto:InfoNow@BOETexas.com">InfoNow@BOETexas.com</a>
               </div>
             </MDBRow>
             <MDBRow className="m-3 mb-3" style={{ textAlign: "center" }}>
