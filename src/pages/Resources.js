@@ -120,7 +120,6 @@ export default function Resources() {
             style={{
               backgroundImage: `url(${BOE1})`,
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "center bottom",
               backgroundSize: "cover",
               minHeight: "40vh",
             }}
