@@ -32,7 +32,7 @@ export default function App() {
           >
             <div className="d-flex align-items-center justify-content-center">
               <MDBTypography
-                listUnStyled
+                listUnStyled-
                 className="mb-0"
                 id="footer-contact-div"
               >

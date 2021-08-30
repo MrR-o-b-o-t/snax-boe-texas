@@ -28,7 +28,6 @@ export default function TeamBio() {
   {
     teamData.map((data) => {
       if (data.name === localStorage.getItem("tm")) {
-        console.log(data.email.substring(0,data.email.length-16))
         return (
           (phone1 = data.phone),
           (bio1 = data.bio),

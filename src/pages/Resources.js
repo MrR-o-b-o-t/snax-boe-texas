@@ -30,7 +30,7 @@ export default function Resources() {
       element.querySelector("#move"),
       {
         opacity: 0,
-        y: -240,
+        y: -140,
       },
       {
         opacity: 1,
@@ -51,7 +51,7 @@ export default function Resources() {
       element.querySelector("#ma__banner__house"),
       {
         opacity: 0,
-        x: 250,
+        x: 150,
       },
       {
         opacity: 1,
