@@ -12,7 +12,7 @@ import Keri from "../src/images/keriG.jpg"
 import marcus from "../src/images/marcusL.jpg"
 import meghan from "../src/images/meghanS.jpg"
 import ross from "../src/images/rossR.jpg"
-import ryan from "../src/images/ryanR.jpg"
+import ryan from "../src/images/RyannCrain5.jpg"
 import shawn from "../src/images/shawnF.jpg"
 
 export const teamData = [
@@ -25,7 +25,7 @@ export const teamData = [
   },
   {
     name: "Abby Dawson",
-    email: "abigail@boetexas.com",
+    email: "adawson@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: abby,
@@ -125,6 +125,34 @@ export const teamData = [
     name: "Shawn Fehily",
     email: "sfehily@boemortgage.com",
     bio: "Shawn was born near Philadelphia and moved to the DFW area at age 5 with his family. At Marcus High School, Shawn played football on the 5A Texas State Championship team, graduating with honors in 1998. Having applied to only one college, Penn State, and being immediately accepted, Shawn called the dean and asked for a deferment of 1 year in order to work and study in Germany where he became fluent in the German language. During his summers at Penn State, he interned in the mortgage industry, which laid the foundation for his wealth of knowledge in the mortgage world. Upon graduation from Penn State, he accepted a full time position as a loan officer. Now a Branch Manager Loan specialist, Shawn has almost 20 years of high level corporate experience in the home loan industry. He has closed over 250 Million dollars in self-generated loan volume. Shawn loves to enjoy life with his wife, son, dogs, as well as playing an active role in the community. His hobbies include traveling, cooking, and hitting the golf course! Please see www.ShawnFehily.com for more info",
+    phone: "(469) 737-5733",
+    photo: shawn,
+  },
+  {
+    name: "Mandy Gomez",
+    email: "InfoNow@boemortgage.com",
+    bio: "",
+    phone: "(469) 737-5733",
+    photo: shawn,
+  },
+  {
+    name: "Jill Bumgarner",
+    email: "jbumgarner@boemortgage.com",
+    bio: "",
+    phone: "(682) 256-5249",
+    photo: shawn,
+  },
+  {
+    name: "Luke Stamps",
+    email: "InfoNow@boemortgage.com",
+    bio: "",
+    phone: "(214) 433-0121",
+    photo: shawn,
+  },
+  {
+    name: "Nicoleta Adam",
+    email: "InfoNow@boemortgage.com",
+    bio: "",
     phone: "(469) 737-5733",
     photo: shawn,
   },

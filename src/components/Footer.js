@@ -99,7 +99,7 @@ export default function App() {
             </div>
           </MDBCol>
 
-          <MDBCol lg="6" md="12" className="mb-4 mb-md-0 text-center">
+          <MDBCol lg="6" md="12" className="mb-4 mt-3 mb-md-0 text-center">
             <h5 className="">Resources</h5>
             <MDBTypography listInLine className="mb-0">
               <li className="list-inline-item">
@@ -154,7 +154,7 @@ export default function App() {
               </li>
             </MDBTypography>
           </MDBCol>
-          <MDBCol lg="3">
+          <MDBCol lg="3" className="sm-mt-3 lg-3 mt-lg-5 mt-md-4">
             <h6 className="text-center">Sign Up For Our Newsletter</h6>
             <div className="d-flex align-items-center justify-content-center">
               <MDBInput

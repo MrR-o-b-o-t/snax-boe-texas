@@ -17,6 +17,7 @@ import abby from "../images/abigailD.jpg"
 import ariel from "../images/arielC.jpg"
 import ashley from "../images/ashleyC.jpg"
 import chris from "../images/christopherH.jpg"
+import cory from "../images/CoryRice4.jpg"
 import david from "../images/davidR.jpg"
 import deborah from "../images/deborahB.jpg"
 import erin from "../images/erinW.jpg"
@@ -27,8 +28,9 @@ import keri from "../images/keriG.jpg"
 import marcus from "../images/marcusL.jpg"
 import meghan from "../images/meghanS.jpg"
 import ross from "../images/rossR.jpg"
-import ryan from "../images/ryanR.jpg"
+import ryann from "../images/RyannCrain5.jpg"
 import shawn from "../images/shawnF.jpg"
+import mandy from "../images/mandy-gomez.jpg"
 
 export default function Team() {
   const [teamMember, setTeamMember] = useState()
@@ -116,7 +118,7 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Ashley Cossio</MDBCardTitle>
                 <MDBCardText>
-                  Mortgage Loan Officer <br /> NMLS# 2122522.
+                  Mortgage Loan Officer <br /> NMLS# 2122522
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -141,7 +143,7 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Christopher Harding</MDBCardTitle>
                 <MDBCardText>
-                  Loan Officer <br /> NMLS# 1267827.
+                  Loan Officer <br /> NMLS# 1267827
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -192,7 +194,7 @@ export default function Team() {
                 <MDBCardTitle>Deb Byrd</MDBCardTitle>
                 <MDBCardText>
                   Production Partner & Sr. Mortgage Advisor <br /> NMLS#
-                  1043719.
+                  1043719
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -341,7 +343,7 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Ariel Carballo</MDBCardTitle>
                 <MDBCardText>
-                  Residential Mortgage Loan Officer <br /> Assistant.
+                  Residential Mortgage Loan Officer <br /> Assistant
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -412,7 +414,7 @@ export default function Team() {
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={ryan} alt="..." position="top" />
+              <MDBCardImage src={ryann} alt="..." position="top" />
               <MDBCardBody>
                 <MDBCardTitle>Ryann Crain</MDBCardTitle>
                 <MDBCardText>Administrative Assistant</MDBCardText>
@@ -439,8 +441,129 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Abby Dawson</MDBCardTitle>
                 <MDBCardText>
-                  Residential Mortgage Loan Officer <br /> Assistant.
+                  Residential Mortgage Loan Officer <br /> Assistant
                 </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBAnimation>
+        </MDBCol>
+        <MDBCol>
+          <MDBAnimation
+            animation="slide-in-up"
+            start="onScroll"
+            duration={2000}
+            className="h-100"
+          >
+            <MDBCard
+              className="h-100"
+              onClick={() => {
+                setTeamMember(`Mandy Gomez`)
+              }}
+              tag="a"
+              href="/TeamBio"
+            >
+              <MDBCardImage src={mandy} alt="..." position="top" />
+              <MDBCardBody>
+                <MDBCardTitle>Mandy Gomez</MDBCardTitle>
+                <MDBCardText>
+                  Loan Officer 
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBAnimation>
+        </MDBCol>
+        <MDBCol>
+          <MDBAnimation
+            animation="slide-in-right"
+            start="onScroll"
+            duration={2000}
+            className="h-100"
+          >
+            <MDBCard
+              className="h-100"
+              onClick={() => {
+                setTeamMember(`Jill Bumgarner`)
+              }}
+              tag="a"
+              href="/TeamBio"
+            >
+              <MDBCardImage src={ryann} alt="..." position="top" />
+              <MDBCardBody>
+                <MDBCardTitle>Jill Bumgarner</MDBCardTitle>
+                <MDBCardText></MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBAnimation>
+        </MDBCol>
+        <MDBCol>
+          <MDBAnimation
+            animation="slide-in-left"
+            start="onScroll"
+            duration={2000}
+            className="h-100"
+          >
+            <MDBCard
+              className="h-100"
+              onClick={() => {
+                setTeamMember(`Cory Rice`)
+              }}
+              tag="a"
+              href="/TeamBio"
+            >
+              <MDBCardImage src={cory} alt="..." position="top" />
+              <MDBCardBody>
+                <MDBCardTitle>Cory Rice</MDBCardTitle>
+                <MDBCardText>
+                  Residential Mortgage Loan Officer 
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBAnimation>
+        </MDBCol>
+        <MDBCol>
+          <MDBAnimation
+            animation="slide-in-up"
+            start="onScroll"
+            duration={2000}
+            className="h-100"
+          >
+            <MDBCard
+              className="h-100"
+              onClick={() => {
+                setTeamMember(`Luke Stamps`)
+              }}
+              tag="a"
+              href="/TeamBio"
+            >
+              <MDBCardImage src={ross} alt="..." position="top" />
+              <MDBCardBody>
+                <MDBCardTitle>Luke Stamps</MDBCardTitle>
+                <MDBCardText>
+                  Loan Officer 
+                </MDBCardText>
+              </MDBCardBody>
+            </MDBCard>
+          </MDBAnimation>
+        </MDBCol>
+        <MDBCol>
+          <MDBAnimation
+            animation="slide-in-right"
+            start="onScroll"
+            duration={2000}
+            className="h-100"
+          >
+            <MDBCard
+              className="h-100"
+              onClick={() => {
+                setTeamMember(`Nicoleta Adam`)
+              }}
+              tag="a"
+              href="/TeamBio"
+            >
+              <MDBCardImage src={ryann} alt="..." position="top" />
+              <MDBCardBody>
+                <MDBCardTitle>Nicoleta Adam</MDBCardTitle>
+                <MDBCardText></MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBAnimation>

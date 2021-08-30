@@ -22,16 +22,19 @@ export default function TeamBio() {
   let phone1 = ""
   let email1 = ""
   let photo1
+  let link = ""
   const name = localStorage.getItem("tm")
 
   {
     teamData.map((data) => {
       if (data.name === localStorage.getItem("tm")) {
+        console.log(data.email.substring(0,data.email.length-16))
         return (
           (phone1 = data.phone),
           (bio1 = data.bio),
           (email1 = data.email),
-          (photo1 = data.photo)
+          (photo1 = data.photo),
+          (link = data.email.substring(0,data.email.length-16))
         )
       }
     })
@@ -65,7 +68,7 @@ export default function TeamBio() {
                   <MDBBtn
                     id="s__btn"
                     target="_blank"
-                    href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+                    href={`https://boeedge.boemortgage.com/borrower/signup/${link}@boemortgage.com`}
                     color="secondary"
                     className="p-4"
                   >

@@ -90,7 +90,7 @@ return(
   </MDBCol>
   <MDBCol className="m-auto text-center">
     <h3>Email Address:</h3>
-    <h5 className="mb-4">abigail@boetexas.com</h5>
+    <h5 className="mb-4">adawson@boemortgage.com</h5>
     <h3>Phone Number:</h3>
     <h5 className="mb-4">(214) 483-9201</h5>
     <h3>Address:</h3>
