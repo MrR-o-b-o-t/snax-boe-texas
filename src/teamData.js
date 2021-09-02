@@ -14,6 +14,11 @@ import meghan from "../src/images/meghanS.jpg"
 import ross from "../src/images/rossR.jpg"
 import ryan from "../src/images/RyannCrain5.jpg"
 import shawn from "../src/images/shawnF.jpg"
+import mandy from "../src/images/Mandy.jpg"
+import jill from "../src/images/Jill.jpg"
+import cory from "../src/images/CoryRice4.jpg"
+import luke from "../src/images/Luke Stamps.jpg"
+import nicoleta from "../src/images/Nicoleta.jpg"
 
 export const teamData = [
   {
@@ -61,7 +66,7 @@ export const teamData = [
   {
     name: "Erin Waddell",
     email: "ewaddell@boemortgage.com",
-    bio: "",
+    bio: "Texas Tech graduate, Erin Waddell, started her journey into the industry as a real estate agent back in 2018. After gaining experience, she made the decision for a career change to switch to the mortgage industry and become a loan officer. She is passionate about helping clients understand the loan process and making it as easy as possible. In her free time, Erin enjoys spending time with family and friends, going camping, boating and traveling.",
     phone: "(214) 483-9201",
     photo: erin,
   },
@@ -131,29 +136,36 @@ export const teamData = [
   {
     name: "Mandy Gomez",
     email: "InfoNow@boemortgage.com",
-    bio: "",
+    bio: "Your Nationwide Home Loan Expert! Get Approved from a Professional with a Decade of Experience!?I have an extensive background assisting first time home buyers and self-employed individuals. Today, consumers are overwhelmed with information regarding home loans, and it takes a mortgage professional to cut through the multitude of programs available and find the best fit for a client. I take great pride in using my experience to tailor a loan that works now, and in the future, for my clients. Being transparent is important to me, as I want to ensure there are no surprises at the closing table. I have a great deal of experience with a variety of loan programs, including: Conventional loans FHA - Government VA Loans for Veterans Investment property Second Homes Non-conforming Jumbo Down Payment Assistance Credit Expert CASH OUT LOANS Refinance Home Loans Homes for Texas Heroes Program : Teachers, Police Officers, Correctional Officers, Fire Fighters and EMS Personnel, Veterans",
     phone: "(469) 737-5733",
-    photo: shawn,
+    photo: mandy,
   },
   {
     name: "Jill Bumgarner",
     email: "jbumgarner@boemortgage.com",
     bio: "",
     phone: "(682) 256-5249",
-    photo: shawn,
+    photo: jill,
   },
   {
     name: "Luke Stamps",
     email: "InfoNow@boemortgage.com",
     bio: "",
     phone: "(214) 433-0121",
-    photo: shawn,
+    photo: luke,
   },
   {
     name: "Nicoleta Adam",
     email: "InfoNow@boemortgage.com",
-    bio: "",
-    phone: "(469) 737-5733",
-    photo: shawn,
+    bio: "Nicoleta Gabriela Adam was born and raised in Bucharest, Romania, and moved to the states in early 90s. She attended Ohio State University & Cameron University, where she received her Bachelors in Criminal Justice with a minor in foreign languages. She has been in the mortgage business over 16 years and is currently a Sr. Loan Processor with Bank of England Mortgage.",
+    phone: "(214) 244-5444",
+    photo: nicoleta,
+  },
+  {
+    name: "Cory Rice",
+    email: "crice@boemortgage.com",
+    bio: "I started my career back in 2010 excited to help people attain the American Dream of owning a home also saving money on their largest investment. I still have the same excitement and passion for helping people as I did day 1! With a wealth of knowledge and a vast variety of programs available my team and I feel very confident about putting you in a great situation. For short term and long term success! It's all about the end game and helping you accomplish your goals with clarity and prosperity. The best way I found accomplishing this is by conducting business with honesty, integrity, accuracy and most importantly genuinely caring about your well-being. I look forward to helping you with your mortgage goals along with my great team at the Bank of England!",
+    phone: "(940) 735-4737",
+    photo: cory,
   },
 ]

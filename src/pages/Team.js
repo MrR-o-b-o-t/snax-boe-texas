@@ -30,7 +30,10 @@ import meghan from "../images/meghanS.jpg"
 import ross from "../images/rossR.jpg"
 import ryann from "../images/RyannCrain5.jpg"
 import shawn from "../images/shawnF.jpg"
-import mandy from "../images/mandy-gomez.jpg"
+import mandy from "../images/Mandy.jpg"
+import jill from "../images/Jill.jpg"
+import luke from "../images/Luke Stamps.jpg"
+import nicoleta from "../images/Nicoleta.jpg"
 
 export default function Team() {
   const [teamMember, setTeamMember] = useState()
@@ -193,8 +196,7 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Deb Byrd</MDBCardTitle>
                 <MDBCardText>
-                  Production Partner & Sr. Mortgage Advisor <br /> NMLS#
-                  1043719
+                  Production Partner & Sr. Mortgage Advisor <br /> NMLS# 1043719
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -466,7 +468,8 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Mandy Gomez</MDBCardTitle>
                 <MDBCardText>
-                  Loan Officer 
+                  Sales Manager / Sr Loan Officer <br /> NMLS# 744341 <br />{" "}
+                  Bilingual/Spanish
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -487,10 +490,12 @@ export default function Team() {
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={ryann} alt="..." position="top" />
+              <MDBCardImage src={jill} alt="..." position="top" />
               <MDBCardBody>
                 <MDBCardTitle>Jill Bumgarner</MDBCardTitle>
-                <MDBCardText></MDBCardText>
+                <MDBCardText>
+                  Loan Officer <br /> NMLS# 1733019
+                </MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBAnimation>
@@ -514,7 +519,7 @@ export default function Team() {
               <MDBCardBody>
                 <MDBCardTitle>Cory Rice</MDBCardTitle>
                 <MDBCardText>
-                  Residential Mortgage Loan Officer 
+                  Sr. Mortgage Banker <br /> NMLS# 718893
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -535,12 +540,10 @@ export default function Team() {
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={ross} alt="..." position="top" />
+              <MDBCardImage src={luke} alt="..." position="top" />
               <MDBCardBody>
                 <MDBCardTitle>Luke Stamps</MDBCardTitle>
-                <MDBCardText>
-                  Loan Officer 
-                </MDBCardText>
+                <MDBCardText>Mortgage Loan Underwriter</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBAnimation>
@@ -560,10 +563,10 @@ export default function Team() {
               tag="a"
               href="/TeamBio"
             >
-              <MDBCardImage src={ryann} alt="..." position="top" />
+              <MDBCardImage src={nicoleta} alt="..." position="top" />
               <MDBCardBody>
                 <MDBCardTitle>Nicoleta Adam</MDBCardTitle>
-                <MDBCardText></MDBCardText>
+                <MDBCardText>Processing Manager</MDBCardText>
               </MDBCardBody>
             </MDBCard>
           </MDBAnimation>
