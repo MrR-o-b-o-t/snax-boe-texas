@@ -416,7 +416,7 @@ export default function LpParallaxSection() {
                   </h4>
                   <p className="text-start">
                     USDA home loans open up the dream of owning a home to people
-                    in pow-polulation areas who otherwise could not afford it.
+                    in low-polulation areas who otherwise could not afford it.
                     If you live in a place with a population of less than 35,000
                     and you can't qualify for a conventional loan, you may
                     qualify for a USDA guaranteed loan or a USDA direct loan.

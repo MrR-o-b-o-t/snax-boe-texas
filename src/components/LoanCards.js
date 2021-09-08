@@ -239,7 +239,7 @@ export default function LoanCards() {
                 <MDBCardText class="text-start">
                   A VA loan is a mortgage loan available through a program
                   established by the United States Department of Veterans
-                  Affairs. The VA sets the qualifying standars, dictates, and
+                  Affairs. The VA sets the qualifying standards, dictates, and
                   terms of the mortgages offered, and guarantees a portion of
                   the loan, but doesn't actually offer the financing.
                 </MDBCardText>
@@ -258,7 +258,7 @@ export default function LoanCards() {
                 <MDBCardTitle>USDA</MDBCardTitle>
                 <MDBCardText class="text-start">
                   USDA home loans open up the dream of owning a home to people
-                  in pow-polulation areas who otherwise could not afford it. If
+                  in low-population areas who otherwise could not afford it. If
                   you live in a place with a population of less than 35,000 and
                   you can't qualify for a conventional loan, you may qualify for
                   a USDA guaranteed loan or a USDA direct loan.

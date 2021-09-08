@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBContainer,
   MDBRow,
   MDBCol,
   MDBAnimation,
   MDBTypography,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
 export default function LightBanner() {
   return (
@@ -13,15 +13,15 @@ export default function LightBanner() {
       <MDBRow>
         <MDBCol sm="12">
           <h1
-            style={{ color: "black", fontWeight: "bold" }}
+            style={{ color: "black", fontWeight: "bold", fontSize: "54px" }}
             className="text-center mt-5"
           >
             Our process puts you in control
           </h1>
-          <p class="text-center" style={{ color: "#2f2f2f" }}>
+          <h6 class="text-center" style={{ color: "#2f2f2f" }}>
             White glove customer service and support makes it a painless process
             to achieve your financial and home ownership goals
-          </p>
+          </h6>
         </MDBCol>
       </MDBRow>
       <MDBRow className="mb-5 pb-5">
@@ -92,7 +92,7 @@ export default function LightBanner() {
           </p>
         </MDBCol>
         <MDBCol sm="12" md="3">
-          <h5 style={{ color: "black", display: "flex", alignItems: "center"}}>
+          <h5 style={{ color: "black", display: "flex", alignItems: "center" }}>
             <MDBAnimation
               animation="fade-in-up"
               start="onLoad"
@@ -159,5 +159,5 @@ export default function LightBanner() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-  );
+  )
 }
