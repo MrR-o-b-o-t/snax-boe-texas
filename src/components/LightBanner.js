@@ -87,8 +87,7 @@ export default function LightBanner() {
             </MDBAnimation>
           </h5>
           <p style={{ color: "#2f2f2f" }}>
-            Our streamlined application syncs with your bank to get you accurate
-            numbers fast.
+          See how much you’re approved for, then shop for homes or move forward with your refinance.
           </p>
         </MDBCol>
         <MDBCol sm="12" md="3">
@@ -120,8 +119,7 @@ export default function LightBanner() {
             </MDBAnimation>
           </h5>
           <p style={{ color: "#2f2f2f" }}>
-            Our streamlined application syncs with your bank to get you accurate
-            numbers fast.
+          We guide you through verifying all of the details and get your application closed fast.
           </p>
         </MDBCol>
         <MDBCol sm="12" md="3">
@@ -153,8 +151,7 @@ export default function LightBanner() {
             </MDBAnimation>
           </h5>
           <p style={{ color: "#2f2f2f" }}>
-            Our streamlined application syncs with your bank to get you accurate
-            numbers fast.
+          Make payments online and put our state of the art system to work for you.
           </p>
         </MDBCol>
       </MDBRow>
