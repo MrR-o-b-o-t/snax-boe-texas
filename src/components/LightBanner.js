@@ -13,15 +13,15 @@ export default function LightBanner() {
       <MDBRow>
         <MDBCol sm="12">
           <h1
-            style={{ color: "black", fontWeight: "bold" }}
+            style={{ color: "black", fontWeight: "bold", fontSize:"52px", paddingBottom:"10px" }}
             className="text-center mt-5"
           >
             Our process puts you in control
           </h1>
-          <p class="text-center" style={{ color: "#2f2f2f" }}>
+          <h5 class="text-center" style={{ color: "#2f2f2f", paddingBottom:"15px" }}>
             White glove customer service and support makes it a painless process
             to achieve your financial and home ownership goals
-          </p>
+          </h5>
         </MDBCol>
       </MDBRow>
       <MDBRow className="mb-5 pb-5">
