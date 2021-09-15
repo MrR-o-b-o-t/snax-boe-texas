@@ -301,7 +301,7 @@ export default function FpLpSections() {
                       >
                         A VA loan is a mortgage loan available through a program
                         established by the United States Department of Veterans
-                        Affairs. The VA sets the qualifying standars, dictates,
+                        Affairs. The VA sets the qualifying standards, dictates,
                         and terms of the mortgages offered, and guarantees a
                         portion of the loan, but doesn't actually offer the
                         financing.
