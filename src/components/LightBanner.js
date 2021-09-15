@@ -13,15 +13,23 @@ export default function LightBanner() {
       <MDBRow>
         <MDBCol sm="12">
           <h1
-            style={{ color: "black", fontWeight: "bold", fontSize: "54px" }}
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              fontSize: "52px",
+              paddingBottom: "10px",
+            }}
             className="text-center mt-5"
           >
             Our process puts you in control
           </h1>
-          <h6 class="text-center" style={{ color: "#2f2f2f" }}>
+          <h5
+            class="text-center"
+            style={{ color: "#2f2f2f", paddingBottom: "15px" }}
+          >
             White glove customer service and support makes it a painless process
             to achieve your financial and home ownership goals
-          </h6>
+          </h5>
         </MDBCol>
       </MDBRow>
       <MDBRow className="mb-5 pb-5">
@@ -87,8 +95,8 @@ export default function LightBanner() {
             </MDBAnimation>
           </h5>
           <p style={{ color: "#2f2f2f" }}>
-            Our streamlined application syncs with your bank to get you accurate
-            numbers fast.
+            See how much you’re approved for, then shop for homes or move
+            forward with your refinance.
           </p>
         </MDBCol>
         <MDBCol sm="12" md="3">
@@ -120,8 +128,8 @@ export default function LightBanner() {
             </MDBAnimation>
           </h5>
           <p style={{ color: "#2f2f2f" }}>
-            Our streamlined application syncs with your bank to get you accurate
-            numbers fast.
+            We guide you through verifying all of the details and get your
+            application closed fast.
           </p>
         </MDBCol>
         <MDBCol sm="12" md="3">
@@ -153,8 +161,8 @@ export default function LightBanner() {
             </MDBAnimation>
           </h5>
           <p style={{ color: "#2f2f2f" }}>
-            Our streamlined application syncs with your bank to get you accurate
-            numbers fast.
+            Make payments online and put our state of the art system to work for
+            you.
           </p>
         </MDBCol>
       </MDBRow>
