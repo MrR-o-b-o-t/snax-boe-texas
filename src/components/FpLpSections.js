@@ -72,9 +72,9 @@ export default function FpLpSections() {
                       >
                         At BOE Texas we take a community focused approach,
                         meaning we get to know our customers before suggesting a
-                        specific type of loan Loan product. Our goal is to
-                        understand your needs so we can match you with the right
-                        type of loan.
+                        specific type of loan product. Our goal is to understand
+                        your needs so we can match you with the right type of
+                        loan.
                       </p>
                     </div>
                   </MDBCol>

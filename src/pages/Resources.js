@@ -193,7 +193,7 @@ export default function Resources() {
                 <MDBStepperContent>
                   A mortgage point is equal to 1 percent of the mortgage loan
                   amount and actually helps reduce the loan’s interest rate.
-                  Scenarios differ per loan. Contact me for more info.
+                  Scenarios differ per loan. Contact for more info.
                 </MDBStepperContent>
               </MDBStepperStep>
               <MDBStepperStep itemId={3}>
