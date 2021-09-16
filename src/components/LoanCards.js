@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBRow,
   MDBCol,
@@ -8,7 +8,7 @@ import {
   MDBCardText,
   MDBContainer,
   MDBAnimation,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
 export default function LoanCards() {
   return (
@@ -92,7 +92,10 @@ export default function LoanCards() {
                 <MDBCardBody>
                   <MDBCardTitle>VA</MDBCardTitle>
                   <MDBCardText class="text-start">
-                  VA loans are a type of military loan that mortgage lenders issue to qualified veterans, active service members and spouses. They’re backed by the government through the Department of Veterans Affairs (VA).
+                    VA loans are a type of military loan that mortgage lenders
+                    issue to qualified veterans, active service members and
+                    spouses. They’re backed by the government through the
+                    Department of Veterans Affairs (VA).
                   </MDBCardText>
                 </MDBCardBody>
               </MDBCard>
@@ -116,7 +119,7 @@ export default function LoanCards() {
                   <MDBCardTitle>USDA</MDBCardTitle>
                   <MDBCardText class="text-start">
                     USDA home loans open up the dream of owning a home to people
-                    in pow-polulation areas who otherwise could not afford it.
+                    in low-polulation areas who otherwise could not afford it.
                     If you live in a place with a population of less than 35,000
                     and you can't qualify for a conventional loan, you may
                     qualify for a USDA guaranteed loan or a USDA direct loan.
@@ -233,11 +236,10 @@ export default function LoanCards() {
               <MDBCardBody>
                 <MDBCardTitle>VA</MDBCardTitle>
                 <MDBCardText class="text-start">
-                  A VA loan is a mortgage loan available through a program
-                  established by the United States Department of Veterans
-                  Affairs. The VA sets the qualifying standards, dictates, and
-                  terms of the mortgages offered, and guarantees a portion of
-                  the loan, but doesn't actually offer the financing.
+                  VA loans are a type of military loan that mortgage lenders
+                  issue to qualified veterans, active service members and
+                  spouses. They’re backed by the government through the
+                  Department of Veterans Affairs (VA).
                 </MDBCardText>
               </MDBCardBody>
             </MDBCard>
@@ -300,5 +302,5 @@ export default function LoanCards() {
         </MDBRow>
       </MDBContainer>
     </>
-  )
+  );
 }
