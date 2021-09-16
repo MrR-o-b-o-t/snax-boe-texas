@@ -299,12 +299,7 @@ export default function FpLpSections() {
                         className="text-start pt-2"
                         style={{ fontSize: "18px", fontWeight: "600" }}
                       >
-                        A VA loan is a mortgage loan available through a program
-                        established by the United States Department of Veterans
-                        Affairs. The VA sets the qualifying standards, dictates,
-                        and terms of the mortgages offered, and guarantees a
-                        portion of the loan, but doesn't actually offer the
-                        financing.
+VA loans are a type of military loan that mortgage lenders issue to qualified veterans, active service members and spouses. They’re backed by the government through the Department of Veterans Affairs (VA).
                       </p>
                     </div>
                   </MDBCol>
