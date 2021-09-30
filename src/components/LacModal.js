@@ -8,9 +8,7 @@ import {
   MDBModalTitle,
   MDBModalBody,
   MDBModalFooter,
-  MDBTypography,
   MDBInputGroup,
-  MDBInputGroupText,
   MDBInputGroupElement,
 } from "mdb-react-ui-kit";
 
@@ -37,7 +35,23 @@ export default function LacModal() {
   const handleSubmitValues = (e) => {
     e.preventDefault();
     calculateResults(userValues);
-    console.log(results);
+  };
+
+  // Clear input fields
+  const clearFields = () => {
+    setUserValues({
+      amount: "",
+      interest: "",
+      years: "",
+      downPayment: "",
+    });
+
+    setResults({
+      monthlyPayment: "",
+      totalPayment: "",
+      totalInterest: "",
+      isResult: false,
+    });
   };
 
   const calculateResults = ({ amount, interest, years, downPayment }) => {
@@ -192,6 +206,13 @@ export default function LacModal() {
                 onClick={handleSubmitValues}
               >
                 Submit
+              </MDBBtn>
+              <MDBBtn
+                id="m__btn"
+                onClick={() => setScrollableModal(!setScrollableModal)}
+                onClick={clearFields}
+              >
+                Clear
               </MDBBtn>
               <MDBBtn
                 id="m__btn"

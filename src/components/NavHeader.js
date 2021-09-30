@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBAnimatedNavbar,
   MDBNavbarNav,
@@ -9,13 +9,10 @@ import {
   MDBIcon,
   MDBNavbarBrand,
   MDBCollapse,
-  MDBNavbar,
-  MDBBtn,
-  MDBRow,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
 export default function NavHeader() {
-  const [showNavCentred, setShowNavCentred] = useState(false)
+  const [showNavCentred, setShowNavCentred] = useState(false);
   return (
     <header>
       <MDBAnimatedNavbar
@@ -125,10 +122,22 @@ export default function NavHeader() {
                   Contact
                 </MDBNavbarLink>
               </MDBNavbarItem>
+              {/* <MDBNavbarItem>
+                <MDBNavbarLink
+                  id="custom-nav-link"
+                  style={{
+                    color: "#4e4e4e",
+                    fontWeight: "400",
+                  }}
+                  href="/careers"
+                >
+                  Careers
+                </MDBNavbarLink>
+              </MDBNavbarItem> */}
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
       </MDBAnimatedNavbar>
     </header>
-  )
+  );
 }

@@ -219,12 +219,11 @@ export default function Resources() {
         </MDBRow>
       </MDBContainer>
       <Calculators />
-      <LacModal />
       <LoanCards />
       <DosDontsFlip />
       <MDBContainer className="mt-5 d-flex justify-content-center">
         <MDBRow className="mt-5">
-          <MDBCol className="" sm="6" style={{}}>
+          <MDBCol className="" sm="6">
             <h1>Moving can be a daunting task</h1>
             <h6>
               Review our moving checklist for great tips on making your move go

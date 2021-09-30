@@ -1,7 +1,7 @@
-import React, { useState } from "react"
-import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit"
-import MpcModal from "../components/MpcModal"
-import LacModal from "../components/LacModal"
+import React, { useState } from "react";
+import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit";
+import MpcModal from "../components/MpcModal";
+import LacModal from "../components/LacModal";
 
 export default function Calculators() {
   return (
@@ -24,7 +24,10 @@ export default function Calculators() {
             214-396-6450
           </MDBBtn>
         </MDBCol>
+        <MDBCol className="text-center mt-3">
+          <LacModal />
+        </MDBCol>
       </MDBRow>
     </MDBContainer>
-  )
+  );
 }

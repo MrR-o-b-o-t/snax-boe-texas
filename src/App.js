@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
-import NavHeader from "./components/NavHeader"
-import Footer from "./components/Footer"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import NavHeader from "./components/NavHeader";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {
   Home,
   Contact,
@@ -30,7 +30,8 @@ import {
   ShawnF,
   PrivacyPolicy,
   Ccpa,
-} from "./pages"
+  Careers,
+} from "./pages";
 
 export default function App() {
   return (
@@ -72,9 +73,10 @@ export default function App() {
           <Route path="/ShawnF" exact component={() => <ShawnF />} />
           <Route path="/team" exact component={() => <Team />} />
           <Route path="/media" exact component={() => <Media />} />
+          <Route path="/careers" exact component={() => <Careers />} />
         </Switch>
         <Footer />
       </Router>
     </>
-  )
+  );
 }
