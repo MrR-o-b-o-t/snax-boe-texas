@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBAnimatedNavbar,
   MDBNavbarNav,
@@ -9,10 +9,12 @@ import {
   MDBIcon,
   MDBNavbarBrand,
   MDBCollapse,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
+
+import boeLogo from "../images/boe-logo-sm.png"
 
 export default function NavHeader() {
-  const [showNavCentred, setShowNavCentred] = useState(false);
+  const [showNavCentred, setShowNavCentred] = useState(false)
   return (
     <header>
       <MDBAnimatedNavbar
@@ -24,10 +26,7 @@ export default function NavHeader() {
       >
         <MDBContainer fluid>
           <MDBNavbarBrand href="/">
-            <img
-              src="https://www.boetexas.com/assets/images/header/BOELogo1.png"
-              style={{ width: "120px", height: "50px" }}
-            ></img>
+            <img src={boeLogo} style={{ width: "120px", height: "50px" }}></img>
           </MDBNavbarBrand>
           <MDBNavbarToggler
             type="button"
@@ -139,5 +138,5 @@ export default function NavHeader() {
         </MDBContainer>
       </MDBAnimatedNavbar>
     </header>
-  );
+  )
 }
