@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBRow,
   MDBCol,
@@ -8,7 +8,7 @@ import {
   MDBCardText,
   MDBContainer,
   MDBAnimation,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
 export default function LoanCards() {
   return (
@@ -144,7 +144,7 @@ export default function LoanCards() {
                   <MDBCardTitle>BOND</MDBCardTitle>
                   <MDBCardText class="text-start">
                     A mortgage revenue bond (MRB) is a type of municipal bond
-                    that is issues by local housing authorities to finance
+                    that is issued by local housing authorities to finance
                     mortgages for qualified, usually people whose self-reported
                     incomes were in the lowest income bracket, first-time home
                     buyers.
@@ -220,7 +220,7 @@ export default function LoanCards() {
                 <MDBCardText class="text-start">
                   A Federal Housing Administration (FHA) loan is a mortgage that
                   is insured by the Federal Housing Administration and issued by
-                  an FHA-aprroved lender. FHA loans are designed for
+                  an FHA-approved lender. FHA loans are designed for
                   middle-income borrowers; they require a lower minimum down
                   payment and lower credit scores than many conventional loans.
                 </MDBCardText>
@@ -302,5 +302,5 @@ export default function LoanCards() {
         </MDBRow>
       </MDBContainer>
     </>
-  );
+  )
 }
