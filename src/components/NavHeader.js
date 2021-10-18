@@ -9,7 +9,10 @@ import {
   MDBIcon,
   MDBNavbarBrand,
   MDBCollapse,
+  MDBBtn,
 } from "mdb-react-ui-kit";
+
+import boe1 from "../images/boe-logo-sm.png";
 
 export default function NavHeader() {
   const [showNavCentred, setShowNavCentred] = useState(false);
@@ -24,10 +27,7 @@ export default function NavHeader() {
       >
         <MDBContainer fluid>
           <MDBNavbarBrand href="/">
-            <img
-              src="https://www.boetexas.com/assets/images/header/BOELogo1.png"
-              style={{ width: "120px", height: "50px" }}
-            ></img>
+            <img src={boe1} style={{ width: "120px", height: "50px" }}></img>
           </MDBNavbarBrand>
           <MDBNavbarToggler
             type="button"
@@ -134,6 +134,14 @@ export default function NavHeader() {
                   Careers
                 </MDBNavbarLink>
               </MDBNavbarItem> */}
+              <MDBBtn
+                id="m__btn"
+                style={{ marginLeft: "20px" }}
+                href="tel:+12143966450"
+                className="p-2"
+              >
+                CALL NOW
+              </MDBBtn>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>

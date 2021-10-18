@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBBtn,
   MDBModal,
@@ -9,10 +9,10 @@ import {
   MDBModalBody,
   MDBModalFooter,
   MDBTypography,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
 export default function Modal() {
-  const [scrollableModal, setScrollableModal] = useState(false)
+  const [scrollableModal, setScrollableModal] = useState(false);
 
   return (
     <>
@@ -227,5 +227,5 @@ export default function Modal() {
         </MDBModalDialog>
       </MDBModal>
     </>
-  )
+  );
 }
