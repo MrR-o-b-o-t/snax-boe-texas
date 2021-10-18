@@ -12,7 +12,7 @@ import {
   MDBBtn,
 } from "mdb-react-ui-kit";
 
-import boe1 from "../images/boe-logo-sm.png";
+import boeLogo from "../images/boe-logo-sm.png";
 
 export default function NavHeader() {
   const [showNavCentred, setShowNavCentred] = useState(false);
@@ -27,7 +27,7 @@ export default function NavHeader() {
       >
         <MDBContainer fluid>
           <MDBNavbarBrand href="/">
-            <img src={boe1} style={{ width: "120px", height: "50px" }}></img>
+            <img src={boeLogo} style={{ width: "120px", height: "50px" }}></img>
           </MDBNavbarBrand>
           <MDBNavbarToggler
             type="button"
