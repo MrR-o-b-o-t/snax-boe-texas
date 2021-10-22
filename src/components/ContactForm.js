@@ -1,5 +1,5 @@
-import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import React from "react"
+import { useForm, ValidationError } from "@formspree/react"
 import {
   MDBBtn,
   MDBRow,
@@ -8,10 +8,10 @@ import {
   MDBIcon,
   MDBListGroup,
   MDBListGroupItem,
-} from "mdb-react-ui-kit";
+} from "mdb-react-ui-kit"
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mayabzlv");
+  const [state, handleSubmit] = useForm("mayabzlv")
   if (state.succeeded) {
     return (
       <>
@@ -28,7 +28,7 @@ export default function Contact() {
           </MDBRow>
         </MDBContainer>
       </>
-    );
+    )
   }
   return (
     <>
@@ -105,10 +105,10 @@ export default function Contact() {
                   style={{ color: "#215732" }}
                 />
                 <a
-                  href="mailto:InfoNow@BOETexas.com"
+                  href="mailto:InfoNow@boemortgage.com"
                   id="footer__contact__section"
                 >
-                  InfoNow@BOETexas.com
+                  InfoNow@boemortgage.com
                 </a>
               </div>
             </MDBRow>
@@ -132,5 +132,5 @@ export default function Contact() {
         </MDBRow>
       </MDBContainer>
     </>
-  );
+  )
 }

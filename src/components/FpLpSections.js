@@ -299,7 +299,10 @@ export default function FpLpSections() {
                         className="text-start pt-2"
                         style={{ fontSize: "18px", fontWeight: "600" }}
                       >
-VA loans are a type of military loan that mortgage lenders issue to qualified veterans, active service members and spouses. They’re backed by the government through the Department of Veterans Affairs (VA).
+                        VA loans are a type of military loan that mortgage
+                        lenders issue to qualified veterans, active service
+                        members and spouses. They’re backed by the government
+                        through the Department of Veterans Affairs (VA).
                       </p>
                     </div>
                   </MDBCol>
@@ -663,7 +666,7 @@ VA loans are a type of military loan that mortgage lenders issue to qualified ve
                             id="footer__contact__section"
                             href="mailto:name@email.com"
                           >
-                            InfoNow@BOETexas.com
+                            InfoNow@boemortgage.com
                           </a>
                         </li>
                         <a
@@ -690,7 +693,7 @@ VA loans are a type of military loan that mortgage lenders issue to qualified ve
                           <h5>Contact</h5>
                         </li>
                         <li>214-396-6450</li>
-                        <li>InfoNow@BOETexas.com</li>
+                        <li>InfoNow@boemortgage.com</li>
                         <li>17250 Dallas Parkway</li>
                         <li>Dallas, TX 75248</li>
                       </MDBTypography>

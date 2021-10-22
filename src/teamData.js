@@ -1,24 +1,24 @@
-import abby from "../src/images/abigailD.jpg";
-import david from "../src/images/davidR.jpg";
-import ariel from "../src/images/arielC.jpg";
-import ashley from "../src/images/ashleyC.jpg";
-import christopher from "../src/images/christopherH.jpg";
-import deborah from "../src/images/deborahB.jpg";
-import erin from "../src/images/erinW.jpg";
-import frank from "../src/images/frankR.jpg";
-import jeffrey from "../src/images/jeffreyM.jpg";
-import jeron from "../src/images/jeronA.jpg";
-import Keri from "../src/images/keriG.jpg";
-import marcus from "../src/images/marcusL.jpg";
-import meghan from "../src/images/meghanS.jpg";
-import ross from "../src/images/rossR.jpg";
-import ryan from "../src/images/RyannCrain5.jpg";
-import shawn from "../src/images/shawnF.jpg";
-import mandy from "../src/images/Mandy.jpg";
-import jill from "../src/images/Jill.jpg";
-import cory from "../src/images/CoryRice4.jpg";
-import luke from "../src/images/Luke Stamps.jpg";
-import nicoleta from "../src/images/Nicoleta.jpg";
+import abby from "../src/images/abigailD.jpg"
+import david from "../src/images/davidR.jpg"
+import ariel from "../src/images/arielC.jpg"
+import ashley from "../src/images/ashleyC.jpg"
+import christopher from "../src/images/christopherH.jpg"
+import deborah from "../src/images/deborahB.jpg"
+import erin from "../src/images/erinW.jpg"
+import frank from "../src/images/frankR.jpg"
+import jeffrey from "../src/images/jeffreyM.jpg"
+import jeron from "../src/images/jeronA.jpg"
+import Keri from "../src/images/keriG.jpg"
+import marcus from "../src/images/marcusL.jpg"
+import meghan from "../src/images/meghanS.jpg"
+import ross from "../src/images/rossR.jpg"
+import ryan from "../src/images/RyannCrain5.jpg"
+import shawn from "../src/images/shawnF.jpg"
+import mandy from "../src/images/Mandy.jpg"
+import jill from "../src/images/Jill.jpg"
+import cory from "../src/images/CoryRice4.jpg"
+import luke from "../src/images/Luke Stamps.jpg"
+import nicoleta from "../src/images/Nicoleta.jpg"
 
 export const teamData = [
   {
@@ -37,7 +37,7 @@ export const teamData = [
   },
   {
     name: "Ariel Carballo",
-    email: "infonow@boetexas.com",
+    email: "infonow@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: ariel,
@@ -93,7 +93,7 @@ export const teamData = [
   },
   {
     name: "Keri Gaines",
-    email: "infonow@boetexas.com",
+    email: "infonow@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: Keri,
@@ -168,4 +168,4 @@ export const teamData = [
     phone: "(940) 735-4737",
     photo: cory,
   },
-];
+]
