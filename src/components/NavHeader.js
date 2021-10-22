@@ -9,6 +9,7 @@ import {
   MDBIcon,
   MDBNavbarBrand,
   MDBCollapse,
+  MDBBtn,
 } from "mdb-react-ui-kit"
 
 import boeLogo from "../images/boe-logo-sm.png"
@@ -133,6 +134,16 @@ export default function NavHeader() {
                   Careers
                 </MDBNavbarLink>
               </MDBNavbarItem> */}
+              <MDBBtn
+                id="m__btn"
+                href="tel:+12143966450"
+                style={{
+                  padding: "12px 20px 12px 20px",
+                  marginLeft: "20px",
+                }}
+              >
+                Call Us
+              </MDBBtn>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
@@ -140,3 +151,18 @@ export default function NavHeader() {
     </header>
   )
 }
+
+;<MDBBtn
+  id="m__btn"
+  tag="a"
+  className="m-2 p-3"
+  style={{
+    fontWeight: "600",
+    width: "300px",
+    fontSize: "16px",
+  }}
+  target="_blank"
+  href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+>
+  Apply For Home Purchase
+</MDBBtn>
