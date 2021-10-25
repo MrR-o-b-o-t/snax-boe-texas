@@ -664,9 +664,9 @@ export default function FpLpSections() {
                         <li>
                           <a
                             id="footer__contact__section"
-                            href="mailto:name@email.com"
+                            href="InfoNow@boemortgage.com"
                           >
-                            InfoNow@BOETexas.com
+                            InfoNow@boemortgage.com
                           </a>
                         </li>
                         <a
@@ -693,7 +693,7 @@ export default function FpLpSections() {
                           <h5>Contact</h5>
                         </li>
                         <li>214-396-6450</li>
-                        <li>InfoNow@BOETexas.com</li>
+                        <li>InfoNow@boemortgage.com</li>
                         <li>17250 Dallas Parkway</li>
                         <li>Dallas, TX 75248</li>
                       </MDBTypography>

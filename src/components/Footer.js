@@ -51,9 +51,9 @@ export default function App() {
                   <li>
                     <a
                       id="footer__contact__section"
-                      href="mailto:InfoNow@BOETexas.com"
+                      href="mailto:InfoNow@boemortgage.com"
                     >
-                      InfoNow@BOETexas.com
+                      InfoNow@boemortgage.com
                     </a>
                   </li>
                   <a
@@ -91,9 +91,9 @@ export default function App() {
                   <li>
                     <a
                       id="footer__contact__section"
-                      href="mailto:InfoNow@BOETexas.com"
+                      href="mailto:InfoNow@Bboemortgage.com"
                     >
-                      InfoNow@BOETexas.com
+                      InfoNow@boemortgage.com
                     </a>
                   </li>
                   <a
@@ -286,9 +286,9 @@ export default function App() {
                 <li>
                   <a
                     id="footer__contact__section"
-                    href="mailto:InfoNow@BOETexas.com"
+                    href="mailto:InfoNow@boemortgage.com"
                   >
-                    InfoNow@BOETexas.com
+                    InfoNow@boemortgage.com
                   </a>
                 </li>
                 <a
@@ -321,9 +321,9 @@ export default function App() {
                 <li>
                   <a
                     id="footer__contact__section"
-                    href="mailto:InfoNow@BOETexas.com"
+                    href="mailto:InfoNow@boemortgage.com"
                   >
-                    InfoNow@BOETexas.com
+                    InfoNow@boemortgage.com
                   </a>
                 </li>
                 <a

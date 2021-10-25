@@ -37,7 +37,7 @@ export const teamData = [
   },
   {
     name: "Ariel Carballo",
-    email: "infonow@boetexas.com",
+    email: "InfoNow@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: ariel,
@@ -93,7 +93,7 @@ export const teamData = [
   },
   {
     name: "Keri Gaines",
-    email: "infonow@boetexas.com",
+    email: "InfoNow@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: Keri,
