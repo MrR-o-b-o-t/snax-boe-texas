@@ -1,24 +1,30 @@
-import React, { useRef, useEffect } from "react"
-import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit"
+import React, { useRef, useEffect } from "react";
+import {
+  MDBBtn,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBAnimation,
+} from "mdb-react-ui-kit";
 
-import house from "../images/Bank-of-England-House-Illustration.png"
-import customer1 from "../images/Bank-of-England-Customer.jpg"
-import signing from "../images/boe-office-front.jpg"
-import Reviews from "../components/Reviews"
-import LoanCards from "../components/LoanCards"
-import LightBanner from "../components/LightBanner"
-import VideoTest from "../components/VideoTest"
-import ClientTest from "../components/ClientTest"
+import house from "../images/Bank-of-England-House-Illustration.png";
+import customer1 from "../images/Bank-of-England-Customer.jpg";
+import signing from "../images/boe-office-front.jpg";
+import Reviews from "../components/Reviews";
+import LoanCards from "../components/LoanCards";
+import LightBanner from "../components/LightBanner";
+import VideoTest from "../components/VideoTest";
+import ClientTest from "../components/ClientTest";
 
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function Home() {
-  gsap.registerPlugin(ScrollTrigger)
-  const ref = useRef(null)
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef(null);
 
   useEffect(() => {
-    const element = ref.current
+    const element = ref.current;
     gsap.fromTo(
       element.querySelector("#move"),
       {
@@ -35,11 +41,11 @@ export default function Home() {
           scrub: true,
         },
       }
-    )
-  }, [])
+    );
+  }, []);
 
   useEffect(() => {
-    const element = ref.current
+    const element = ref.current;
     gsap.fromTo(
       element.querySelector("#ma__banner__house"),
       {
@@ -56,8 +62,8 @@ export default function Home() {
           scrub: true,
         },
       }
-    )
-  }, [])
+    );
+  }, []);
 
   return (
     <div style={{ overflowX: "hidden" }}>
@@ -79,8 +85,8 @@ export default function Home() {
                       marginBottom: "15px",
                     }}
                   />
-                  Bank of England Mortgage is the white glove home loan experience
-                  designed for you
+                  Bank of England Mortgage is the white glove home loan
+                  experience designed for you
                 </h1>
                 <h5 class="text-left">
                   The home buying experience shouldn't be a hassle. With BOE
@@ -171,7 +177,7 @@ export default function Home() {
                   href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
                   target="_blank"
                 >
-                  Connect With Local Lender
+                  Connect With Your Lender
                 </MDBBtn>
               </div>
             </MDBCol>
@@ -213,6 +219,23 @@ export default function Home() {
         </MDBContainer>
         <Reviews />
       </MDBContainer>
+      <MDBBtn
+        id="m__btn"
+        tag="a"
+        className="m-2 p-3"
+        style={{
+          fontWeight: "600",
+          fontSize: "16px",
+          position: "fixed",
+          bottom: "25px",
+          right: "10px",
+          zIndex: "2",
+        }}
+        target="_blank"
+        href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+      >
+        Apply Now
+      </MDBBtn>
     </div>
-  )
+  );
 }

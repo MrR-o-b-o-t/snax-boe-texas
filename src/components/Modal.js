@@ -24,7 +24,6 @@ export default function Modal() {
           fontWeight: "600",
           padding: "20px 50px 20px 50px",
           fontSize: "16px",
-          backgroundColor: "rgb(33, 87, 50)",
         }}
         onClick={() => setScrollableModal(!scrollableModal)}
       >
