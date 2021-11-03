@@ -142,7 +142,7 @@ export default function NavHeader() {
                   marginLeft: "20px",
                 }}
               >
-                Call Us
+                Call Now
               </MDBBtn>
             </MDBNavbarNav>
           </MDBCollapse>

@@ -79,8 +79,8 @@ export default function Home() {
                       marginBottom: "15px",
                     }}
                   />
-                  Bank of England Mortgage is the white glove home loan experience
-                  designed for you
+                  Bank of England Mortgage is the white glove home loan
+                  experience designed for you
                 </h1>
                 <h5 class="text-left">
                   The home buying experience shouldn't be a hassle. With BOE
@@ -213,6 +213,23 @@ export default function Home() {
         </MDBContainer>
         <Reviews />
       </MDBContainer>
+      <MDBBtn
+        id="m__btn"
+        tag="a"
+        className="m-2 p-3"
+        style={{
+          fontWeight: "600",
+          fontSize: "16px",
+          position: "fixed",
+          bottom: "25px",
+          right: "10px",
+          zIndex: "2",
+        }}
+        target="_blank"
+        href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+      >
+        Apply Now
+      </MDBBtn>
     </div>
   )
 }

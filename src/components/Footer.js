@@ -51,7 +51,7 @@ export default function App() {
                   <li>
                     <a
                       id="footer__contact__section"
-                      href="mailto:InfoNow@BOETexas.com"
+                      href="mailto:InfoNow@boemortgage.com"
                     >
                       InfoNow@boemortgage.com
                     </a>
@@ -91,7 +91,7 @@ export default function App() {
                   <li>
                     <a
                       id="footer__contact__section"
-                      href="mailto:InfoNow@boemortgage.com"
+                      href="mailto:InfoNow@Bboemortgage.com"
                     >
                       InfoNow@boemortgage.com
                     </a>
@@ -286,7 +286,7 @@ export default function App() {
                 <li>
                   <a
                     id="footer__contact__section"
-                    href="mailto:InfoNow@BOETexas.com"
+                    href="mailto:InfoNow@boemortgage.com"
                   >
                     InfoNow@boemortgage.com
                   </a>
@@ -321,7 +321,7 @@ export default function App() {
                 <li>
                   <a
                     id="footer__contact__section"
-                    href="mailto:InfoNow@BOETexas.com"
+                    href="mailto:InfoNow@boemortgage.com"
                   >
                     InfoNow@boemortgage.com
                   </a>
@@ -342,28 +342,28 @@ export default function App() {
             <h5 className="">Resources</h5>
             <MDBTypography listInLine className="mb-0">
               <li className="list-inline-item">
-                <a href="/PrivacyPolicy">Privacy Links</a>
+                <a href="/PrivacyPolicy">Privacy Links |</a>
               </li>
               <li className="list-inline-item">
-                <a href="/Ccpa">CCPA Policy</a>
+                <a href="/Ccpa">CCPA Policy |</a>
               </li>
               <li className="list-inline-item">
-                <a href="/Policies/#web__policy">Web Analytics Policy</a>
+                <a href="/Policies/#web__policy">Web Analytics Policy |</a>
               </li>
               <li className="list-inline-item">
                 <a href="/Policies/#security">Security</a>
               </li>
               <li className="list-inline-item">
                 <a href="/Policies/#identity__theft">
-                  Preventing Identity Theft
+                  Preventing Identity Theft |
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="/Policies/#patriot__act">USA Patriot Act</a>
+                <a href="/Policies/#patriot__act">USA Patriot Act |</a>
               </li>
               <li className="list-inline-item">
                 <a href="https://continentalcredit.com/" target="_blank">
-                  Credit Counciling
+                  Credit Counciling |
                 </a>
               </li>
               <li className="list-inline-item">
@@ -378,12 +378,12 @@ export default function App() {
             <MDBTypography listInLine className="mb-0">
               <li className="list-inline-item">
                 <a href="https://www.experian.com/" target="_blank">
-                  Experian
+                  Experian |
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="https://www.equifax.com/personal/" target="_blank">
-                  Equifax
+                  Equifax |
                 </a>
               </li>
               <li className="list-inline-item">
@@ -437,7 +437,13 @@ export default function App() {
                 type="email"
                 name="email"
                 placeholder="Email Address"
-                style={{ width: "150px" }}
+                style={{
+                  width: "150px",
+                  borderRadius: "8px",
+                  height: "45px",
+                  boxShadow:
+                    "0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+                }}
               />
               <ValidationError
                 prefix="Email"
