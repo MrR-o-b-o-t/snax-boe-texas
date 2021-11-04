@@ -9,9 +9,9 @@ import {
   MDBStepperHead,
   MDBStepperContent,
 } from "mdb-react-ui-kit";
-
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import house from "../images/Bank-of-England-House-Illustration.png";
 import BOE1 from "../images/BOE1.jpg";
 import Modal from "../components/Modal";
@@ -19,6 +19,7 @@ import LoanCards from "../components/LoanCards";
 import HbGuide from "../components/HbGuide";
 import Calculators from "../components/Calculators";
 import DosDontsFlip from "../components/DosDontsFlip";
+import LacModal from "../components/LacModal";
 
 export default function Resources() {
   gsap.registerPlugin(ScrollTrigger);

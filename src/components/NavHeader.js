@@ -136,11 +136,13 @@ export default function NavHeader() {
               </MDBNavbarItem> */}
               <MDBBtn
                 id="m__btn"
-                style={{ marginLeft: "20px" }}
                 href="tel:+12143966450"
-                className="p-2"
+                style={{
+                  padding: "12px 20px 12px 20px",
+                  marginLeft: "20px",
+                }}
               >
-                CALL NOW
+                Call Now
               </MDBBtn>
             </MDBNavbarNav>
           </MDBCollapse>
@@ -149,3 +151,18 @@ export default function NavHeader() {
     </header>
   );
 }
+
+<MDBBtn
+  id="m__btn"
+  tag="a"
+  className="m-2 p-3"
+  style={{
+    fontWeight: "600",
+    width: "300px",
+    fontSize: "16px",
+  }}
+  target="_blank"
+  href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
+>
+  Apply For Home Purchase
+</MDBBtn>;

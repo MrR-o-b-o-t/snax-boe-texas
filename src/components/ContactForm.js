@@ -1,17 +1,9 @@
-import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
-import {
-  MDBBtn,
-  MDBRow,
-  MDBCol,
-  MDBContainer,
-  MDBIcon,
-  MDBListGroup,
-  MDBListGroupItem,
-} from "mdb-react-ui-kit";
+import React from "react"
+import { useForm, ValidationError } from "@formspree/react"
+import { MDBBtn, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdb-react-ui-kit"
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mayabzlv");
+  const [state, handleSubmit] = useForm("mayabzlv")
   if (state.succeeded) {
     return (
       <>
@@ -28,7 +20,7 @@ export default function Contact() {
           </MDBRow>
         </MDBContainer>
       </>
-    );
+    )
   }
   return (
     <>
@@ -132,5 +124,5 @@ export default function Contact() {
         </MDBRow>
       </MDBContainer>
     </>
-  );
+  )
 }

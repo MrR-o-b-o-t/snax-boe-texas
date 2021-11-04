@@ -1,5 +1,5 @@
-import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import React from "react"
+import { useForm, ValidationError } from "@formspree/react"
 import {
   MDBFooter,
   MDBContainer,
@@ -9,11 +9,11 @@ import {
   MDBInput,
   MDBIcon,
   MDBBtn,
-} from "mdb-react-ui-kit";
-import equalHousingLending from "../images/boeLogo.png";
+} from "mdb-react-ui-kit"
+import equalHousingLending from "../images/boeLogo.png"
 
 export default function App() {
-  const [state, handleSubmit] = useForm("mayabzlv");
+  const [state, handleSubmit] = useForm("mayabzlv")
   if (state.succeeded) {
     return (
       <MDBFooter
@@ -248,7 +248,7 @@ export default function App() {
           </MDBRow>
         </MDBContainer>
       </MDBFooter>
-    );
+    )
   }
   return (
     <MDBFooter
@@ -548,5 +548,5 @@ export default function App() {
         </MDBRow>
       </MDBContainer>
     </MDBFooter>
-  );
+  )
 }

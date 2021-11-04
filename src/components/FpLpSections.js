@@ -1,14 +1,6 @@
 import React, { useState } from "react";
-import {
-  MDBBtn,
-  MDBRow,
-  MDBCol,
-  MDBContainer,
-  MDBTypography,
-  MDBInput,
-  MDBIcon,
-  MDBFooter,
-} from "mdb-react-ui-kit";
+import { useForm, ValidationError } from "@formspree/react";
+import { MDBBtn, MDBRow, MDBCol, MDBTypography } from "mdb-react-ui-kit";
 import ReactFullpage from "@fullpage/react-fullpage";
 import equalHousingLending from "../images/boeLogo.png";
 
@@ -21,6 +13,7 @@ import img6 from "../images/lp-6.jpg";
 import img7 from "../images/lp-7.jpg";
 
 export default function FpLpSections() {
+  const [state, handleSubmit] = useForm("mayabzlv");
   return (
     <ReactFullpage
       //fullpage options
@@ -636,13 +629,14 @@ export default function FpLpSections() {
                   }}
                 ></MDBCol>
               </MDBRow>
-              <div>
-                <MDBRow className="" style={{ marginTop: "44px" }}>
+              <div style={{ marginTop: "30px" }}>
+                <MDBRow>
                   {/* Contact display for desktop */}
                   <MDBCol
                     lg="3"
                     md="12"
-                    className="mb-4 mb-md-block d-none d-lg-block"
+                    className="mb-4 mb-md-0 d-none d-lg-block"
+                    style={{}}
                   >
                     <div className="d-flex align-items-center justify-content-center">
                       <MDBTypography
@@ -664,7 +658,7 @@ export default function FpLpSections() {
                         <li>
                           <a
                             id="footer__contact__section"
-                            href="InfoNow@boemortgage.com"
+                            href="mailto:InfoNow@boemortgage.com"
                           >
                             InfoNow@boemortgage.com
                           </a>
@@ -688,30 +682,58 @@ export default function FpLpSections() {
                     style={{}}
                   >
                     <div className="d-flex align-items-center justify-content-center">
-                      <MDBTypography listUnStyled className="mb-4 text-center">
+                      <MDBTypography
+                        listUnStyled
+                        className="mb-0 text-center"
+                        id="footer-contact-div"
+                      >
                         <li>
                           <h5>Contact</h5>
                         </li>
-                        <li>214-396-6450</li>
-                        <li>InfoNow@boemortgage.com</li>
-                        <li>17250 Dallas Parkway</li>
-                        <li>Dallas, TX 75248</li>
+                        <li>
+                          <a
+                            id="footer__contact__section"
+                            href="tel:+12143966450"
+                          >
+                            214-396-6450
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            id="footer__contact__section"
+                            href="mailto:InfoNow@boemortgage.com"
+                          >
+                            InfoNow@boemortgage.com
+                          </a>
+                        </li>
+                        <a
+                          id="footer__contact__section"
+                          href="https://g.page/BOETEXAS?share"
+                          target="_blank"
+                        >
+                          <li>17250 Dallas Parkway</li>
+                          <li>Dallas, TX 75248</li>
+                        </a>
                       </MDBTypography>
                     </div>
                   </MDBCol>
 
-                  <MDBCol lg="6" md="12" className="mb-4 mb-md-0 text-center">
+                  <MDBCol
+                    lg="6"
+                    md="12"
+                    className="mb-4 mt-3 mb-md-0 text-center"
+                  >
                     <h5 className="">Resources</h5>
                     <MDBTypography listInLine className="mb-0">
                       <li className="list-inline-item">
-                        <a href="/PrivacyPolicy">Privacy Links</a>
+                        <a href="/PrivacyPolicy">Privacy Links |</a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="/Ccpa">CCPA Policy</a>
+                        <a href="/Ccpa">CCPA Policy |</a>
                       </li>
                       <li className="list-inline-item">
                         <a href="/Policies/#web__policy">
-                          Web Analytics Policy
+                          Web Analytics Policy |
                         </a>
                       </li>
                       <li className="list-inline-item">
@@ -719,18 +741,18 @@ export default function FpLpSections() {
                       </li>
                       <li className="list-inline-item">
                         <a href="/Policies/#identity__theft">
-                          Preventing Identity Theft
+                          Preventing Identity Theft |
                         </a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="/Policies/#patriot__act">USA Patriot Act</a>
+                        <a href="/Policies/#patriot__act">USA Patriot Act |</a>
                       </li>
                       <li className="list-inline-item">
                         <a
                           href="https://continentalcredit.com/"
                           target="_blank"
                         >
-                          Credit Counciling
+                          Credit Counciling |
                         </a>
                       </li>
                       <li className="list-inline-item">
@@ -748,7 +770,7 @@ export default function FpLpSections() {
                     <MDBTypography listInLine className="mb-0">
                       <li className="list-inline-item">
                         <a href="https://www.experian.com/" target="_blank">
-                          Experian
+                          Experian |
                         </a>
                       </li>
                       <li className="list-inline-item">
@@ -756,7 +778,7 @@ export default function FpLpSections() {
                           href="https://www.equifax.com/personal/"
                           target="_blank"
                         >
-                          Equifax
+                          Equifax |
                         </a>
                       </li>
                       <li className="list-inline-item">
@@ -766,23 +788,79 @@ export default function FpLpSections() {
                       </li>
                     </MDBTypography>
                   </MDBCol>
-                  <MDBCol lg="3">
-                    <h6 className="text-center">Sign Up For Our Newsletter</h6>
-                    <div className="d-flex align-items-center justify-content-center">
-                      <MDBInput
-                        type="text"
-                        id="form5Example2"
-                        label="Email address"
-                        style={{ width: "150px" }}
+                  <MDBCol lg="3" className="sm-mt-3 lg-3 mt-lg-5 mt-md-4">
+                    {/* <form onSubmit={handleSubmit}>
+              <h6 className="text-center">Sign Up For Our Newsletter</h6>
+              <div className="d-flex align-items-center justify-content-center">
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  label="Email address"
+                  style={{
+                    width: "150px",
+                    maxHeight: "30px",
+                    marginTop: "25px",
+                  }}
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
+                />
+                <MDBBtn
+                  floating
+                  tag="a"
+                  className="mx-2"
+                  style={{ backgroundColor: "#215732" }}
+                  type="submit"
+                  disabled={state.submitting}
+                >
+                  <MDBIcon far icon="check-circle" fa-3x />
+                </MDBBtn>
+              </div>
+            </form> */}
+                    <h6 className="text-center" style={{ fontWeight: "bold" }}>
+                      Sign Up For Our Newsletter
+                    </h6>
+                    <form
+                      onSubmit={handleSubmit}
+                      className="d-flex align-items-center justify-content-center"
+                    >
+                      <input
+                        id="email"
+                        type="email"
+                        name="email"
+                        placeholder="Email Address"
+                        style={{
+                          width: "150px",
+                          borderRadius: "8px",
+                          height: "45px",
+                          boxShadow:
+                            "0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+                        }}
                       />
-                      <MDBIcon
-                        far
-                        size="2x"
-                        icon="check-circle"
-                        className="m-2"
-                        style={{ color: "#215732" }}
+                      <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
                       />
-                    </div>
+                      <div className="text-center">
+                        <MDBBtn
+                          color="primary"
+                          size="lg"
+                          className="mb-4"
+                          style={{
+                            backgroundColor: "rgb(33, 87, 50)",
+                            marginLeft: "10px",
+                          }}
+                          type="submit"
+                          disabled={state.submitting}
+                        >
+                          Submit
+                        </MDBBtn>
+                      </div>
+                    </form>
                   </MDBCol>
                 </MDBRow>
                 <MDBRow
@@ -834,22 +912,18 @@ export default function FpLpSections() {
                     backgroundColor: "#4e4e4e",
                     color: "white",
                     paddingTop: "20px",
-                    minHeight: "10px",
                   }}
                 >
                   <MDBCol
                     md="12"
-                    className="d-flex align-items-center justify-content-center text-center"
+                    className="d-flex align-items-center justify-content-center"
                   >
                     <p>
                       Bank of England Mortgage is a division of 
                       <a
                         href="http://www.bankofengland-ar.com/"
                         target="_blank"
-                        style={{
-                          color: "white",
-                          textDecoration: "underline",
-                        }}
+                        style={{ color: "white", textDecoration: "underline" }}
                       >
                         Bank of England
                       </a>{" "}
@@ -858,10 +932,7 @@ export default function FpLpSections() {
                       <a
                         href="https://research.fdic.gov/bankfind/detail.html?bank=13303&name=Bank+of+England&tabId=3&searchName=Bank+of+England"
                         target="_blank"
-                        style={{
-                          color: "white",
-                          textDecoration: "underline",
-                        }}
+                        style={{ color: "white", textDecoration: "underline" }}
                       >
                         Member FDIC
                       </a>
