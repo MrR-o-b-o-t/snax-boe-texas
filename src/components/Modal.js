@@ -10,6 +10,7 @@ import {
   MDBModalFooter,
   MDBTypography,
 } from "mdb-react-ui-kit";
+import PrintComponent from "../components/PrintComponent";
 
 export default function Modal() {
   const [scrollableModal, setScrollableModal] = useState(false);
@@ -210,7 +211,7 @@ export default function Modal() {
               >
                 Close
               </MDBBtn>
-              <MDBBtn
+              {/* <MDBBtn
                 rippleColor="success"
                 style={{
                   color: "black",
@@ -220,7 +221,8 @@ export default function Modal() {
                 }}
               >
                 Print
-              </MDBBtn>
+              </MDBBtn> */}
+              <PrintComponent />
             </MDBModalFooter>
           </MDBModalContent>
         </MDBModalDialog>

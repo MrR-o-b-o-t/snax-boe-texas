@@ -227,7 +227,7 @@ export default function Resources() {
             <Modal />
           </MDBCol>
         </MDBRow>
-        <MDBBtn
+        {/* <MDBBtn
           id="m__btn"
           tag="a"
           className="m-2 p-3"
@@ -243,7 +243,7 @@ export default function Resources() {
           href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
         >
           Apply Now
-        </MDBBtn>
+        </MDBBtn> */}
       </MDBContainer>
     </div>
   );

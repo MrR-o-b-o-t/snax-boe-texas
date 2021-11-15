@@ -67,7 +67,7 @@ export default function Home() {
 
   return (
     <div style={{ overflowX: "hidden" }}>
-      <MDBContainer fluid style={{ maxWidth: "2000px" }}>
+      <MDBContainer fluid style={{ maxWidth: "2000px", padding: "0" }}>
         <MDBContainer className="" style={{ marginTop: "100px" }}>
           <MDBRow className="g-2">
             <MDBCol lg="6" className="user-select-none mb-3">
@@ -219,7 +219,7 @@ export default function Home() {
         </MDBContainer>
         <Reviews />
       </MDBContainer>
-      <MDBBtn
+      {/* <MDBBtn
         id="m__btn"
         tag="a"
         className="m-2 p-3"
@@ -235,7 +235,7 @@ export default function Home() {
         href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
       >
         Apply Now
-      </MDBBtn>
+      </MDBBtn> */}
     </div>
   );
 }
