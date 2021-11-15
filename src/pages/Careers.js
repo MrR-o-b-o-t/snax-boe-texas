@@ -35,7 +35,7 @@ export default function Contact() {
       style={{
         marginTop: "78px",
         padding: "0px",
-        backgroundImage: `url(${bi1})`,
+        backgroundColor: "#4e4e4e",
         marginBottom: "-47px",
         paddingBottom: "20px",
       }}
@@ -119,8 +119,9 @@ export default function Contact() {
           <h3
             style={{
               fontWeight: "600",
-              fontSize: "32px",
+              fontSize: "40px",
               marginBottom: "30px",
+              color: "white",
             }}
           >
             Current Positions
