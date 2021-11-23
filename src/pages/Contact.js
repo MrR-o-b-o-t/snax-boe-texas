@@ -1,11 +1,11 @@
-import React from "react"
-import { useForm, ValidationError } from "@formspree/react"
-import ContactForm from "../components/ContactForm"
-import BOEMap from "../components/BOEMap"
-import { MDBContainer, MDBBtn } from "mdb-react-ui-kit"
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import ContactForm from "../components/ContactForm";
+import BOEMap from "../components/BOEMap";
+import { MDBContainer, MDBBtn } from "mdb-react-ui-kit";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mayabzlv")
+  const [state, handleSubmit] = useForm("mayabzlv");
   return (
     <MDBContainer style={{ marginTop: "100px" }}>
       <BOEMap />
@@ -28,5 +28,5 @@ export default function Contact() {
         Apply Now
       </MDBBtn> */}
     </MDBContainer>
-  )
+  );
 }

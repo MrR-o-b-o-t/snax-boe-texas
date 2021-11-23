@@ -1,67 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;0,700;0,900;1,200;1,300;1,400;1,600&display=swap");
 
-/* * {
-  margin: 0;
-  padding: 0;
-} */
-
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 p {
   font-size: 12px;
 }
-
 code {
   font-family: source-code-pro, "Montserrat" !important;
 }
-
 #custom-nav-link:hover {
   text-decoration: underline 2px solid #215732;
   text-underline-position: under;
   text-decoration-thickness: 4px;
   text-underline-offset: 10px;
 }
-
-#custom-nav-link {
-}
-
 .card {
   color: #4e4e4e;
+  background-color: #ffffff;
+  transition: ease-in 0.3s;
 }
-
 .card:hover {
   background-color: #4e4e4e;
   color: #f1f1f1;
   transition: ease-in 0.3s;
   cursor: pointer;
 }
-
 .card-body {
   color: inherit;
 }
 .card-body:hover {
   color: inherit;
 }
-
 @includes media-breakpoint-down(md) {
   #footer-contact-div {
     text-align: center;
   }
 }
-
 .form-label {
   color: #215732 !important;
 }
-
 .form-notch-middle {
   border: 10px solid #215732;
 }
-
 /* reset */
 form input,
 form select,
@@ -130,7 +114,6 @@ form [type="submit"]:focus,
 form [type="reset"]:focus {
   outline: none;
 }
-
 form select {
   text-transform: none;
 }
@@ -150,20 +133,6 @@ form select {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-/* #section1 .fp-bg{
-  background-image: url('./images/lp-4.jpg');
-  background-size: cover;
-  background-position: center 90%;
-  height: 800px;
-} */
-#section1 {
-}
-/* #section2 .fp-bg{
-  background-image: url('./images/lp-2.jpg');
-  background-size: cover;
-  background-position: center 90%;
-  height: 90vh;
-} */
 #fp-nav ul li:hover a.active span,
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li:hover a.active span,
@@ -178,80 +147,69 @@ form select {
   color: black;
   font-weight: bold;
 }
-
 .carousel-caption h3 {
   font-weight: 600;
 }
-
 #m__btn {
   font-weight: 600;
   background-color: #215732;
   padding: 20px;
   font-size: 16px;
+  transition: ease-in 0.2s;
 }
-
 #m__btn:hover {
   font-weight: 600;
   background-color: #4e4e4e;
   padding: 20px;
   font-size: 16px;
+  transition: ease-in 0.2s;
 }
-
 #s__btn {
   color: black;
   font-weight: 600;
   background-color: #f7f7f7;
   padding: 20px;
   font-size: 16px;
+  transition: ease-in 0.2s;
 }
-
 #s__btn:hover {
   color: white;
   font-weight: 600;
   background-color: #215732;
   padding: 20px;
   font-size: 16px;
+  transition: ease-in 0.2s;
 }
-
 #navbarCenteredExample a {
   font-size: 17px !important;
   font-weight: 600 !important;
 }
-
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%234f4f4f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
 }
-
 #client__test__video .carousel-control-next-icon {
   margin-left: -140%;
 }
-
 #client__test__video .carousel-control-prev-icon {
   background-image: none;
   margin-right: -140%;
 }
-
 .modal.fade .modal-dialog {
   padding-top: 45%;
 }
-
 #lpAnchor a:hover {
   color: #215732 !important;
   text-shadow: 1px 0px 0.5px #215732 !important;
 }
-
 #lpAnchor a {
   color: #4e4e4e !important;
 }
-
 .card-body {
   cursor: default;
 }
-
 #footer__contact__section {
   color: #4e4e4e !important;
 }
-
 #footer__contact__section:hover {
   color: #215732 !important;
   text-shadow: 1px 0px 3px #4e4e4e !important;
@@ -273,4 +231,16 @@ form select {
 }
 #footer__contact__section a {
   color: #4e4e4e !important;
+}
+#careersCard {
+  background-color: #ffffff;
+  color: #000000;
+  transition: ease-in 0.5s;
+  cursor: pointer;
+}
+#careersCard:hover {
+  background-color: #0c2213;
+  color: #f1f1f1;
+  transition: ease-in 0.5s;
+  cursor: pointer;
 }

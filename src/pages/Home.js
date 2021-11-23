@@ -1,24 +1,30 @@
-import React, { useRef, useEffect } from "react"
-import { MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdb-react-ui-kit"
+import React, { useRef, useEffect } from "react";
+import {
+  MDBBtn,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBAnimation,
+} from "mdb-react-ui-kit";
 
-import house from "../images/Bank-of-England-House-Illustration.png"
-import customer1 from "../images/Bank-of-England-Customer.jpg"
-import signing from "../images/boe-office-front.jpg"
-import Reviews from "../components/Reviews"
-import LoanCards from "../components/LoanCards"
-import LightBanner from "../components/LightBanner"
-import VideoTest from "../components/VideoTest"
-import ClientTest from "../components/ClientTest"
+import house from "../images/Bank-of-England-House-Illustration.png";
+import customer1 from "../images/Bank-of-England-Customer.jpg";
+import signing from "../images/boe-office-front.jpg";
+import Reviews from "../components/Reviews";
+import LoanCards from "../components/LoanCards";
+import LightBanner from "../components/LightBanner";
+import VideoTest from "../components/VideoTest";
+import ClientTest from "../components/ClientTest";
 
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function Home() {
-  gsap.registerPlugin(ScrollTrigger)
-  const ref = useRef(null)
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef(null);
 
   useEffect(() => {
-    const element = ref.current
+    const element = ref.current;
     gsap.fromTo(
       element.querySelector("#move"),
       {
@@ -35,11 +41,11 @@ export default function Home() {
           scrub: true,
         },
       }
-    )
-  }, [])
+    );
+  }, []);
 
   useEffect(() => {
-    const element = ref.current
+    const element = ref.current;
     gsap.fromTo(
       element.querySelector("#ma__banner__house"),
       {
@@ -56,12 +62,12 @@ export default function Home() {
           scrub: true,
         },
       }
-    )
-  }, [])
+    );
+  }, []);
 
   return (
     <div style={{ overflowX: "hidden" }}>
-      <MDBContainer fluid style={{ maxWidth: "2000px" }}>
+      <MDBContainer fluid style={{ maxWidth: "2000px", padding: "0" }}>
         <MDBContainer className="" style={{ marginTop: "100px" }}>
           <MDBRow className="g-2">
             <MDBCol lg="6" className="user-select-none mb-3">
@@ -171,7 +177,7 @@ export default function Home() {
                   href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
                   target="_blank"
                 >
-                  Connect With Local Lender
+                  Connect With Your Lender
                 </MDBBtn>
               </div>
             </MDBCol>
@@ -231,5 +237,5 @@ export default function Home() {
         Apply Now
       </MDBBtn> */}
     </div>
-  )
+  );
 }

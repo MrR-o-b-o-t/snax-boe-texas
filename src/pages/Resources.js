@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react"
+import React, { useRef, useEffect } from "react";
 import {
   MDBBtn,
   MDBContainer,
@@ -8,25 +8,25 @@ import {
   MDBStepperStep,
   MDBStepperHead,
   MDBStepperContent,
-} from "mdb-react-ui-kit"
-import { gsap } from "gsap"
-import { ScrollTrigger } from "gsap/ScrollTrigger"
+} from "mdb-react-ui-kit";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import house from "../images/Bank-of-England-House-Illustration.png"
-import BOE1 from "../images/BOE1.jpg"
-import Modal from "../components/Modal"
-import LoanCards from "../components/LoanCards"
-import HbGuide from "../components/HbGuide"
-import Calculators from "../components/Calculators"
-import DosDontsFlip from "../components/DosDontsFlip"
-import LacModal from "../components/LacModal"
+import house from "../images/Bank-of-England-House-Illustration.png";
+import BOE1 from "../images/BOE1.jpg";
+import Modal from "../components/Modal";
+import LoanCards from "../components/LoanCards";
+import HbGuide from "../components/HbGuide";
+import Calculators from "../components/Calculators";
+import DosDontsFlip from "../components/DosDontsFlip";
+import LacModal from "../components/LacModal";
 
 export default function Resources() {
-  gsap.registerPlugin(ScrollTrigger)
-  const ref = useRef(null)
+  gsap.registerPlugin(ScrollTrigger);
+  const ref = useRef(null);
 
   useEffect(() => {
-    const element = ref.current
+    const element = ref.current;
     gsap.fromTo(
       element.querySelector("#move"),
       {
@@ -43,11 +43,11 @@ export default function Resources() {
           scrub: true,
         },
       }
-    )
-  }, [])
+    );
+  }, []);
 
   useEffect(() => {
-    const element = ref.current
+    const element = ref.current;
     gsap.fromTo(
       element.querySelector("#ma__banner__house"),
       {
@@ -64,8 +64,8 @@ export default function Resources() {
           scrub: true,
         },
       }
-    )
-  }, [])
+    );
+  }, []);
 
   return (
     <div ref={ref} style={{ overflowX: "hidden" }}>
@@ -103,14 +103,7 @@ export default function Resources() {
                 size="lg"
                 className="m-2"
                 href="/Contact"
-                style={{
-                  fontWeight: "600",
-                  width: "300px",
-                  padding: "20px",
-                  fontSize: "16px",
-                  backgroundColor: "rgb(33, 87, 50)",
-                }}
-                href="/Contact"
+                style={{ paddingLeft: "30px", paddingRight: "30px" }}
               >
                 Contact Us
               </MDBBtn>
@@ -253,5 +246,5 @@ export default function Resources() {
         </MDBBtn> */}
       </MDBContainer>
     </div>
-  )
+  );
 }

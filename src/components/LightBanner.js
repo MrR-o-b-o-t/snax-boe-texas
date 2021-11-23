@@ -1,11 +1,5 @@
-import React, { useState } from "react"
-import {
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBAnimation,
-  MDBTypography,
-} from "mdb-react-ui-kit"
+import React, { useState } from "react";
+import { MDBContainer, MDBRow, MDBCol, MDBAnimation } from "mdb-react-ui-kit";
 
 export default function LightBanner() {
   return (
@@ -167,5 +161,5 @@ export default function LightBanner() {
         </MDBCol>
       </MDBRow>
     </MDBContainer>
-  )
+  );
 }

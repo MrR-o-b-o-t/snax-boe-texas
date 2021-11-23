@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBAnimatedNavbar,
   MDBNavbarNav,
@@ -10,12 +10,12 @@ import {
   MDBNavbarBrand,
   MDBCollapse,
   MDBBtn,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
-import boeLogo from "../images/boe-logo-sm.png"
+import boeLogo from "../images/boe-logo-sm.png";
 
 export default function NavHeader() {
-  const [showNavCentred, setShowNavCentred] = useState(false)
+  const [showNavCentred, setShowNavCentred] = useState(false);
   return (
     <header>
       <MDBAnimatedNavbar
@@ -149,10 +149,10 @@ export default function NavHeader() {
         </MDBContainer>
       </MDBAnimatedNavbar>
     </header>
-  )
+  );
 }
 
-;<MDBBtn
+<MDBBtn
   id="m__btn"
   tag="a"
   className="m-2 p-3"
@@ -165,4 +165,4 @@ export default function NavHeader() {
   href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
 >
   Apply For Home Purchase
-</MDBBtn>
+</MDBBtn>;

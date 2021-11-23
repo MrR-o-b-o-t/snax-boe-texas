@@ -188,31 +188,6 @@ export default function Team() {
             <MDBCard
               className="h-100"
               onClick={() => {
-                setTeamMember(`Deb Byrd`)
-              }}
-              tag="a"
-              href="/TeamBio"
-            >
-              <MDBCardImage src={deborah} alt="..." position="top" />
-              <MDBCardBody>
-                <MDBCardTitle>Deb Byrd</MDBCardTitle>
-                <MDBCardText>
-                  Production Partner & Sr. Mortgage Advisor <br /> NMLS# 1043719
-                </MDBCardText>
-              </MDBCardBody>
-            </MDBCard>
-          </MDBAnimation>
-        </MDBCol>
-        <MDBCol>
-          <MDBAnimation
-            animation="slide-in-left"
-            start="onScroll"
-            duration={2000}
-            className="h-100"
-          >
-            <MDBCard
-              className="h-100"
-              onClick={() => {
                 setTeamMember(`Erin Waddell`)
               }}
               tag="a"
@@ -230,7 +205,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-up"
+            animation="slide-in-left"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -256,7 +231,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-right"
+            animation="slide-in-up"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -281,7 +256,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-left"
+            animation="slide-in-right"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -306,7 +281,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-up"
+            animation="slide-in-left"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -329,7 +304,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-right"
+            animation="slide-in-up"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -354,7 +329,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-left"
+            animation="slide-in-right"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -379,7 +354,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-up"
+            animation="slide-in-left"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -404,7 +379,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-right"
+            animation="slide-in-up"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -427,7 +402,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-left"
+            animation="slide-in-right"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -452,7 +427,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-up"
+            animation="slide-in-left"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -478,7 +453,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-right"
+            animation="slide-in-up"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -503,7 +478,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-left"
+            animation="slide-in-right"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -528,7 +503,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-up"
+            animation="slide-in-left"
             start="onScroll"
             duration={2000}
             className="h-100"
@@ -551,7 +526,7 @@ export default function Team() {
         </MDBCol>
         <MDBCol>
           <MDBAnimation
-            animation="slide-in-right"
+            animation="slide-in-up"
             start="onScroll"
             duration={2000}
             className="h-100"

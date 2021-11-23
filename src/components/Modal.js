@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBBtn,
   MDBModal,
@@ -9,10 +9,11 @@ import {
   MDBModalBody,
   MDBModalFooter,
   MDBTypography,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
+import PrintComponent from "../components/PrintComponent";
 
 export default function Modal() {
-  const [scrollableModal, setScrollableModal] = useState(false)
+  const [scrollableModal, setScrollableModal] = useState(false);
 
   return (
     <>
@@ -24,7 +25,6 @@ export default function Modal() {
           fontWeight: "600",
           padding: "20px 50px 20px 50px",
           fontSize: "16px",
-          backgroundColor: "rgb(33, 87, 50)",
         }}
         onClick={() => setScrollableModal(!scrollableModal)}
       >
@@ -211,7 +211,7 @@ export default function Modal() {
               >
                 Close
               </MDBBtn>
-              <MDBBtn
+              {/* <MDBBtn
                 rippleColor="success"
                 style={{
                   color: "black",
@@ -221,11 +221,12 @@ export default function Modal() {
                 }}
               >
                 Print
-              </MDBBtn>
+              </MDBBtn> */}
+              <PrintComponent />
             </MDBModalFooter>
           </MDBModalContent>
         </MDBModalDialog>
       </MDBModal>
     </>
-  )
+  );
 }

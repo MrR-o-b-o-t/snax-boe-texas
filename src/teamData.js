@@ -93,7 +93,7 @@ export const teamData = [
   },
   {
     name: "Keri Gaines",
-    email: "infonow@boemortgage.com",
+    email: "InfoNow@boemortgage.com",
     bio: "",
     phone: "(214) 483-9201",
     photo: Keri,
@@ -135,7 +135,7 @@ export const teamData = [
   },
   {
     name: "Mandy Gomez",
-    email: "InfoNow@boemortgage.com",
+    email: "agomez@boemortgage.com",
     bio: "Your Nationwide Home Loan Expert! Get Approved from a Professional with a Decade of Experience!?I have an extensive background assisting first time home buyers and self-employed individuals. Today, consumers are overwhelmed with information regarding home loans, and it takes a mortgage professional to cut through the multitude of programs available and find the best fit for a client. I take great pride in using my experience to tailor a loan that works now, and in the future, for my clients. Being transparent is important to me, as I want to ensure there are no surprises at the closing table. I have a great deal of experience with a variety of loan programs, including: Conventional loans FHA - Government VA Loans for Veterans Investment property Second Homes Non-conforming Jumbo Down Payment Assistance Credit Expert CASH OUT LOANS Refinance Home Loans Homes for Texas Heroes Program : Teachers, Police Officers, Correctional Officers, Fire Fighters and EMS Personnel, Veterans",
     phone: "(469) 737-5733",
     photo: mandy,
@@ -149,14 +149,14 @@ export const teamData = [
   },
   {
     name: "Luke Stamps",
-    email: "InfoNow@boemortgage.com",
+    email: "lstamps@boemortgage.com",
     bio: "",
     phone: "(214) 433-0121",
     photo: luke,
   },
   {
     name: "Nicoleta Adam",
-    email: "InfoNow@boemortgage.com",
+    email: "nadam@boemortgage.com",
     bio: "Nicoleta Gabriela Adam was born and raised in Bucharest, Romania, and moved to the states in early 90s. She attended Ohio State University & Cameron University, where she received her Bachelors in Criminal Justice with a minor in foreign languages. She has been in the mortgage business over 16 years and is currently a Sr. Loan Processor with Bank of England Mortgage.",
     phone: "(214) 244-5444",
     photo: nicoleta,

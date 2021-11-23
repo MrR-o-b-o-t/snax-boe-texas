@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   MDBRow,
   MDBCol,
@@ -8,7 +8,7 @@ import {
   MDBCardText,
   MDBContainer,
   MDBAnimation,
-} from "mdb-react-ui-kit"
+} from "mdb-react-ui-kit";
 
 export default function LoanCards() {
   return (
@@ -39,8 +39,13 @@ export default function LoanCards() {
                 className="h-100 shadow-4-strong"
               >
                 <MDBCardBody>
-                  <MDBCardTitle>Conventional</MDBCardTitle>
-                  <MDBCardText class="text-start">
+                  <MDBCardTitle style={{ fontWeight: "600" }}>
+                    Conventional
+                  </MDBCardTitle>
+                  <MDBCardText
+                    class="text-start"
+                    style={{ fontSize: "14px", fontWeight: "600" }}
+                  >
                     A conventional mortgage or conventional loan is a home
                     buyers loan that is not offered or secured by a government
                     entity. It is available through or guaranteed by a private
@@ -64,8 +69,11 @@ export default function LoanCards() {
                 className="h-100 shadow-4-strong"
               >
                 <MDBCardBody>
-                  <MDBCardTitle>FHA</MDBCardTitle>
-                  <MDBCardText class="text-start">
+                  <MDBCardTitle style={{ fontWeight: "600" }}>FHA</MDBCardTitle>
+                  <MDBCardText
+                    class="text-start"
+                    style={{ fontSize: "14px", fontWeight: "600" }}
+                  >
                     A Federal Housing Administration (FHA) loan is a mortgage
                     that is insured by the Federal Housing Administration and
                     issued by an FHA-aprroved lender. FHA loans are designed for
@@ -90,8 +98,11 @@ export default function LoanCards() {
                 className="h-100 shadow-4-strong"
               >
                 <MDBCardBody>
-                  <MDBCardTitle>VA</MDBCardTitle>
-                  <MDBCardText class="text-start">
+                  <MDBCardTitle style={{ fontWeight: "600" }}>VA</MDBCardTitle>
+                  <MDBCardText
+                    class="text-start"
+                    style={{ fontSize: "14px", fontWeight: "600" }}
+                  >
                     VA loans are a type of military loan that mortgage lenders
                     issue to qualified veterans, active service members and
                     spouses. They’re backed by the government through the
@@ -116,8 +127,13 @@ export default function LoanCards() {
                 className="h-100 shadow-4-strong"
               >
                 <MDBCardBody>
-                  <MDBCardTitle>USDA</MDBCardTitle>
-                  <MDBCardText class="text-start">
+                  <MDBCardTitle style={{ fontWeight: "600" }}>
+                    USDA
+                  </MDBCardTitle>
+                  <MDBCardText
+                    class="text-start"
+                    style={{ fontSize: "14px", fontWeight: "600" }}
+                  >
                     USDA home loans open up the dream of owning a home to people
                     in low-polulation areas who otherwise could not afford it.
                     If you live in a place with a population of less than 35,000
@@ -141,8 +157,13 @@ export default function LoanCards() {
                 className="h-100 shadow-4-strong"
               >
                 <MDBCardBody>
-                  <MDBCardTitle>BOND</MDBCardTitle>
-                  <MDBCardText class="text-start">
+                  <MDBCardTitle style={{ fontWeight: "600" }}>
+                    BOND
+                  </MDBCardTitle>
+                  <MDBCardText
+                    class="text-start"
+                    style={{ fontSize: "14px", fontWeight: "600" }}
+                  >
                     A mortgage revenue bond (MRB) is a type of municipal bond
                     that is issued by local housing authorities to finance
                     mortgages for qualified, usually people whose self-reported
@@ -166,8 +187,13 @@ export default function LoanCards() {
                 className="h-100 shadow-4-strong"
               >
                 <MDBCardBody>
-                  <MDBCardTitle>JUMBO</MDBCardTitle>
-                  <MDBCardText class="text-start">
+                  <MDBCardTitle style={{ fontWeight: "600" }}>
+                    JUMBO
+                  </MDBCardTitle>
+                  <MDBCardText
+                    class="text-start"
+                    style={{ fontSize: "14px", fontWeight: "600" }}
+                  >
                     A jumbo loan is a type of financing that exceeds the limits
                     set by the Federal Housing Finance Agency and cannot be
                     purchased, guaranteed, or securitized by Fannie Mae or
@@ -302,5 +328,5 @@ export default function LoanCards() {
         </MDBRow>
       </MDBContainer>
     </>
-  )
+  );
 }

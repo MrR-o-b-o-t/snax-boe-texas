@@ -1,19 +1,19 @@
-import React, { useState } from "react"
-import { useForm, ValidationError } from "@formspree/react"
-import { MDBBtn, MDBRow, MDBCol, MDBTypography } from "mdb-react-ui-kit"
-import ReactFullpage from "@fullpage/react-fullpage"
-import equalHousingLending from "../images/boeLogo.png"
+import React, { useState } from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { MDBBtn, MDBRow, MDBCol, MDBTypography } from "mdb-react-ui-kit";
+import ReactFullpage from "@fullpage/react-fullpage";
+import equalHousingLending from "../images/boeLogo.png";
 
-import img1 from "../images/Bank-of-England-Customer.jpg"
-import img2 from "../images/lp-2.jpg"
-import img3 from "../images/lp-3.jpg"
-import img4 from "../images/lp-4.jpg"
-import img5 from "../images/lp-5.jpg"
-import img6 from "../images/lp-6.jpg"
-import img7 from "../images/lp-7.jpg"
+import img1 from "../images/Bank-of-England-Customer.jpg";
+import img2 from "../images/lp-2.jpg";
+import img3 from "../images/lp-3.jpg";
+import img4 from "../images/lp-4.jpg";
+import img5 from "../images/lp-5.jpg";
+import img6 from "../images/lp-6.jpg";
+import img7 from "../images/lp-7.jpg";
 
 export default function FpLpSections() {
-  const [state, handleSubmit] = useForm("mayabzlv")
+  const [state, handleSubmit] = useForm("mayabzlv");
   return (
     <ReactFullpage
       //fullpage options
@@ -206,7 +206,7 @@ export default function FpLpSections() {
                       >
                         A Federal Housing Administration (FHA) loan is a
                         mortgage that is insured by the Federal Housing
-                        Administration and issued by an FHA-aprroved lender. FHA
+                        Administration and issued by an FHA-approved lender. FHA
                         loans are designed for middle-income borrowers; they
                         require a lower minimum down payment and lower credit
                         scores than many conventional loans.
@@ -379,7 +379,7 @@ export default function FpLpSections() {
                         style={{ fontSize: "18px", fontWeight: "600" }}
                       >
                         USDA home loans open up the dream of owning a home to
-                        people in low-polulation areas who otherwise could not
+                        people in low-population areas who otherwise could not
                         afford it. If you live in a place with a population of
                         less than 35,000 and you can't qualify for a
                         conventional loan, you may qualify for a USDA guaranteed
@@ -467,7 +467,7 @@ export default function FpLpSections() {
                         style={{ fontSize: "18px", fontWeight: "600" }}
                       >
                         A mortgage revenue bond (MRB) is a type of municipal
-                        bond that is issues by local housing authorities to
+                        bond that is issued by local housing authorities to
                         finance mortgages for qualified, usually people whose
                         self-reported incomes were in the lowest income bracket,
                         first-time home buyers.
@@ -952,8 +952,8 @@ export default function FpLpSections() {
               </div>
             </div>
           </ReactFullpage.Wrapper>
-        )
+        );
       }}
     />
-  )
+  );
 }
