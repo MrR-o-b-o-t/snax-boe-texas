@@ -1,11 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import {
-  MDBBtn,
-  MDBContainer,
-  MDBRow,
-  MDBCol,
-  MDBAnimation,
-} from 'mdb-react-ui-kit'
+import { MDBBtn, MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit'
 
 import house from '../images/Bank-of-England-House-Illustration.png'
 import customer1 from '../images/Bank-of-England-Customer.jpg'
@@ -13,7 +7,6 @@ import signing from '../images/boe-office-front.jpg'
 import Reviews from '../components/Reviews'
 import LoanCards from '../components/LoanCards'
 import LightBanner from '../components/LightBanner'
-import VideoTest from '../components/VideoTest'
 import ClientTest from '../components/ClientTest'
 
 import { gsap } from 'gsap'
