@@ -1,14 +1,14 @@
 /*!
- * chartjs-plugin-datalabels v2.0.0
+ * chartjs-plugin-datalabels v2.2.0
  * https://chartjs-plugin-datalabels.netlify.app
- * (c) 2017-2021 chartjs-plugin-datalabels contributors
+ * (c) 2017-2022 chartjs-plugin-datalabels contributors
  * Released under the MIT license
  */
 (function (global, factory) {
 typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('chart.js/helpers'), require('chart.js')) :
 typeof define === 'function' && define.amd ? define(['chart.js/helpers', 'chart.js'], factory) :
 (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.ChartDataLabels = factory(global.Chart.helpers, global.Chart));
-}(this, (function (helpers, chart_js) { 'use strict';
+})(this, (function (helpers, chart_js) { 'use strict';
 
 var devicePixelRatio = (function() {
   if (typeof window !== 'undefined') {
@@ -347,8 +347,8 @@ var positioners = {
     return compute$1({
       x0: el.x,
       y0: el.y,
-      x1: el.x,
-      y1: el.y,
+      x1: el.x + (el.width || 0),
+      y1: el.y + (el.height || 0),
       vx: v.x,
       vy: v.y
     }, config);
@@ -603,10 +603,10 @@ helpers.merge(Label.prototype, {
       display: display,
       font: font,
       lines: lines,
-      offset: helpers.resolve([config.offset, 0], context, index),
+      offset: helpers.resolve([config.offset, 4], context, index),
       opacity: helpers.resolve([config.opacity, 1], context, index),
       origin: getScaleOrigin(me._el, context),
-      padding: helpers.toPadding(helpers.resolve([config.padding, 0], context, index)),
+      padding: helpers.toPadding(helpers.resolve([config.padding, 4], context, index)),
       positioner: getPositioner(me._el),
       rotation: helpers.resolve([config.rotation, 0], context, index) * (Math.PI / 180),
       size: utils.textSize(me._ctx, lines, font),
@@ -943,7 +943,7 @@ var layout = {
           _hidable: false,
           _visible: true,
           _set: i,
-          _idx: j
+          _idx: label._index
         };
       }
     }
@@ -1140,7 +1140,7 @@ function configure(dataset, options) {
   };
 }
 
-function dispatchEvent(chart, listeners, label) {
+function dispatchEvent(chart, listeners, label, event) {
   if (!listeners) {
     return;
   }
@@ -1158,7 +1158,7 @@ function dispatchEvent(chart, listeners, label) {
     return;
   }
 
-  if (helpers.callback(callback, [context]) === true) {
+  if (helpers.callback(callback, [context, event]) === true) {
     // Users are allowed to tweak the given context by injecting values that can be
     // used in scriptable options to display labels differently based on the current
     // event (e.g. highlight an hovered label). That's why we update the label with
@@ -1168,7 +1168,7 @@ function dispatchEvent(chart, listeners, label) {
   }
 }
 
-function dispatchMoveEvents(chart, listeners, previous, label) {
+function dispatchMoveEvents(chart, listeners, previous, label, event) {
   var enter, leave;
 
   if (!previous && !label) {
@@ -1184,10 +1184,10 @@ function dispatchMoveEvents(chart, listeners, previous, label) {
   }
 
   if (leave) {
-    dispatchEvent(chart, listeners.leave, previous);
+    dispatchEvent(chart, listeners.leave, previous, event);
   }
   if (enter) {
-    dispatchEvent(chart, listeners.enter, label);
+    dispatchEvent(chart, listeners.enter, label, event);
   }
 }
 
@@ -1208,7 +1208,7 @@ function handleMoveEvents(chart, event) {
 
   previous = expando._hovered;
   expando._hovered = label;
-  dispatchMoveEvents(chart, listeners, previous, label);
+  dispatchMoveEvents(chart, listeners, previous, label, event);
 }
 
 function handleClickEvents(chart, event) {
@@ -1216,7 +1216,7 @@ function handleClickEvents(chart, event) {
   var handlers = expando._listeners.click;
   var label = handlers && layout.lookup(expando._labels, event);
   if (label) {
-    dispatchEvent(chart, handlers, label);
+    dispatchEvent(chart, handlers, label, event);
   }
 }
 
@@ -1294,10 +1294,8 @@ var plugin = {
     });
   },
 
-  afterUpdate: function(chart, options) {
-    chart[EXPANDO_KEY]._labels = layout.prepare(
-      chart[EXPANDO_KEY]._datasets,
-      options);
+  afterUpdate: function(chart) {
+    chart[EXPANDO_KEY]._labels = layout.prepare(chart[EXPANDO_KEY]._datasets);
   },
 
   // Draw labels on top of all dataset elements
@@ -1355,4 +1353,4 @@ var plugin = {
 
 return plugin;
 
-})));
+}));
