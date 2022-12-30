@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.76e1877f.chunk.css",
-    "main.js": "/static/js/main.a2c00c64.chunk.js",
-    "main.js.map": "/static/js/main.a2c00c64.chunk.js.map",
+    "main.js": "/static/js/main.b7a80177.chunk.js",
+    "main.js.map": "/static/js/main.b7a80177.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b4aa2de8.js",
     "runtime-main.js.map": "/static/js/runtime-main.b4aa2de8.js.map",
     "static/css/2.5a945948.chunk.css": "/static/css/2.5a945948.chunk.css",
-    "static/js/2.ec84d65a.chunk.js": "/static/js/2.ec84d65a.chunk.js",
-    "static/js/2.ec84d65a.chunk.js.map": "/static/js/2.ec84d65a.chunk.js.map",
+    "static/js/2.a75c0afb.chunk.js": "/static/js/2.a75c0afb.chunk.js",
+    "static/js/2.a75c0afb.chunk.js.map": "/static/js/2.a75c0afb.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.5a945948.chunk.css.map": "/static/css/2.5a945948.chunk.css.map",
     "static/css/main.76e1877f.chunk.css.map": "/static/css/main.76e1877f.chunk.css.map",
-    "static/js/2.ec84d65a.chunk.js.LICENSE.txt": "/static/js/2.ec84d65a.chunk.js.LICENSE.txt",
+    "static/js/2.a75c0afb.chunk.js.LICENSE.txt": "/static/js/2.a75c0afb.chunk.js.LICENSE.txt",
     "static/media/4.3e91ce7d.jpg": "/static/media/4.3e91ce7d.jpg",
     "static/media/BOE1.f9e396dc.jpg": "/static/media/BOE1.f9e396dc.jpg",
     "static/media/Bank-of-England-Customer.fab01e97.jpg": "/static/media/Bank-of-England-Customer.fab01e97.jpg",
@@ -57,8 +57,8 @@
   "entrypoints": [
     "static/js/runtime-main.b4aa2de8.js",
     "static/css/2.5a945948.chunk.css",
-    "static/js/2.ec84d65a.chunk.js",
+    "static/js/2.a75c0afb.chunk.js",
     "static/css/main.76e1877f.chunk.css",
-    "static/js/main.a2c00c64.chunk.js"
+    "static/js/main.b7a80177.chunk.js"
   ]
 }
