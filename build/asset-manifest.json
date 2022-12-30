@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9efe69ec.css",
-    "main.js": "/static/js/main.d355f158.js",
+    "main.css": "/static/css/main.adc2e27c.css",
+    "main.js": "/static/js/main.8a9101d5.js",
     "static/media/RyannCrain5.jpg": "/static/media/RyannCrain5.e5cc7b4486dc0ceb75d9.jpg",
     "static/media/CoryRice4.jpg": "/static/media/CoryRice4.5a59292bbeafe790304f.jpg",
     "static/media/boe-office-front.jpg": "/static/media/boe-office-front.796a86b30e549f0033d4.jpg",
@@ -44,11 +44,11 @@
     "static/media/jeffreyM.jpg": "/static/media/jeffreyM.ad5bee31d2eaf05e769e.jpg",
     "static/media/Bank-of-England-House-Illustration.png": "/static/media/Bank-of-England-House-Illustration.32ede7b3c8e0c10acc93.png",
     "index.html": "/index.html",
-    "main.9efe69ec.css.map": "/static/css/main.9efe69ec.css.map",
-    "main.d355f158.js.map": "/static/js/main.d355f158.js.map"
+    "main.adc2e27c.css.map": "/static/css/main.adc2e27c.css.map",
+    "main.8a9101d5.js.map": "/static/js/main.8a9101d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9efe69ec.css",
-    "static/js/main.d355f158.js"
+    "static/css/main.adc2e27c.css",
+    "static/js/main.8a9101d5.js"
   ]
 }
