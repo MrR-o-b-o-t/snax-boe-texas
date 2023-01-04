@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { useForm, ValidationError } from "@formspree/react";
 import ContactForm from "../components/ContactForm";
 import boeFront from "../images/boe-office-front.jpg";
-import bi1 from "../images/4.jpg";
 
 import {
   MDBContainer,
@@ -17,10 +15,6 @@ import {
   MDBModal,
   MDBModalDialog,
   MDBModalContent,
-  MDBModalHeader,
-  MDBModalTitle,
-  MDBModalBody,
-  MDBModalFooter,
   MDBBtn,
 } from "mdb-react-ui-kit";
 

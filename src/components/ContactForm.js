@@ -1,9 +1,7 @@
 import React from "react"
-import { useForm, ValidationError } from "@formspree/react"
 import { MDBBtn, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdb-react-ui-kit"
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mayabzlv")
   if (state.succeeded) {
     return (
       <>

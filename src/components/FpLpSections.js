@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useForm, ValidationError } from "@formspree/react";
 import { MDBBtn, MDBRow, MDBCol, MDBTypography } from "mdb-react-ui-kit";
 import ReactFullpage from "@fullpage/react-fullpage";
 import equalHousingLending from "../images/boeLogo.png";

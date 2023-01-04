@@ -1,5 +1,4 @@
-import React from "react"
-import { useForm, ValidationError } from "@formspree/react"
+import React from "react";
 import {
   MDBFooter,
   MDBContainer,
@@ -9,11 +8,10 @@ import {
   MDBInput,
   MDBIcon,
   MDBBtn,
-} from "mdb-react-ui-kit"
-import equalHousingLending from "../images/boeLogo.png"
+} from "mdb-react-ui-kit";
+import equalHousingLending from "../images/boeLogo.png";
 
 export default function App() {
-  const [state, handleSubmit] = useForm("mayabzlv")
   if (state.succeeded) {
     return (
       <MDBFooter
@@ -248,7 +246,7 @@ export default function App() {
           </MDBRow>
         </MDBContainer>
       </MDBFooter>
-    )
+    );
   }
   return (
     <MDBFooter
@@ -394,37 +392,6 @@ export default function App() {
             </MDBTypography>
           </MDBCol>
           <MDBCol lg="3" className="sm-mt-3 lg-3 mt-lg-5 mt-md-4">
-            {/* <form onSubmit={handleSubmit}>
-              <h6 className="text-center">Sign Up For Our Newsletter</h6>
-              <div className="d-flex align-items-center justify-content-center">
-                <input
-                  id="email"
-                  type="email"
-                  name="email"
-                  label="Email address"
-                  style={{
-                    width: "150px",
-                    maxHeight: "30px",
-                    marginTop: "25px",
-                  }}
-                />
-                <ValidationError
-                  prefix="Email"
-                  field="email"
-                  errors={state.errors}
-                />
-                <MDBBtn
-                  floating
-                  tag="a"
-                  className="mx-2"
-                  style={{ backgroundColor: "#215732" }}
-                  type="submit"
-                  disabled={state.submitting}
-                >
-                  <MDBIcon far icon="check-circle" fa-3x />
-                </MDBBtn>
-              </div>
-            </form> */}
             <h6 className="text-center" style={{ fontWeight: "bold" }}>
               Sign Up For Our Newsletter
             </h6>
@@ -548,5 +515,5 @@ export default function App() {
         </MDBRow>
       </MDBContainer>
     </MDBFooter>
-  )
+  );
 }
