@@ -151,18 +151,3 @@ export default function NavHeader() {
     </header>
   );
 }
-
-<MDBBtn
-  id="m__btn"
-  tag="a"
-  className="m-2 p-3"
-  style={{
-    fontWeight: "600",
-    width: "300px",
-    fontSize: "16px",
-  }}
-  target="_blank"
-  href="https://boeedge.boemortgage.com/borrower/signup/infonow@boemortgage.com"
->
-  Apply For Home Purchase
-</MDBBtn>;

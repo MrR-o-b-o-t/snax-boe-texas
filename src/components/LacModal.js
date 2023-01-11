@@ -93,10 +93,10 @@ export default function LacModal() {
       if (Number(amount) <= 0 || Number(interest) <= 0 || Number(years) <= 0) {
         actualError = "All the values must be a positive number";
       }
-      if (actualError) {
-        setError(actualError);
-        return false;
-      }
+      // if (actualError) {
+      //   setError(actualError);
+      //   return false;
+      // }
       return true;
     };
 

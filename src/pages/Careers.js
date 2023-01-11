@@ -19,7 +19,6 @@ import {
 } from "mdb-react-ui-kit";
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm("mayabzlv");
   const [basicModal, setBasicModal] = useState(false);
 
   const toggleShow = () => setBasicModal(!basicModal);
@@ -156,7 +155,6 @@ export default function Contact() {
                 <MDBModalDialog>
                   <MDBModalContent>
                     <form
-                      onSubmit={handleSubmit}
                       style={{ border: "2px solid black", padding: "45px" }}
                     >
                       <input
@@ -194,16 +192,6 @@ export default function Contact() {
                           borderRadius: "4px",
                         }}
                       />
-                      <ValidationError
-                        prefix="Email"
-                        field="email"
-                        errors={state.errors}
-                        style={{
-                          border: "2px solid black",
-                          color: "black",
-                          fontWeight: "bold",
-                        }}
-                      />
                       <textarea
                         id="message"
                         name="message"
@@ -215,19 +203,8 @@ export default function Contact() {
                           borderRadius: "4px",
                         }}
                       />
-                      <ValidationError
-                        prefix="Message"
-                        field="message"
-                        errors={state.errors}
-                        style={{
-                          border: "2px solid black",
-                          color: "black",
-                          fontWeight: "bold",
-                        }}
-                      />
                       <MDBBtn
                         type="submit"
-                        isabled={state.submitting}
                         id="m__btn"
                       >
                         Submit
@@ -275,7 +252,6 @@ export default function Contact() {
                 <MDBModalDialog>
                   <MDBModalContent>
                     <form
-                      onSubmit={handleSubmit}
                       style={{ border: "2px solid black", padding: "45px" }}
                     >
                       <input
@@ -313,16 +289,6 @@ export default function Contact() {
                           borderRadius: "4px",
                         }}
                       />
-                      <ValidationError
-                        prefix="Email"
-                        field="email"
-                        errors={state.errors}
-                        style={{
-                          border: "2px solid black",
-                          color: "black",
-                          fontWeight: "bold",
-                        }}
-                      />
                       <textarea
                         id="message"
                         name="message"
@@ -334,19 +300,8 @@ export default function Contact() {
                           borderRadius: "4px",
                         }}
                       />
-                      <ValidationError
-                        prefix="Message"
-                        field="message"
-                        errors={state.errors}
-                        style={{
-                          border: "2px solid black",
-                          color: "black",
-                          fontWeight: "bold",
-                        }}
-                      />
                       <MDBBtn
                         type="submit"
-                        isabled={state.submitting}
                         id="m__btn"
                       >
                         Submit
@@ -394,7 +349,6 @@ export default function Contact() {
                 <MDBModalDialog>
                   <MDBModalContent>
                     <form
-                      onSubmit={handleSubmit}
                       style={{ border: "2px solid black", padding: "45px" }}
                     >
                       <input
@@ -432,40 +386,8 @@ export default function Contact() {
                           borderRadius: "4px",
                         }}
                       />
-                      <ValidationError
-                        prefix="Email"
-                        field="email"
-                        errors={state.errors}
-                        style={{
-                          border: "2px solid black",
-                          color: "black",
-                          fontWeight: "bold",
-                        }}
-                      />
-                      <textarea
-                        id="message"
-                        name="message"
-                        placeholder="Cover Letter"
-                        style={{
-                          border: "2px solid black",
-                          color: "black",
-                          fontWeight: "bold",
-                          borderRadius: "4px",
-                        }}
-                      />
-                      <ValidationError
-                        prefix="Message"
-                        field="message"
-                        errors={state.errors}
-                        style={{
-                          border: "2px solid black",
-                          color: "black",
-                          fontWeight: "bold",
-                        }}
-                      />
                       <MDBBtn
                         type="submit"
-                        isabled={state.submitting}
                         id="m__btn"
                       >
                         Submit

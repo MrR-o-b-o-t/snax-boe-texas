@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
-import NavHeader from "./components/NavHeader"
-import Footer from "./components/Footer"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import NavHeader from "./components/NavHeader";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {
   Home,
   Contact,
@@ -32,7 +32,7 @@ import {
   Ccpa,
   Careers,
   BookVan,
-} from "./pages"
+} from "./pages";
 
 export default function App() {
   return (
@@ -42,13 +42,13 @@ export default function App() {
         <NavHeader />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
-          <Route path="/contact" exact component={() => <Contact />} />
+          <Route path="/Contact" exact component={() => <Contact />} />
           <Route
-            path="/loanproducts"
+            path="/LoanProducts"
             exact
             component={() => <LoanProducts />}
           />
-          <Route path="/resources" exact component={() => <Resources />} />
+          <Route path="/Resources" exact component={() => <Resources />} />
           <Route path="/BookVan" exact component={() => <BookVan />} />
           <Route
             path="/PrivacyPolicy"
@@ -56,7 +56,7 @@ export default function App() {
             component={() => <PrivacyPolicy />}
           />
           <Route path="/Ccpa" exact component={() => <Ccpa />} />
-          <Route path="/policies" exact component={() => <Policies />} />
+          <Route path="/Policies" exact component={() => <Policies />} />
           <Route path="/AbigailD" exact component={() => <AbigailD />} />
           <Route path="/ArielC" exact component={() => <ArielC />} />
           <Route path="/AshleyC" exact component={() => <AshleyC />} />
@@ -73,12 +73,12 @@ export default function App() {
           <Route path="/RossR" exact component={() => <RossR />} />
           <Route path="/RyanC" exact component={() => <RyanC />} />
           <Route path="/ShawnF" exact component={() => <ShawnF />} />
-          <Route path="/team" exact component={() => <Team />} />
+          <Route path="/Team" exact component={() => <Team />} />
           <Route path="/media" exact component={() => <Media />} />
-          <Route path="/careers" exact component={() => <Careers />} />
+          <Route path="/Careers" exact component={() => <Careers />} />
         </Switch>
         <Footer />
       </Router>
     </>
-  )
+  );
 }

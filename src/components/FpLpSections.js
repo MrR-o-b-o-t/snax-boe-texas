@@ -12,7 +12,7 @@ import img6 from "../images/lp-6.jpg";
 import img7 from "../images/lp-7.jpg";
 
 export default function FpLpSections() {
-  const [state, handleSubmit] = useForm("mayabzlv");
+
   return (
     <ReactFullpage
       //fullpage options
@@ -823,7 +823,6 @@ export default function FpLpSections() {
                       Sign Up For Our Newsletter
                     </h6>
                     <form
-                      onSubmit={handleSubmit}
                       className="d-flex align-items-center justify-content-center"
                     >
                       <input
@@ -838,11 +837,6 @@ export default function FpLpSections() {
                           boxShadow:
                             "0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                         }}
-                      />
-                      <ValidationError
-                        prefix="Email"
-                        field="email"
-                        errors={state.errors}
                       />
                       <div className="text-center">
                         <MDBBtn
